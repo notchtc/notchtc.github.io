@@ -3,6 +3,7 @@ image: ruby:2.6.5
 before_script:
   - gem install bundler
   - bundle install
+  - sudo apt-get install hugo
 
 neocities:
   stage: deploy
