@@ -36,14 +36,28 @@
     </item>
     
     <item>
-      <title>Media List</title>
+      <title>Media Stuff</title>
       <link>https://chtc.neocities.org/media/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chtc.neocities.org/media/</guid>
-      <description>List of stuff I am doing something with or plan to do something with.
-  Table Of Contents  Movies Watching Completed Plan To Watch   Shows Watching Completed Plan To Watch   Games Playing Infinitely Playing Plan To Play Completed         Movies Watching  Completed   Exte
-    Plan To Watch   Machine Girl</description>
+      <description>List of stuff I am doing something with or plan to do something with or did something with.
+  Table Of Contents  Movies Watching Completed Plan To Watch   Shows Watching Completed Plan To Watch   Games Playing Infinitely Playing On Hold Plan To Play Completed         Movies Watching  Completed   Exte
+  Incredibles, The
+  Incredibles 2, The</description>
+    </item>
+    
+    <item>
+      <title>Tech Stuff</title>
+      <link>https://chtc.neocities.org/tech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chtc.neocities.org/tech/</guid>
+      <description>A list of technology related stuff used by me.
+  Table Of Contents  Stuff I Use The Computer Programs How It Looks   Stuff That This Site Uses       Stuff I Use The Computer Actually it’s a laptop not a cumputer.
+ It’s a HP 250 G4 I think.
+  Programs   OS  Void Linux
+   Browser  Firefox</description>
     </item>
     
   </channel>

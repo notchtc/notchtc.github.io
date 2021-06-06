@@ -13,11 +13,13 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
   blog = "/blog/:slug/"
-  tags = "/blog/:slug"
+  tags = "/blog/tag/:slug"
 
 [params]
     description = "one site's worth of content too much"
     title = "chtc's decaying mental state"
+    hideMadeWithLine = true
+    favicon = "/imgs/chtc.svg"
 
 [markup]
     [markup.asciidocExt]

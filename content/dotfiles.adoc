@@ -1,7 +1,7 @@
-+++
-title = "Dotfiles"
-menu = "main"
-+++
+---
+title: "Dotfiles"
+menu: "main"
+---
 
 = Welcome to my dotfiles!
 chtc <notnotcha0t1c@protonmail.com>
@@ -10,7 +10,7 @@ chtc <notnotcha0t1c@protonmail.com>
 :toc-title!:
 :icons: text
 
-image::./imgs/rice.png[Screenshots of rice]
+image::/imgs/rice.png[Screenshots of rice]
 
 These are my *awesome* (actually horrible) dotfiles.
 

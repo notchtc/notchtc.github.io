@@ -1,0 +1,46 @@
+---
+title: "Tech Stuff"
+menu: "main"
+---
+
+= Tech Stuff
+:toc: macro
+:toc-title!:
+
+A list of technology related stuff used by me.
+
+.*Table Of Contents*
+[%collapsible]
+====
+toc::[]
+====
+
+== Stuff I Use
+
+=== The Computer
+Actually it's a _laptop_ not a _cumputer_.
+
+It's a HP 250 G4 I think.
+
+=== Programs
+[horizontal]
+OS:: Void Linux
+Browser:: Firefox
+Terminal:: Alacritty
+Editor:: Neovim
+Music Player:: Ncmpcpp
+Window Manager:: Awesome
+Shell:: Zsh
+Image Viewer:: Sxiv
+PDF Viewer:: Zathura
+
+=== How It Looks
+There are screenshots in my link:../dotfiles/[dotfiles].
+
+== Stuff That This Site Uses
+[horizontal]
+https://gitlab.com/[GitLab]:: Hosting original and built files and pushing to neocities
+https://neocities.org/[Neocities]:: Hosting
+https://gohugo.io/[Hugo]:: Building the site
+https://github.com/janraasch/hugo-bearblog/[Hugo Bearblog]:: Theme
+https://asciidoctor.org/[Asciidoctor]:: Pages are written in this and converted to HTML

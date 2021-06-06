@@ -1,5 +1,21 @@
 = Home
+:figure-caption!:
 
 == Hi!
-Welcome to this mess of a blog/something/abomination.
-I will put some stuff here.
+I am *chtc* and I'm a _dumbass_ from Poland.
+
+I like to listen to _"normal" stuff_ and _music that will make your mother think that metal is actual music_.
+
+== The World Wide Dank Web
+https://hotlinewebring.club/chtc/previous[&larr;] https://hotlinewebring.club[Webring's Site] https://hotlinewebring.club/chtc/next[&rarr;]
+
+== Site News
+Hours are from the UTC+1/2 timezone depending on if daylight saving time is present or not.
+[horizontal]
+06.06.2021 11:53:: Redesign site again and add some new pages
+18.05.2021 14:59:: https://john-doe.neoocities.org[Redesign site]
+02.04.2021 17:03:: Minor site redesign
+07.03.2021 16:22:: Site redesign done
+07.03.2021 15:42:: Begin site redesign
+
+image::/imgs/zach.gif[Spinning image of Zach Hill's face,align="center"]

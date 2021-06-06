@@ -1,15 +1,15 @@
-+++
-title = "Media List"
-menu = "main"
-+++
+---
+title: "Media Stuff"
+menu: "main"
+---
 
-= Media List
+= Media Stuff
 chtc <notnotcha0t1c@protonmail.org>
 {docdate}
 :toc: macro
 :toc-title!:
 
-List of stuff *I* am doing _something_ with or plan to do _something_ with.
+List of stuff *I* am doing _something_ with or plan to do _something_ with or did _something_ with.
 
 .*Table Of Contents*
 [%collapsible]
@@ -23,6 +23,10 @@ toc::[]
 
 === Completed
 - Exte
+- Incredibles, The
+- Incredibles 2, The
+- Scooby-Doo 2
+- Sharknado 2footnote:tv[It was shown on TV and there wasn't anything interesting playing I think]
 
 === Plan To Watch
 - Machine Girl
@@ -43,19 +47,20 @@ toc::[]
 == Games
 
 === Playing
-- The Elder Scrolls V: Skyrim
+- Elder Scrolls V: Skyrim, The
 
 === Infinitely Playing
 This doesn't necessarily mean that *I* am currently _playing_ them, just a list of games you could play for thousand hours, a thousand times (I mean you can do this with every game but you know what *I* _mean_).
 
 - Minecraft
 - OpenTTD
+
 === On Hold
 - Borderlands: The Pre-Sequel
 - Celeste
 - Cry Of Fear
+- Elder Scrolls III: Morrowind, The
 - Super Meat Boy
-- The Elder Scrolls III: Morrowind
 
 === Plan To Play
 - Blood: Fresh Supply
@@ -64,6 +69,7 @@ This doesn't necessarily mean that *I* am currently _playing_ them, just a list 
 - Doom (2016)
 - Doom Eternal
 - DUSK
+- Elder Scrolls IV: Oblivion, The
 - Injustice: Gods Among Us Ultimate Edition
 - Metro: 2033 Redux
 - Mortal Kombat X
@@ -75,20 +81,20 @@ This doesn't necessarily mean that *I* am currently _playing_ them, just a list 
 - Portal
 - Portal 2
 - Postal 2
-- The Elder Scrolls IV: Oblivion
 - ULTRAKILL
 
 === Completed
 - Beyond Good And Evil
 - Borderlands 2
+- Hacknet
 - Helltakerfootnote:[Except new update]
 - James Bond 007: Blood Stone
+- LEGO® Movie - Videogame, The
 - Metro: Last Light Redux
 - Mortal Kombat (2009)
 - Ninja Gaiden Black
 - Outlast
 - Shadow Warrior 2
-- The LEGO® Movie - Videogame
-- The Walking Dead
 - Tomb Raider (2013)
+- Walking Dead, The
 - Watch Dogs

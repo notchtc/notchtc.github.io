@@ -1,0 +1,52 @@
+* {
+    --bg:         #2f3640;
+    --bg-lighter: #353b48;
+    --fg:         #f5f6fa;
+    --fg-darker:  #dcdde1;
+}
+
+@media (prefers-color-scheme: light) {
+    * {
+        --bg:         #dcdde1;
+        --bg-lighter: #f5f6fa;
+        --fg:         #353b48;
+        --fg-darker:  #2f3640;
+    }
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--fg-darker);
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+    color: var(--fg);
+}
+
+a {
+    color: #0097e6;
+}
+
+code {
+    background-color: var(--bg-lighter);
+}
+
+pre code, blockquote {
+    color: var(--fg-darker)
+}
+
+.helptext {
+    color: var(--fg-darker)
+}
+
+.errorlist {
+    color: #e67e80;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul.blog-posts li a:visited {
+    color: #40739e;
+}
