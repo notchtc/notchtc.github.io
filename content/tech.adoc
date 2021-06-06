@@ -1,5 +1,6 @@
 +++
 title = "Tech Stuff"
+date = 1970-01-01T00:00:00+02:00
 description = "A list of technology related stuff used by me."
 tags = ["technology","linux","dotfiles",]
 menu = "main"
