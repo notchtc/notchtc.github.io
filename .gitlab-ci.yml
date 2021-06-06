@@ -1,5 +1,11 @@
+image: ruby:2.6.5
+
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+  - gem install bundler
+  - bundle install
 
 hugo:
   image: registry.gitlab.com/pages/hugo:latest
@@ -13,12 +19,8 @@ hugo:
     - master
 
 neocities:
-  image: ruby:2.6.5
   stage: deploy
   environment: neocities
-  before_script:
-  - gem install bundler
-  - bundle install
   script:
     # Place user-provide token
     - if [ -z "$NEOCITIES_TOKEN" ]; then echo Please see README.md for information on how to set your Neocities API token && false; else mkdir -p $HOME/.config/neocities && mv $NEOCITIES_TOKEN $HOME/.config/neocities/config; fi
