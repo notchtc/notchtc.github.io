@@ -1,13 +1,15 @@
-image: ruby:2.6.5
-
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-before_script:
-  - gem install bundler
-  - bundle install
+install:
+  stage: .pre
+  image: ruby:2.6.5
+  script:
+    - gem install bundler
+    - bundle install
 
 hugo:
+  stage: build
   image: registry.gitlab.com/pages/hugo:latest
   script:
     - hugo
