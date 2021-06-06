@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>awesomewm on chtc&#39;s decaying mental state</title>
+    <link>https://chtc.neocities.org/tag/awesomewm/</link>
+    <description>Recent content in awesomewm on chtc&#39;s decaying mental state</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2021, chtc</copyright>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0200</lastBuildDate><atom:link href="https://chtc.neocities.org/tag/awesomewm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dotfiles</title>
+      <link>https://chtc.neocities.org/dotfiles/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0200</pubDate>
+      
+      <guid>https://chtc.neocities.org/dotfiles/</guid>
+      <description>These are my awesome (actually horrible) dotfiles.
+ Screenshots are located in the imgs folder and shown in README’s.
+ This is a web version of the README. Go to the dotfiles repository for more things.
+     Changing stuff to make it work/fit your needs You probably will and must change something in my dotfiles.
+ I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this.</description>
+    </item>
+    
+  </channel>
+</rss>
