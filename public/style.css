@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, strong, b {
 }
 
 a {
-    color: #0097e6;
+    color: #00a8ff;
 }
 
 code {
@@ -45,8 +45,7 @@ pre code, blockquote {
 
 .text-center {
     text-align: center;
-}
 
 ul.blog-posts li a:visited {
-    color: #40739e;
+    color: #487eb0;
 }
