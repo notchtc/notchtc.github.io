@@ -1,5 +1,4 @@
 = Home
-:figure-caption!:
 
 == Hi!
 I am *chtc* and I'm a _dumbass_ from Poland.

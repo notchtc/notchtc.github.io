@@ -1,5 +1,6 @@
 ---
 title: "Dotfiles"
+description: "A few things about my dotfiles."
 menu: "main"
 ---
 

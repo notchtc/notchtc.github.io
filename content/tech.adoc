@@ -1,5 +1,6 @@
 ---
 title: "Tech Stuff"
+description: "A list of technology related stuff used by me."
 menu: "main"
 ---
 
@@ -42,5 +43,5 @@ There are screenshots in my link:../dotfiles/[dotfiles].
 https://gitlab.com/[GitLab]:: Hosting original and built files and pushing to neocities
 https://neocities.org/[Neocities]:: Hosting
 https://gohugo.io/[Hugo]:: Building the site
-https://github.com/janraasch/hugo-bearblog/[Hugo Bearblog]:: Theme
+https://github.com/janraasch/hugo-bearblog/[Hugo Bearblog] (https://github.com/notchtc/hugo-bearblog[modified version]):: Theme
 https://asciidoctor.org/[Asciidoctor]:: Pages are written in this and converted to HTML

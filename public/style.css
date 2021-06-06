@@ -15,7 +15,15 @@
 }
 
 body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
     background-color: var(--bg);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
     color: var(--fg-darker);
 }
 
@@ -27,25 +35,99 @@ a {
     color: #00a8ff;
 }
 
-code {
-    background-color: var(--bg-lighter);
+.title {
+    text-decoration: none;
+    border: 0;
 }
 
-pre code, blockquote {
-    color: var(--fg-darker)
+.title span {
+    font-weight: 400;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 16px;
+}
+
+input {
+    font-size: 16px;
+}
+
+content {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+    padding: 2px 5px;
+    background-color: var(--bg-lighter);
+    border-radius: 5px;
+}
+
+pre code {
+    color: var(--fg-darker);
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
+div.highlight code {
+    background-color: unset;
+    color: initial;
+}
+
+blockquote {
+    border-left: 1px solid var(--bg-lighter);
+    color: var(--fg-darker);
+    padding-left: 20px;
+    font-style: italic;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
 }
 
 .helptext {
-    color: var(--fg-darker)
+    color: var(--fg-darker);
+    font-size: small;
 }
 
 .errorlist {
-    color: #e67e80;
+    color: #e84118;
+    font-size: small;
 }
 
 .text-center {
     text-align: center;
+}
+
+/* blog posts */
+ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+}
+
+ul.blog-posts li {
+    display: flex;
+}
+
+ul.blog-posts li span {
+    flex: 0 0 130px;
+}
 
 ul.blog-posts li a:visited {
-    color: #487eb0;
+    color: #8b6fcb;
 }

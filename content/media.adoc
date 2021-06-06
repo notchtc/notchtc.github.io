@@ -1,5 +1,6 @@
 ---
 title: "Media Stuff"
+description: "List of media that I am currently consuming/planning to consume/consumed."
 menu: "main"
 ---
 
@@ -9,7 +10,7 @@ chtc <notnotcha0t1c@protonmail.org>
 :toc: macro
 :toc-title!:
 
-List of stuff *I* am doing _something_ with or plan to do _something_ with or did _something_ with.
+List of media that I am currently consuming/planning to consume/consumed.
 
 .*Table Of Contents*
 [%collapsible]
