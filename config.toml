@@ -1,4 +1,4 @@
-baseURL = "https://chtc.neocities.org/stuff/"
+baseURL = "https://chtc.neocities.org/"
 
 theme = "hugo-bearblog"
 

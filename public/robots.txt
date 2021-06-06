@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: https://chtc.neocities.org/sitemap.xml

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dotfiles | chtc&#39;s decaying mental state</title>
+<meta name="title" content="Dotfiles" />
+<meta name="description" content="These are my awesome (actually horrible) dotfiles.
+ Screenshots are located in the imgs folder and shown in README’s.
+ This is a web version of the README. Go here for the dotfiles repo.
+    Changing stuff to make it work/fit your needs You probably will and must change something in my dotfiles.
+ I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="Dotfiles" />
+<meta property="og:description" content="These are my awesome (actually horrible) dotfiles.
+ Screenshots are located in the imgs folder and shown in README’s.
+ This is a web version of the README. Go here for the dotfiles repo.
+    Changing stuff to make it work/fit your needs You probably will and must change something in my dotfiles.
+ I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chtc.neocities.org/dotfiles/" /><meta property="article:section" content="" />
+
+<meta property="og:site_name" content="chtc&#39;s decaying mental state" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Dotfiles"/>
+<meta name="twitter:description" content="These are my awesome (actually horrible) dotfiles.
+ Screenshots are located in the imgs folder and shown in README’s.
+ This is a web version of the README. Go here for the dotfiles repo.
+    Changing stuff to make it work/fit your needs You probably will and must change something in my dotfiles.
+ I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this."/>
+
+
+
+<meta itemprop="name" content="Dotfiles">
+<meta itemprop="description" content="These are my awesome (actually horrible) dotfiles.
+ Screenshots are located in the imgs folder and shown in README’s.
+ This is a web version of the README. Go here for the dotfiles repo.
+    Changing stuff to make it work/fit your needs You probably will and must change something in my dotfiles.
+ I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this.">
+
+<meta itemprop="wordCount" content="227">
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: initial;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+<style>
+* {
+    --bg:         #2f3640;
+    --bg-lighter: #353b48;
+    --fg:         #f5f6fa;
+    --fg-darker:  #dcdde1;
+}
+
+@media (prefers-color-scheme: light) {
+    * {
+        --bg:         #dcdde1;
+        --bg-lighter: #f5f6fa;
+        --fg:         #353b48;
+        --fg-darker:  #2f3640;
+    }
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--fg-darker);
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+    color: var(--fg);
+}
+
+a {
+    color: #0097e6;
+}
+
+code {
+    background-color: var(--bg-lighter);
+}
+
+pre code, blockquote {
+    color: var(--fg-darker)
+}
+
+.helptext {
+    color: var(--fg-darker)
+}
+
+.errorlist {
+    color: #e67e80;
+}
+
+ul.blog-posts li a:visited {
+    color: #40739e;
+}
+</style>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>chtc&#39;s decaying mental state</h2>
+</a>
+<nav><a href="/">Home</a>
+
+<a href="/dotfiles/">Dotfiles</a>
+
+<a href="/media/">Media List</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<content>
+  <div id="preamble">
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="./imgs/rice.png" alt="Screenshots of rice"/>
+</div>
+</div>
+<div class="paragraph">
+<p>These are my <strong>awesome</strong> (actually horrible) dotfiles.</p>
+</div>
+<div class="paragraph">
+<p>Screenshots are located in the <a href="https://gitlab.com/chtc/dotfiles/-/tree/master/imgs/">imgs</a> folder and shown in README’s.</p>
+</div>
+<div class="paragraph">
+<p>This is a web version of the README.
+Go <a href="https://gitlab.com/chtc/dotfiles">here</a> for the dotfiles repo.</p>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tbody><tr>
+<td class="icon">
+<img src="./images/icons/caution.text" alt="Caution"/>
+</td>
+<td class="content">
+<div class="title">Changing stuff to make it work/fit your needs</div>
+<div class="paragraph">
+<p>You probably <em>will</em> and <strong>must</strong> change something in my dotfiles.</p>
+</div>
+<div class="paragraph">
+<p>I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this.</p>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<details>
+<summary class="title"><strong>Table Of Contents</strong></summary>
+<div class="content">
+<div id="toc" class="toc">
+<div id="toctitle" class="title"></div>
+<ul class="sectlevel1">
+<li><a href="#_things_used">Things used</a></li>
+<li><a href="#_dependencies">Dependencies</a></li>
+<li><a href="#_install">Install</a></li>
+</ul>
+</div>
+</div>
+</details>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_things_used">Things used</h2>
+<div class="sectionbody">
+<div class="hdlist">
+<table>
+<tbody><tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/alacritty/">alacritty</a>
+</td>
+<td class="hdlist2">
+<p>Terminal</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/awesome/">awesome</a>
+</td>
+<td class="hdlist2">
+<p>Window manager</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/mpd/">mpd</a>
+</td>
+<td class="hdlist2">
+<p>Music daemon</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/ncmpcpp">ncmpcpp</a>
+</td>
+<td class="hdlist2">
+<p>Music player</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/nvim/">nvim</a>
+</td>
+<td class="hdlist2">
+<p>Text editor</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/rofi/">rofi</a>
+</td>
+<td class="hdlist2">
+<p>Window switcher/Application launcher/Dmenu replacement</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/sxiv/exec/">sxiv</a>
+</td>
+<td class="hdlist2">
+<p>Image viewer</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/user-dirs.dirs">xdg dirs</a>
+</td>
+<td class="hdlist2">
+<p>Some directory thingy</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/xinitrc">xinitrc</a>
+</td>
+<td class="hdlist2">
+<p>Launch the window manager and some programs</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/Xresources">xresources</a>
+</td>
+<td class="hdlist2">
+<p>I only set colors in this</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/zathura/">zathura</a>
+</td>
+<td class="hdlist2">
+<p>Pdf reader</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/zsh/">zsh</a> (<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/zshenv">zshenv</a>)
+</td>
+<td class="hdlist2">
+<p>Shell</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/local/bin/">scripts</a>
+</td>
+<td class="hdlist2">
+<p>Scripts used by stuff</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/local/share/fonts">fonts</a>
+</td>
+<td class="hdlist2">
+<p>Used by everything that has a font setting in here</p>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/sainnhe/everforest">colorscheme</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dependencies">Dependencies</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If something requires something, it will be written in it’s README or here.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip">Hack</a><sup class="footnote" id="_footnote_font">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+</li>
+<li>
+<p><a href="https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack">Hack Nerd Font</a><sup class="footnoteref">[<a class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_install">Install</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Want to use everything?
+This is how you install this.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Step 1</dt>
+<dd>
+<p>Clone the repository.</p>
+</dd>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-sh" data-lang="sh">git clone --recurse-submodules https://gitlab.com/chtc/dotfiles.git $HOME/.dotfiles</code></pre>
+</div>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Step 2</dt>
+<dd>
+<p>Install <a href="https://github.com/thoughtbot/rcm">rcm</a>.</p>
+</dd>
+<dt class="hdlist1">Step 3</dt>
+<dd>
+<p>Install dependencies<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup><sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup></p>
+</dd>
+<dt class="hdlist1">Step 4</dt>
+<dd>
+<p>Install the dotfiles with rcm.</p>
+</dd>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-sh" data-lang="sh">RCRC=$HOME/.dotfiles/rcrc rcup</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<hr/>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. You only need to download this manually, if you didn’t clone the whole repo
+</div>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. Look at readme’s
+</div>
+<div class="footnote" id="_footnotedef_3">
+<a href="#_footnoteref_3">3</a>. Install command(s) for everything coming soon
+</div>
+</div>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>
