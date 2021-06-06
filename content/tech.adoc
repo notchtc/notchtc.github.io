@@ -1,8 +1,9 @@
----
-title: "Tech Stuff"
-description: "A list of technology related stuff used by me."
-menu: "main"
----
++++
+title = "Tech Stuff"
+description = "A list of technology related stuff used by me."
+tags = ["technology","linux","dotfiles",]
+menu = "main"
++++
 
 = Tech Stuff
 :toc: macro

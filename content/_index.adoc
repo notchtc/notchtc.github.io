@@ -17,4 +17,4 @@ Hours are from the UTC+1/2 timezone depending on if daylight saving time is pres
 07.03.2021 16:22:: Site redesign done
 07.03.2021 15:42:: Begin site redesign
 
-image::/imgs/zach.gif[Spinning image of Zach Hill's face,align="center"]
+image::/imgs/zach.gif[Spinning image of Zach Hill's face,align="center",width="114",height="114"]

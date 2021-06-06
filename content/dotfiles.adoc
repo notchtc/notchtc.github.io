@@ -1,24 +1,23 @@
----
-title: "Dotfiles"
-description: "A few things about my dotfiles."
-menu: "main"
----
++++
+title = "Dotfiles"
+description = "A few things about my dotfiles."
+tags = ["technology","linux","dotfiles","awesomewm",]
+menu = "main"
++++
 
 = Welcome to my dotfiles!
 chtc <notnotcha0t1c@protonmail.com>
 {docdate}
 :toc: macro
 :toc-title!:
-:icons: text
-
-image::/imgs/rice.png[Screenshots of rice]
+:icons: font
 
 These are my *awesome* (actually horrible) dotfiles.
 
 Screenshots are located in the https://gitlab.com/chtc/dotfiles/-/tree/master/imgs/[imgs] folder and shown in README's.
 
 This is a web version of the README.
-Go https://gitlab.com/chtc/dotfiles[here] for the dotfiles repo.
+Go to the https://gitlab.com/chtc/dotfiles[dotfiles repository] for more things.
 
 .Changing stuff to make it work/fit your needs
 [CAUTION]

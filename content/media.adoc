@@ -1,8 +1,9 @@
----
-title: "Media Stuff"
-description: "List of media that I am currently consuming/planning to consume/consumed."
-menu: "main"
----
++++
+title = "Media Stuff"
+description = "List of media that I am currently consuming/planning to consume/consumed."
+tags = ["movies","games","shows","media",]
+menu = "main"
++++
 
 = Media Stuff
 chtc <notnotcha0t1c@protonmail.org>

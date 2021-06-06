@@ -1,16 +1,22 @@
 * {
-    --bg:         #2f3640;
-    --bg-lighter: #353b48;
-    --fg:         #f5f6fa;
-    --fg-darker:  #dcdde1;
+    --bg:           #2f3640;
+    --bg-lighter:   #353b48;
+    --fg:           #f5f6fa;
+    --fg-darker:    #dcdde1;
+    --link:         #00a8ff;
+    --link-visited: #5ea4e5;
+    --error:        #e84118;
 }
 
 @media (prefers-color-scheme: light) {
     * {
-        --bg:         #dcdde1;
-        --bg-lighter: #f5f6fa;
-        --fg:         #353b48;
-        --fg-darker:  #2f3640;
+        --bg:           #dcdde1;
+        --bg-lighter:   #f5f6fa;
+        --fg:           #353b48;
+        --fg-darker:    #2f3640;
+        --link:         #273c75;
+        --link-visited: #192a56;
+        --error:        #c23616;
     }
 }
 
@@ -32,7 +38,11 @@ h1, h2, h3, h4, h5, h6, strong, b {
 }
 
 a {
-    color: #00a8ff;
+    color: var(--link);
+}
+
+a:visited {
+    color: var(--link-visited);
 }
 
 .title {
@@ -106,7 +116,7 @@ footer {
 }
 
 .errorlist {
-    color: #e84118;
+    color: var(--error);
     font-size: small;
 }
 
@@ -126,8 +136,4 @@ ul.blog-posts li {
 
 ul.blog-posts li span {
     flex: 0 0 130px;
-}
-
-ul.blog-posts li a:visited {
-    color: #8b6fcb;
 }
