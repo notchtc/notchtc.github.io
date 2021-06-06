@@ -1,0 +1,79 @@
++++
+title = "Dotfiles"
+menu = "main"
++++
+
+= Welcome to my dotfiles!
+chtc <notnotcha0t1c@protonmail.com>
+{docdate}
+:toc: macro
+:toc-title!:
+:icons: text
+
+image::./imgs/rice.png[Screenshots of rice]
+
+These are my *awesome* (actually horrible) dotfiles.
+
+Screenshots are located in the https://gitlab.com/chtc/dotfiles/-/tree/master/imgs/[imgs] folder and shown in README's.
+
+This is a web version of the README.
+Go https://gitlab.com/chtc/dotfiles[here] for the dotfiles repo.
+
+.Changing stuff to make it work/fit your needs
+[CAUTION]
+====
+You probably _will_ and *must* change something in my dotfiles.
+
+I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this.
+====
+
+.*Table Of Contents*
+[%collapsible]
+====
+toc::[]
+====
+
+== Things used
+[horizontal]
+https://gitlab.com/chtc/dotfiles/-/tree/master/config/alacritty/[alacritty]:: Terminal
+https://gitlab.com/chtc/dotfiles/-/tree/master/config/awesome/[awesome]:: Window manager
+https://gitlab.com/chtc/dotfiles/-/tree/master/config/mpd/[mpd]:: Music daemon
+https://gitlab.com/chtc/dotfiles/-/tree/master/config/ncmpcpp[ncmpcpp]:: Music player
+https://gitlab.com/chtc/dotfiles/-/tree/master/config/nvim/[nvim]:: Text editor
+https://gitlab.com/chtc/dotfiles/-/tree/master/config/rofi/[rofi]::  Window switcher/Application launcher/Dmenu replacement
+https://gitlab.com/chtc/dotfiles/-/tree/master/config/sxiv/exec/[sxiv]:: Image viewer
+https://gitlab.com/chtc/dotfiles/-/tree/master/config/user-dirs.dirs[xdg dirs]:: Some directory thingy
+https://gitlab.com/chtc/dotfiles/-/tree/master/xinitrc[xinitrc]:: Launch the window manager and some programs
+https://gitlab.com/chtc/dotfiles/-/tree/master/Xresources[xresources]:: I only set colors in this
+https://gitlab.com/chtc/dotfiles/-/tree/master/config/zathura/[zathura]:: Pdf reader
+https://gitlab.com/chtc/dotfiles/-/tree/master/config/zsh/[zsh] (https://gitlab.com/chtc/dotfiles/-/tree/master/zshenv[zshenv]):: Shell
+https://gitlab.com/chtc/dotfiles/-/tree/master/local/bin/[scripts]:: Scripts used by stuff
+https://gitlab.com/chtc/dotfiles/-/tree/master/local/share/fonts[fonts]:: Used by everything that has a font setting in here
+
+https://github.com/sainnhe/everforest[colorscheme]
+
+== Dependencies
+If something requires something, it will be written in it's README or here.
+
+* https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip[Hack]footnote:font[You only need to download this manually, if you didn't clone the whole repo]
+* https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack[Hack Nerd Font]footnote:font[]
+
+== Install
+Want to use everything?
+This is how you install this.
+
+Step 1:: Clone the repository.
+[source,sh]
+----
+git clone --recurse-submodules https://gitlab.com/chtc/dotfiles.git $HOME/.dotfiles
+----
+
+Step 2:: Install https://github.com/thoughtbot/rcm[rcm].
+
+Step 3:: Install dependenciesfootnote:[Look at readme's]footnote:[Install command(s) for everything coming soon]
+
+Step 4:: Install the dotfiles with rcm.
+[source,sh]
+----
+RCRC=$HOME/.dotfiles/rcrc rcup
+----

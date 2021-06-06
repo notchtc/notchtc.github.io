@@ -1,0 +1,5 @@
+= Home
+
+== Hi!
+Welcome to this mess of a blog/something/abomination.
+I will put some stuff here.

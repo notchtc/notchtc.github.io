@@ -1,0 +1,17 @@
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+draft: true
+---
+
+= {{ replace .Name "-" " " | title }}
+:toc: macro
+:toc-title!:
+
+*Insert Text Here*
+
+.*Table Of Contents*
+[%collapsible]
+====
+toc::[]
+====

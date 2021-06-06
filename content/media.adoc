@@ -1,0 +1,94 @@
++++
+title = "Media List"
+menu = "main"
++++
+
+= Media List
+chtc <notnotcha0t1c@protonmail.org>
+{docdate}
+:toc: macro
+:toc-title!:
+
+List of stuff *I* am doing _something_ with or plan to do _something_ with.
+
+.*Table Of Contents*
+[%collapsible]
+====
+toc::[]
+====
+
+== Movies
+
+=== Watching
+
+=== Completed
+- Exte
+
+=== Plan To Watch
+- Machine Girl
+- Ginger Snaps
+- Ginger Snaps 2: Unleashed
+
+== Shows
+
+=== Watching
+
+=== Completed
+- Invincible (S1)
+- Love Death Robots (S1,S2)
+
+=== Plan To Watch
+- Mr. Robot (S1,S2,S3,S4)
+
+== Games
+
+=== Playing
+- The Elder Scrolls V: Skyrim
+
+=== Infinitely Playing
+This doesn't necessarily mean that *I* am currently _playing_ them, just a list of games you could play for thousand hours, a thousand times (I mean you can do this with every game but you know what *I* _mean_).
+
+- Minecraft
+- OpenTTD
+=== On Hold
+- Borderlands: The Pre-Sequel
+- Celeste
+- Cry Of Fear
+- Super Meat Boy
+- The Elder Scrolls III: Morrowind
+
+=== Plan To Play
+- Blood: Fresh Supply
+- Borderlands
+- Borderlands 3
+- Doom (2016)
+- Doom Eternal
+- DUSK
+- Injustice: Gods Among Us Ultimate Edition
+- Metro: 2033 Redux
+- Mortal Kombat X
+- Mortal Kombat 11
+- Ninja Gaiden Sigma
+- Ninja Gaiden (Sigma) 2
+- Ninja Gaiden 3 Razors Edge
+- Outlast Whistleblower DLC
+- Portal
+- Portal 2
+- Postal 2
+- The Elder Scrolls IV: Oblivion
+- ULTRAKILL
+
+=== Completed
+- Beyond Good And Evil
+- Borderlands 2
+- Helltakerfootnote:[Except new update]
+- James Bond 007: Blood Stone
+- Metro: Last Light Redux
+- Mortal Kombat (2009)
+- Ninja Gaiden Black
+- Outlast
+- Shadow Warrior 2
+- The LEGO® Movie - Videogame
+- The Walking Dead
+- Tomb Raider (2013)
+- Watch Dogs
