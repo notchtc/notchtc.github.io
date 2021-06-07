@@ -8,7 +8,7 @@ draft = false
 
 = How 2 Do Someones Mom 101
 :toc: macro
-:toc-title!:
+:toc-title: i did ur mom before u even laid eyes on this post
 
 Welcum! In this post *I* _will_ teach *you* how to do someones *mom*!
 

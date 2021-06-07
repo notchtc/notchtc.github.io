@@ -10,7 +10,7 @@ menu = "main"
 chtc <notnotcha0t1c@protonmail.com>
 {docdate}
 :toc: macro
-:toc-title!:
+:toc-title: Hello there!
 :experimental:
 
 List of media that I am currently consuming/planning to consume/consumed.

@@ -28,7 +28,7 @@ I recommend looking through these dotfiles and changing things to fit your setup
       
       <guid>https://chtc.neocities.org/tech/</guid>
       <description>A list of technology related stuff used by me.
-Table Of ContentsStuff I UseThe ComputerProgramsHow It LooksStuff That This Site Uses Stuff I UseThe ComputerActually it’s a laptop not a cumputer.
+Table Of ContentsHello there!Stuff I UseThe ComputerProgramsHow It LooksStuff That This Site Uses Stuff I UseThe ComputerActually it’s a laptop not a cumputer.
 It’s a HP 250 G4 I think.
  ProgramsOSVoid LinuxBrowserFirefoxTerminalAlacrittyEditorNeovimMusic PlayerNcmpcppWindow ManagerAwesomeShellZshImage ViewerSxivPDF ViewerZathura How It LooksThere are screenshots in my dotfiles.
  Stuff That This Site UsesGitLabHosting original and built files and pushing to neocitiesNeocitiesHostingHugoBuilding the siteHugo Bearblog (modified version)ThemeAsciidoctorPages are written in this and converted to HTML </description>

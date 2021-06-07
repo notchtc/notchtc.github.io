@@ -10,7 +10,7 @@ menu = "main"
 chtc <notnotcha0t1c@protonmail.com>
 {docdate}
 :toc: macro
-:toc-title!:
+:toc-title: Hello there!
 :icons: font
 
 These are my *awesome* (actually horrible) dotfiles.

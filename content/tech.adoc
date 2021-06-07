@@ -8,7 +8,7 @@ menu = "main"
 
 = Tech Stuff
 :toc: macro
-:toc-title!:
+:toc-title: Hello there!
 
 A list of technology related stuff used by me.
 
