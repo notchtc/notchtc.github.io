@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="shortcut icon" href="https://chtc.neocities.org/imgs/chtc.svg" />
-<title>Dotfiles | chtc&#39;s decaying mental fucked-up electronic breakcore idm drum and bass hardcore punk technology state</title>
+<title>Dotfiles | chtc&#39;s decaying mental fucked-up technology state</title>
 <meta name="title" content="Dotfiles" />
 <meta name="description" content="A few things about my dotfiles." />
 <meta name="keywords" content="technology,linux,dotfiles,awesomewm," />
@@ -31,7 +31,7 @@
 <meta itemprop="name" content="Dotfiles">
 <meta itemprop="description" content="A few things about my dotfiles."><meta itemprop="datePublished" content="1970-01-01T00:00:00&#43;02:00" />
 <meta itemprop="dateModified" content="1970-01-01T00:00:00&#43;02:00" />
-<meta itemprop="wordCount" content="229">
+<meta itemprop="wordCount" content="186">
 <meta itemprop="keywords" content="technology,linux,dotfiles,awesomewm," />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -41,7 +41,7 @@
 
 <body>
   <header><a href="/" class="title">
-  <h2>chtc&#39;s decaying mental fucked-up electronic breakcore idm drum and bass hardcore punk technology state</h2>
+  <h2>chtc&#39;s decaying mental fucked-up technology state</h2>
 </a>
 <nav><a href="/">Home</a>
 
@@ -57,250 +57,26 @@
 </nav>
 </header>
   <main>
+    <h1>Dotfiles</h1>
 
 <content>
-  <div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>These are my <strong>awesome</strong> (actually horrible) dotfiles.</p>
-</div>
-<div class="paragraph">
+  <section id="preamble" aria-label="Preamble"><p>These are my <strong>awesome</strong> (actually horrible) dotfiles.</p>
 <p>Screenshots are located in the <a href="https://gitlab.com/chtc/dotfiles/-/tree/master/imgs/">imgs</a> folder and shown in README’s.</p>
-</div>
-<div class="paragraph">
 <p>This is a web version of the README.
 Go to the <a href="https://gitlab.com/chtc/dotfiles">dotfiles repository</a> for more things.</p>
-</div>
-<div class="admonitionblock caution">
-<table>
-<tbody><tr>
-<td class="icon">
-<i class="fa icon-caution" title="Caution"></i>
-</td>
-<td class="content">
-<div class="title">Changing stuff to make it work/fit your needs</div>
-<div class="paragraph">
-<p>You probably <em>will</em> and <strong>must</strong> change something in my dotfiles.</p>
-</div>
-<div class="paragraph">
-<p>I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this.</p>
-</div>
-</td>
-</tr>
-</tbody></table>
-</div>
-<details>
-<summary class="title"><strong>Table Of Contents</strong></summary>
-<div class="content">
-<div id="toc" class="toc">
-<div id="toctitle" class="title"></div>
-<ul class="sectlevel1">
-<li><a href="#_things_used">Things used</a></li>
-<li><a href="#_dependencies">Dependencies</a></li>
-<li><a href="#_install">Install</a></li>
-</ul>
-</div>
-</div>
-</details>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_things_used">Things used</h2>
-<div class="sectionbody">
-<div class="hdlist">
-<table>
-<tbody><tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/alacritty/">alacritty</a>
-</td>
-<td class="hdlist2">
-<p>Terminal</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/awesome/">awesome</a>
-</td>
-<td class="hdlist2">
-<p>Window manager</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/mpd/">mpd</a>
-</td>
-<td class="hdlist2">
-<p>Music daemon</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/ncmpcpp">ncmpcpp</a>
-</td>
-<td class="hdlist2">
-<p>Music player</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/nvim/">nvim</a>
-</td>
-<td class="hdlist2">
-<p>Text editor</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/rofi/">rofi</a>
-</td>
-<td class="hdlist2">
-<p>Window switcher/Application launcher/Dmenu replacement</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/sxiv/exec/">sxiv</a>
-</td>
-<td class="hdlist2">
-<p>Image viewer</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/user-dirs.dirs">xdg dirs</a>
-</td>
-<td class="hdlist2">
-<p>Some directory thingy</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/xinitrc">xinitrc</a>
-</td>
-<td class="hdlist2">
-<p>Launch the window manager and some programs</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/Xresources">xresources</a>
-</td>
-<td class="hdlist2">
-<p>I only set colors in this</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/zathura/">zathura</a>
-</td>
-<td class="hdlist2">
-<p>Pdf reader</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/zsh/">zsh</a> (<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/zshenv">zshenv</a>)
-</td>
-<td class="hdlist2">
-<p>Shell</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/local/bin/">scripts</a>
-</td>
-<td class="hdlist2">
-<p>Scripts used by stuff</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/local/share/fonts">fonts</a>
-</td>
-<td class="hdlist2">
-<p>Used by everything that has a font setting in here</p>
-</td>
-</tr>
-</tbody></table>
-</div>
-<div class="paragraph">
-<p><a href="https://github.com/sainnhe/everforest">colorscheme</a></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_dependencies">Dependencies</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>If something requires something, it will be written in it’s README or here.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip">Hack</a><sup class="footnote" id="_footnote_font">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
-</li>
-<li>
-<p><a href="https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack">Hack Nerd Font</a><sup class="footnoteref">[<a class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_install">Install</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Want to use everything?
+<section class="admonition-block caution" role="doc-notice"><h6 class="block-title"><span class="title-label">Caution: </span>Changing stuff to make it work/fit your needs</h6><p>You probably <em>will</em> and <strong>must</strong> change something in my dotfiles.</p>
+<p>I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this.</p></section>
+<details><summary><strong>Table Of Contents</strong></summary><div class="content"><nav id="toc" class="toc" role="doc-toc"><h2 id="toc-title"></h2><ol class="toc-list level-1"><li><a href="#_things_used">Things used</a></li><li><a href="#_dependencies">Dependencies</a></li><li><a href="#_install">Install</a></li></ol></nav></div></details></section>
+<section class="doc-section level-1"><h2 id="_things_used">Things used</h2><div class="dlist horizontal"><dl class="horizontal"><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/alacritty/">alacritty</a></dt><dd>Terminal</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/awesome/">awesome</a></dt><dd>Window manager</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/mpd/">mpd</a></dt><dd>Music daemon</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/ncmpcpp">ncmpcpp</a></dt><dd>Music player</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/nvim/">nvim</a></dt><dd>Text editor</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/rofi/">rofi</a></dt><dd>Window switcher/Application launcher/Dmenu replacement</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/sxiv/exec/">sxiv</a></dt><dd>Image viewer</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/user-dirs.dirs">xdg dirs</a></dt><dd>Some directory thingy</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/xinitrc">xinitrc</a></dt><dd>Launch the window manager and some programs</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/Xresources">xresources</a></dt><dd>I only set colors in this</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/zathura/">zathura</a></dt><dd>Pdf reader</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/config/zsh/">zsh</a> (<a href="https://gitlab.com/chtc/dotfiles/-/tree/master/zshenv">zshenv</a>)</dt><dd>Shell</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/local/bin/">scripts</a></dt><dd>Scripts used by stuff</dd><dt><a href="https://gitlab.com/chtc/dotfiles/-/tree/master/local/share/fonts">fonts</a></dt><dd>Used by everything that has a font setting in here</dd></dl></div>
+<p><a href="https://github.com/sainnhe/everforest">colorscheme</a></p></section>
+<section class="doc-section level-1"><h2 id="_dependencies">Dependencies</h2><p>If something requires something, it will be written in it’s README or here.</p>
+<div class="ulist"><ul><li><a href="https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip">Hack</a><a class="footnote-ref" id="_footnoteref_1" href="#_footnote_1" title="View footnote 1" role="doc-noteref">[1]</a></li><li><a href="https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack">Hack Nerd Font</a><a class="footnote-ref" href="#_footnote_1" title="View footnote 1" role="doc-noteref">[1]</a></li></ul></div></section>
+<section class="doc-section level-1"><h2 id="_install">Install</h2><p>Want to use everything?
 This is how you install this.</p>
-</div>
-<div class="dlist">
-<dl>
-<dt class="hdlist1">Step 1</dt>
-<dd>
-<p>Clone the repository.</p>
-</dd>
-</dl>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">git clone --recurse-submodules https://gitlab.com/chtc/dotfiles.git $HOME/.dotfiles</code></pre>
-</div>
-</div>
-<div class="dlist">
-<dl>
-<dt class="hdlist1">Step 2</dt>
-<dd>
-<p>Install <a href="https://github.com/thoughtbot/rcm">rcm</a>.</p>
-</dd>
-<dt class="hdlist1">Step 3</dt>
-<dd>
-<p>Install dependencies<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup><sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup></p>
-</dd>
-<dt class="hdlist1">Step 4</dt>
-<dd>
-<p>Install the dotfiles with rcm.</p>
-</dd>
-</dl>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">RCRC=$HOME/.dotfiles/rcrc rcup</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="footnotes">
-<hr/>
-<div class="footnote" id="_footnotedef_1">
-<a href="#_footnoteref_1">1</a>. You only need to download this manually, if you didn’t clone the whole repo
-</div>
-<div class="footnote" id="_footnotedef_2">
-<a href="#_footnoteref_2">2</a>. Look at readme’s
-</div>
-<div class="footnote" id="_footnotedef_3">
-<a href="#_footnoteref_3">3</a>. Install command(s) for everything coming soon
-</div>
-</div>
+<div class="dlist"><dl><dt>Step 1</dt><dd>Clone the repository.</dd></dl></div>
+<div class="listing-block"><pre class="highlight"><code class="language-sh" data-lang="sh">git clone --recurse-submodules https://gitlab.com/chtc/dotfiles.git $HOME/.dotfiles</code></pre></div>
+<div class="dlist"><dl><dt>Step 2</dt><dd>Install <a href="https://github.com/thoughtbot/rcm">rcm</a>.</dd><dt>Step 3</dt><dd>Install dependencies<a class="footnote-ref" id="_footnoteref_2" href="#_footnote_2" title="View footnote 2" role="doc-noteref">[2]</a><a class="footnote-ref" id="_footnoteref_3" href="#_footnote_3" title="View footnote 3" role="doc-noteref">[3]</a></dd><dt>Step 4</dt><dd>Install the dotfiles with rcm.</dd></dl></div>
+<div class="listing-block"><pre class="highlight"><code class="language-sh" data-lang="sh">RCRC=$HOME/.dotfiles/rcrc rcup</code></pre></div></section><section class="footnotes" aria-label="Footnotes" role="doc-endnotes"><hr/><ol class="footnotes"><li class="footnote" id="_footnote_1" role="doc-endnote">You only need to download this manually, if you didn’t clone the whole repo <a class="footnote-backref" href="#_footnoteref_1" role="doc-backlink" title="Jump to the first occurrence in the text">↩</a></li><li class="footnote" id="_footnote_2" role="doc-endnote">Look at readme’s <a class="footnote-backref" href="#_footnoteref_2" role="doc-backlink" title="Jump to the first occurrence in the text">↩</a></li><li class="footnote" id="_footnote_3" role="doc-endnote">Install command(s) for everything coming soon <a class="footnote-backref" href="#_footnoteref_3" role="doc-backlink" title="Jump to the first occurrence in the text">↩</a></li></ol></section>
 
 </content>
 <p>

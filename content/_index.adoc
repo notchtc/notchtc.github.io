@@ -1,4 +1,6 @@
-= Home
++++
+title = "Home"
++++
 
 == Hi!
 I am *chtc* and I'm a _dumbass_ from Poland.
@@ -8,9 +10,12 @@ I like to listen to _"normal" stuff_ and _music that will make your mother think
 This sites name has no meaning really, it just adds to the insanity of my internet presence.
 
 == The World Wide Dank Web
-https://hotlinewebring.club/chtc/previous[&larr;] https://hotlinewebring.club[Webring's Site] https://hotlinewebring.club/chtc/next[&rarr;]
+https://hotlinewebring.club/chtc/previous[&lt;-] https://hotlinewebring.club[Webring's Site] https://hotlinewebring.club/chtc/next[-&gt;]
 
 == Site News
+
+[%collapsible]
+====
 Hours are from the UTC+1/2 timezone depending on if daylight saving time is present or not.
 [horizontal]
 06.06.2021 11:53:: Redesign site again and add some new pages
@@ -18,5 +23,6 @@ Hours are from the UTC+1/2 timezone depending on if daylight saving time is pres
 02.04.2021 17:03:: Minor site redesign
 07.03.2021 16:22:: Site redesign done
 07.03.2021 15:42:: Begin site redesign
+====
 
 image::/imgs/zach.gif[Spinning image of Zach Hill's face,align="center",width="114",height="114"]

@@ -2,7 +2,7 @@ baseURL = "https://chtc.neocities.org/"
 
 theme = "hugo-bearblog"
 
-title = "chtc's decaying mental fucked-up electronic breakcore idm drum and bass hardcore punk technology state"
+title = "chtc's decaying mental fucked-up technology state"
 author = "chtc"
 copyright = "Copyright © 2021, chtc"
 languageCode = "en-us"
@@ -17,11 +17,13 @@ ignoreErrors = ["error-disable-taxonomy"]
     tags = "/tag/:slug"
 
 [params]
-    description = "one site's worth of content too much"
+    description = "One site's worth of stupid af content too much (crappy description I guess)."
     title = "chtc's decaying mental state"
     hideMadeWithLine = true
     favicon = "/imgs/chtc.svg"
 
 [markup]
     [markup.asciidocExt]
+    extensions = ["asciidoctor-html5s",]
+    backend = "html5s"
     preserveTOC = true

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>chtc&#39;s decaying mental fucked-up electronic breakcore idm drum and bass hardcore punk technology state</title>
+    <title>Home on chtc&#39;s decaying mental fucked-up technology state</title>
     <link>https://chtc.neocities.org/</link>
-    <description>Recent content on chtc&#39;s decaying mental fucked-up electronic breakcore idm drum and bass hardcore punk technology state</description>
+    <description>Recent content in Home on chtc&#39;s decaying mental fucked-up technology state</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021, chtc</copyright>
@@ -15,11 +15,8 @@
       
       <guid>https://chtc.neocities.org/blog/how-2-do-someones-mom-101/</guid>
       <description>Welcum! In this post I will teach you how to do someones mom!
-  Table Of Contents  What 2 Do What 2 do if the mom did you? Tips &amp;#39;n Tricks       What 2 Do  Go to their house
-  Enter bedroom
-  Wait for momma in bedroom
-  Do their mother
-     What 2 do if the mom did you?</description>
+Table Of ContentsWhat 2 DoWhat 2 do if the mom did you?Tips &amp;#39;n Tricks What 2 DoGo to their houseEnter bedroomWait for momma in bedroomDo their mother What 2 do if the mom did you?Deal with it.
+ Tips &amp;#39;n TricksUse sexiarzLearn how 2 do it by watching secks godz like johny sin and xXx_PussySlayer666_xXx </description>
     </item>
     
     <item>
@@ -29,10 +26,10 @@
       
       <guid>https://chtc.neocities.org/dotfiles/</guid>
       <description>These are my awesome (actually horrible) dotfiles.
- Screenshots are located in the imgs folder and shown in README’s.
- This is a web version of the README. Go to the dotfiles repository for more things.
-     Changing stuff to make it work/fit your needs You probably will and must change something in my dotfiles.
- I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this.</description>
+Screenshots are located in the imgs folder and shown in README’s.
+This is a web version of the README. Go to the dotfiles repository for more things.
+Caution: Changing stuff to make it work/fit your needsYou probably will and must change something in my dotfiles.
+I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this.</description>
     </item>
     
     <item>
@@ -42,10 +39,8 @@
       
       <guid>https://chtc.neocities.org/media/</guid>
       <description>List of media that I am currently consuming/planning to consume/consumed.
-  Table Of Contents  Movies Watching Completed Plan To Watch   Shows Watching Completed Plan To Watch   Games Playing Infinitely Playing On Hold Plan To Play Completed         Movies Watching  Completed   Exte
-  Incredibles, The
-  Incredibles 2, The
-  Scooby-Doo 2</description>
+Everything is sorted alphabetically and are ordered by status like this: Watching/Playing -&amp;gt; Infinitely Playing (games only) -&amp;gt; On Hold -&amp;gt; Plan To Watch/Play -&amp;gt; Completed.
+Table Of ContentsMoviesShowsGames MoviesMovieStatusMachine GirlPlan To WatchGinger SnapsPlan To WatchGinger Snaps 2: UnleashedPlan To WatchExteCompletedIncredibles, TheCompletedIncredibles 2, TheCompletedScooby-Doo 2CompletedSharknado 2[1]Completed ShowsShowEpisodeSeasonStatusMr. RobotPlan To WatchInvincible1/1CompletedLove Death and Robots2/2Completed GamesGameStatusElder Scrolls V: Skyrim, ThePlayingMinecraftInfinitely Playing[2]OpenTTDInfinitely Playing[2]Borderlands: The Pre-SequelOn HoldCelesteOn HoldCry Of FearOn HoldElder Scrolls III: Morrowind, TheOn HoldSuper Meat BoyOn HoldBlood: Fresh SupplyPlan To PlayBorderlandsPlan To PlayBorderlands 3Plan To PlayDoom (2016)Plan To PlayDoom EternalPlan To PlayDUSKPlan To PlayElder Scrolls IV: Oblivion, ThePlan To PlayInjustice: Gods Among Us Ultimate EditionPlan To PlayMetro: 2033 ReduxPlan To PlayMortal Kombat XPlan To PlayMortal Kombat 11Plan To PlayNinja Gaiden SigmaPlan To PlayNinja Gaiden (Sigma) 2Plan To PlayNinja Gaiden 3 Razors EdgePlan To PlayOutlast Whistleblower DLCPlan To PlayPortalPlan To PlayPortal 2Plan To PlayPostal 2Plan To PlayULTRAKILLPlan To PlayBeyond Good And EvilCompletedBorderlands 2CompletedHacknetCompletedHelltaker[3]CompletedJames Bond 007: Blood StoneCompletedLEGO® Movie - Videogame, TheCompletedMetro: Last Light ReduxCompletedMortal Kombat (2009)CompletedNinja Gaiden BlackCompletedOutlastCompletedShadow Warrior 2CompletedTomb Raider (2013)CompletedWalking Dead, TheCompletedWatch DogsCompletedIt was shown on TV and there wasn’t anything interesting playing I think.</description>
     </item>
     
     <item>
@@ -55,10 +50,10 @@
       
       <guid>https://chtc.neocities.org/tech/</guid>
       <description>A list of technology related stuff used by me.
-  Table Of Contents  Stuff I Use The Computer Programs How It Looks   Stuff That This Site Uses       Stuff I Use The Computer Actually it’s a laptop not a cumputer.
- It’s a HP 250 G4 I think.
-  Programs   OS  Void Linux
-   Browser  Firefox</description>
+Table Of ContentsStuff I UseThe ComputerProgramsHow It LooksStuff That This Site Uses Stuff I UseThe ComputerActually it’s a laptop not a cumputer.
+It’s a HP 250 G4 I think.
+ ProgramsOSVoid LinuxBrowserFirefoxTerminalAlacrittyEditorNeovimMusic PlayerNcmpcppWindow ManagerAwesomeShellZshImage ViewerSxivPDF ViewerZathura How It LooksThere are screenshots in my dotfiles.
+ Stuff That This Site UsesGitLabHosting original and built files and pushing to neocitiesNeocitiesHostingHugoBuilding the siteHugo Bearblog (modified version)ThemeAsciidoctorPages are written in this and converted to HTML </description>
     </item>
     
   </channel>

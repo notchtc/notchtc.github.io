@@ -120,10 +120,6 @@ footer {
     font-size: small;
 }
 
-.text-center {
-    text-align: center;
-}
-
 /* blog posts */
 ul.blog-posts {
     list-style-type: none;

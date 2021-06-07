@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on chtc&#39;s decaying mental fucked-up electronic breakcore idm drum and bass hardcore punk technology state</title>
+    <title>linux on chtc&#39;s decaying mental fucked-up technology state</title>
     <link>https://chtc.neocities.org/tag/linux/</link>
-    <description>Recent content in linux on chtc&#39;s decaying mental fucked-up electronic breakcore idm drum and bass hardcore punk technology state</description>
+    <description>Recent content in linux on chtc&#39;s decaying mental fucked-up technology state</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021, chtc</copyright>
@@ -15,10 +15,10 @@
       
       <guid>https://chtc.neocities.org/dotfiles/</guid>
       <description>These are my awesome (actually horrible) dotfiles.
- Screenshots are located in the imgs folder and shown in README’s.
- This is a web version of the README. Go to the dotfiles repository for more things.
-     Changing stuff to make it work/fit your needs You probably will and must change something in my dotfiles.
- I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this.</description>
+Screenshots are located in the imgs folder and shown in README’s.
+This is a web version of the README. Go to the dotfiles repository for more things.
+Caution: Changing stuff to make it work/fit your needsYou probably will and must change something in my dotfiles.
+I recommend looking through these dotfiles and changing things to fit your setup and/or needs if you want to use this.</description>
     </item>
     
     <item>
@@ -28,10 +28,10 @@
       
       <guid>https://chtc.neocities.org/tech/</guid>
       <description>A list of technology related stuff used by me.
-  Table Of Contents  Stuff I Use The Computer Programs How It Looks   Stuff That This Site Uses       Stuff I Use The Computer Actually it’s a laptop not a cumputer.
- It’s a HP 250 G4 I think.
-  Programs   OS  Void Linux
-   Browser  Firefox</description>
+Table Of ContentsStuff I UseThe ComputerProgramsHow It LooksStuff That This Site Uses Stuff I UseThe ComputerActually it’s a laptop not a cumputer.
+It’s a HP 250 G4 I think.
+ ProgramsOSVoid LinuxBrowserFirefoxTerminalAlacrittyEditorNeovimMusic PlayerNcmpcppWindow ManagerAwesomeShellZshImage ViewerSxivPDF ViewerZathura How It LooksThere are screenshots in my dotfiles.
+ Stuff That This Site UsesGitLabHosting original and built files and pushing to neocitiesNeocitiesHostingHugoBuilding the siteHugo Bearblog (modified version)ThemeAsciidoctorPages are written in this and converted to HTML </description>
     </item>
     
   </channel>

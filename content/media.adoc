@@ -6,13 +6,16 @@ tags = ["movies","games","shows","media",]
 menu = "main"
 +++
 
-= Media Stuff
-chtc <notnotcha0t1c@protonmail.org>
+= Media
+chtc <notnotcha0t1c@protonmail.com>
 {docdate}
 :toc: macro
 :toc-title!:
+:experimental:
 
 List of media that I am currently consuming/planning to consume/consumed.
+
+Everything is sorted alphabetically and are ordered by status like this: Watching/Playing *-&gt;* Infinitely Playing (games only) *-&gt;* On Hold *-&gt;* Plan To Watch/Play *-&gt;* Completed.
 
 .*Table Of Contents*
 [%collapsible]
@@ -21,83 +24,182 @@ toc::[]
 ====
 
 == Movies
+|===
+|Movie|Status
 
-=== Watching
+|Machine Girl
+|Plan To Watch
 
-=== Completed
-- Exte
-- Incredibles, The
-- Incredibles 2, The
-- Scooby-Doo 2
-- Sharknado 2footnote:tv[It was shown on TV and there wasn't anything interesting playing I think]
+|Ginger Snaps
+|Plan To Watch
 
-=== Plan To Watch
-- Machine Girl
-- Ginger Snaps
-- Ginger Snaps 2: Unleashed
+|Ginger Snaps 2: Unleashed
+|Plan To Watch
+
+|Exte
+|Completed
+
+|Incredibles, The
+|Completed
+
+|Incredibles 2, The
+|Completed
+
+|Scooby-Doo 2
+|Completed
+
+|Sharknado 2footnote:tv[It was shown on TV and there wasn't anything interesting playing I think.]
+|Completed
+
+|===
 
 == Shows
+|===
+|Show|Episode|Season|Status
 
-=== Watching
+|Mr. Robot
+|
+|
+|Plan To Watch
 
-=== Completed
-- Invincible (S1)
-- Love Death Robots (S1,S2)
+|Invincible
+|
+|1/1
+|Completed
 
-=== Plan To Watch
-- Mr. Robot (S1,S2,S3,S4)
+|Love Death and Robots
+|
+|2/2
+|Completed
+
+|===
 
 == Games
 
-=== Playing
-- Elder Scrolls V: Skyrim, The
+|===
+|Game|Status
 
-=== Infinitely Playing
-This doesn't necessarily mean that *I* am currently _playing_ them, just a list of games you could play for thousand hours, a thousand times (I mean you can do this with every game but you know what *I* _mean_).
+|Elder Scrolls V: Skyrim, The
+|Playing
 
-- Minecraft
-- OpenTTD
+|Minecraft
+|Infinitely Playingfootnote:infinitely[This doesn't necessarily mean that *I* am currently _playing_ them, just a list of games you could play for thousand hours, a thousand times (I mean you can do this with every game but you know what *I* _mean_).]
 
-=== On Hold
-- Borderlands: The Pre-Sequel
-- Celeste
-- Cry Of Fear
-- Elder Scrolls III: Morrowind, The
-- Super Meat Boy
+|OpenTTD
+|Infinitely Playingfootnote:infinitely[]
 
-=== Plan To Play
-- Blood: Fresh Supply
-- Borderlands
-- Borderlands 3
-- Doom (2016)
-- Doom Eternal
-- DUSK
-- Elder Scrolls IV: Oblivion, The
-- Injustice: Gods Among Us Ultimate Edition
-- Metro: 2033 Redux
-- Mortal Kombat X
-- Mortal Kombat 11
-- Ninja Gaiden Sigma
-- Ninja Gaiden (Sigma) 2
-- Ninja Gaiden 3 Razors Edge
-- Outlast Whistleblower DLC
-- Portal
-- Portal 2
-- Postal 2
-- ULTRAKILL
+|Borderlands: The Pre-Sequel
+|On Hold
 
-=== Completed
-- Beyond Good And Evil
-- Borderlands 2
-- Hacknet
-- Helltakerfootnote:[Except new update]
-- James Bond 007: Blood Stone
-- LEGO® Movie - Videogame, The
-- Metro: Last Light Redux
-- Mortal Kombat (2009)
-- Ninja Gaiden Black
-- Outlast
-- Shadow Warrior 2
-- Tomb Raider (2013)
-- Walking Dead, The
-- Watch Dogs
+|Celeste
+|On Hold
+
+|Cry Of Fear
+|On Hold
+
+|Elder Scrolls III: Morrowind, The
+|On Hold
+
+|Super Meat Boy
+|On Hold
+
+|Blood: Fresh Supply
+|Plan To Play
+
+|Borderlands
+|Plan To Play
+
+|Borderlands 3
+|Plan To Play
+
+|Doom (2016)
+|Plan To Play
+
+|Doom Eternal
+|Plan To Play
+
+|DUSK
+|Plan To Play
+
+|Elder Scrolls IV: Oblivion, The
+|Plan To Play
+
+|Injustice: Gods Among Us Ultimate Edition
+|Plan To Play
+
+|Metro: 2033 Redux
+|Plan To Play
+
+|Mortal Kombat X
+|Plan To Play
+
+|Mortal Kombat 11
+|Plan To Play
+
+|Ninja Gaiden Sigma
+|Plan To Play
+
+|Ninja Gaiden (Sigma) 2
+|Plan To Play
+
+|Ninja Gaiden 3 Razors Edge
+|Plan To Play
+
+|Outlast Whistleblower DLC
+|Plan To Play
+
+|Portal
+|Plan To Play
+
+|Portal 2
+|Plan To Play
+
+|Postal 2
+|Plan To Play
+
+|ULTRAKILL
+|Plan To Play
+
+|Beyond Good And Evil
+|Completed
+
+|Borderlands 2
+|Completed
+
+|Hacknet
+|Completed
+
+|Helltakerfootnote:[Except new update.]
+|Completed
+
+|James Bond 007: Blood Stone
+|Completed
+
+|LEGO® Movie - Videogame, The
+|Completed
+
+|Metro: Last Light Redux
+|Completed
+
+|Mortal Kombat (2009)
+|Completed
+
+|Ninja Gaiden Black
+|Completed
+
+|Outlast
+|Completed
+
+|Shadow Warrior 2
+|Completed
+
+|Tomb Raider (2013)
+|Completed
+
+|Walking Dead, The
+|Completed
+
+|Watch Dogs
+|Completed
+
+|===
