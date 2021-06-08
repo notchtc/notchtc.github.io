@@ -57,10 +57,20 @@ toc::[]
 |===
 |Show|Episode|Season|Status
 
+|Aggretsuko
+|
+|3
+|Plan To Watch
+
 |Mr. Robot
 |
 |
 |Plan To Watch
+
+|Aggretsuko
+|
+|2/3
+|Completed
 
 |Invincible
 |

@@ -35,23 +35,55 @@ toc::[]
 ====
 
 == Things used
-[horizontal]
-https://gitlab.com/chtc/dotfiles/-/tree/master/config/alacritty/[alacritty]:: Terminal
-https://gitlab.com/chtc/dotfiles/-/tree/master/config/awesome/[awesome]:: Window manager
-https://gitlab.com/chtc/dotfiles/-/tree/master/config/mpd/[mpd]:: Music daemon
-https://gitlab.com/chtc/dotfiles/-/tree/master/config/ncmpcpp[ncmpcpp]:: Music player
-https://gitlab.com/chtc/dotfiles/-/tree/master/config/nvim/[nvim]:: Text editor
-https://gitlab.com/chtc/dotfiles/-/tree/master/config/rofi/[rofi]::  Window switcher/Application launcher/Dmenu replacement
-https://gitlab.com/chtc/dotfiles/-/tree/master/config/sxiv/exec/[sxiv]:: Image viewer
-https://gitlab.com/chtc/dotfiles/-/tree/master/config/user-dirs.dirs[xdg dirs]:: Some directory thingy
-https://gitlab.com/chtc/dotfiles/-/tree/master/xinitrc[xinitrc]:: Launch the window manager and some programs
-https://gitlab.com/chtc/dotfiles/-/tree/master/Xresources[xresources]:: I only set colors in this
-https://gitlab.com/chtc/dotfiles/-/tree/master/config/zathura/[zathura]:: Pdf reader
-https://gitlab.com/chtc/dotfiles/-/tree/master/config/zsh/[zsh] (https://gitlab.com/chtc/dotfiles/-/tree/master/zshenv[zshenv]):: Shell
-https://gitlab.com/chtc/dotfiles/-/tree/master/local/bin/[scripts]:: Scripts used by stuff
-https://gitlab.com/chtc/dotfiles/-/tree/master/local/share/fonts[fonts]:: Used by everything that has a font setting in here
+|===
+|Thing|What is it?
 
-https://github.com/sainnhe/everforest[colorscheme]
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/alacritty/[alacritty]
+|Terminal
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/awesome/[awesome]
+|Window manager
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/mpd/[mpd]
+|Music daemon
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/ncmpcpp[ncmpcpp]
+|Music player
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/nvim/[nvim]
+|Text editor
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/rofi/[rofi]
+| Window switcher/Application launcher/Dmenu replacement
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/sxiv/exec/[sxiv]
+|Image viewer
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/user-dirs.dirs[xdg dirs]
+|Some directory thingy
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/xinitrc[xinitrc]
+|Launch the window manager and some programs
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/Xresources[xresources]
+|I only set colors in this
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/zathura/[zathura]
+|Pdf reader
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/zsh/[zsh] (https://gitlab.com/chtc/dotfiles/-/tree/master/zshenv[zshenv])
+|Shell
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/local/bin/[scripts]
+|Scripts used by stuff
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/local/share/fonts[fonts]
+|Used by everything that has a font setting in here
+
+|https://github.com/sainnhe/everforest[colorscheme]
+|Colorsfootnote:[Shocking fact, right?]
+
+|===
 
 == Dependencies
 If something requires something, it will be written in it's README or here.

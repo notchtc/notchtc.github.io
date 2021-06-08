@@ -17,7 +17,7 @@ https://hotlinewebring.club/chtc/previous[&lt;-] https://hotlinewebring.club[Web
 [%collapsible]
 ====
 Hours are from the UTC+1/2 timezone depending on if daylight saving time is present or not.
-[horizontal]
+
 06.06.2021 11:53:: Redesign site again and add some new pages
 18.05.2021 14:59:: https://john-doe.neoocities.org[Redesign site]
 02.04.2021 17:03:: Minor site redesign

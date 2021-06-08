@@ -73,6 +73,19 @@ content {
 
 table {
     width: 100%;
+    border: var(--bg-lighter) solid 2px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+thead {
+    background-color: var(--bg-lighter);
+    color: var(--fg);
+}
+
+th, td {
+    border: var(--bg-lighter) solid 2px;
+    padding: 1em;
 }
 
 img {
@@ -110,16 +123,6 @@ footer {
     text-align: center;
 }
 
-.helptext {
-    color: var(--fg-darker);
-    font-size: small;
-}
-
-.errorlist {
-    color: var(--error);
-    font-size: small;
-}
-
 /* blog posts */
 ul.blog-posts {
     list-style-type: none;
@@ -132,4 +135,49 @@ ul.blog-posts li {
 
 ul.blog-posts li span {
     flex: 0 0 130px;
+}
+
+.helptext {
+    color: var(--fg-darker);
+    font-size: small;
+}
+
+.errorlist {
+    color: var(--error);
+    font-size: small;
+}
+
+.admonition-block {
+    background-color: var(--bg-lighter);
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.title-label {
+    font-weight: bold;
+}
+
+.block-title {
+    font-weight: initial;
+    font-size: 1em;
+    margin: 0;
+}
+
+.caution {
+    border-left: var(--error) 5px solid;
+}
+
+.content {
+    background-color: var(--bg-lighter);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.content h2 {
+    margin: inherit;
+}
+
+dt {
+    font-weight: bold;
 }
