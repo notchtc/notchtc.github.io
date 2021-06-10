@@ -1,15 +1,32 @@
 +++
-title = "Dank Web Presence"
+title = "Home"
 +++
+
+= Home
+chtc <notnotcha0t1c@protonmail.com>
+{docdate}
+:toc: macro
+:toc-title: Hello there!
 
 == Hi!
 I am *chtc* and I'm a _dumbass_ from Poland.
 
 I like to listen to _"normal" stuff_ and _music that will make your mother think that metal is actual music_.
 
-This sites name has no meaning really, it just adds to the insanity of my internet presence.
+.*Table Of Contents*
+[%collapsible]
+====
+toc::[]
+====
 
 == The World Wide Dank Web
+- https://www.youtube.com/channel/UC-5mLU2LQZQAjWQTCloslBw[YouTube]
+- https://chtc.bandcamp.com[Bandcamp]
+- https://twitter.com/notchtc[Twitter]
+- https://gitlab.com/chtc[GitLab] / https://github.com/notchtc[GitHub]
+- notnotcha0t1c@protonmail.com
+- chtc#9441 (discord)
+
 https://hotlinewebring.club/chtc/previous[&lt;-] https://hotlinewebring.club[Webring's Site] https://hotlinewebring.club/chtc/next[-&gt;]
 
 == Site News

@@ -2,12 +2,14 @@ baseURL = "https://chtc.neocities.org/"
 
 theme = "hugo-bearblog"
 
-title = "chtc's decaying mental fucked-up technology state"
+title = "chtc's decaying mental state"
 author = "chtc"
 copyright = "Copyright © 2021, chtc"
 languageCode = "en-us"
 
 enableRobotsTXT = true
+
+enableGitInfo = true
 
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]

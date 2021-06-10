@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on chtc&#39;s decaying mental fucked-up technology state</title>
+    <title>linux on chtc&#39;s decaying mental state</title>
     <link>https://chtc.neocities.org/tag/linux/</link>
-    <description>Recent content in linux on chtc&#39;s decaying mental fucked-up technology state</description>
+    <description>Recent content in linux on chtc&#39;s decaying mental state</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021, chtc</copyright>
@@ -22,7 +22,7 @@ I recommend looking through these dotfiles and changing things to fit your setup
     </item>
     
     <item>
-      <title>Tech Stuff</title>
+      <title>Technology</title>
       <link>https://chtc.neocities.org/tech/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0200</pubDate>
       

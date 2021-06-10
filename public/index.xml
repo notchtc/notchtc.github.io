@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dank Web Presence on chtc&#39;s decaying mental fucked-up technology state</title>
+    <title>Home on chtc&#39;s decaying mental state</title>
     <link>https://chtc.neocities.org/</link>
-    <description>Recent content in Dank Web Presence on chtc&#39;s decaying mental fucked-up technology state</description>
+    <description>Recent content in Home on chtc&#39;s decaying mental state</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2021, chtc</copyright>
-    <lastBuildDate>Sat, 05 Jun 2021 17:26:03 +0200</lastBuildDate><atom:link href="https://chtc.neocities.org/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2021, chtc</copyright><atom:link href="https://chtc.neocities.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How 2 Do Someones Mom 101</title>
       <link>https://chtc.neocities.org/blog/how-2-do-someones-mom-101/</link>
@@ -33,7 +32,7 @@ I recommend looking through these dotfiles and changing things to fit your setup
     </item>
     
     <item>
-      <title>Media Stuff</title>
+      <title>Media List</title>
       <link>https://chtc.neocities.org/media/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0200</pubDate>
       
@@ -44,7 +43,7 @@ Table Of ContentsHello there!MoviesShowsGames MoviesMovieStatusMachine GirlPlan 
     </item>
     
     <item>
-      <title>Tech Stuff</title>
+      <title>Technology</title>
       <link>https://chtc.neocities.org/tech/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0200</pubDate>
       
