@@ -1,5 +1,5 @@
 +++
-title = "Home"
+title = "Dumbass Main Page"
 +++
 
 = Home
@@ -12,6 +12,8 @@ chtc <notnotcha0t1c@protonmail.com>
 I am *chtc* and I'm a _dumbass_ from Poland.
 
 I like to listen to _"normal" stuff_ and _music that will make your mother think that metal is actual music_.
+
+This is the main page, go to other ones for more stuff.
 
 .*Table Of Contents*
 [%collapsible]
