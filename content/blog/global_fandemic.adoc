@@ -1,0 +1,24 @@
++++
+title = "GLOBAL FANDEMIC (Split Set)"
+date = "2021-06-11T16:11:14+02:00"
+
+description = "The Machine Girl A2B2 Night Of Fire Set, split by me (in opus)."
+tags = ["machine girl","music","a2b2","night of fire"]
++++
+
+= GLOBAL FANDEMIC (Split Set)
+
+The Machine Girl A2B2 Night Of Fire Set, split by me (in opus).
+
+link:/global_fandemic.zip[Global Fandemic Download]
+
+== Details
+Splitted by using ffmpeg and python (thanks https://unix.stackexchange.com/questions/280767/how-do-i-split-an-audio-file-into-multiple/400032#400032[some dude from stackexchange]).
+
+Cover art made by using youtube-dl, ffmpeg, https://www.remove.bg[remove.bg] and gimp.
+
+. Downloaded 2 frames (the one with the global fandemic text and one before that) by doing https://askubuntu.com/questions/1155446/is-it-possible-to-only-download-a-single-frame-from-a-youtube-video/1155468#1155468[this].
+. Removed most of the background from the frame with the text by using https://www.remove.bg[remove.bg].
+. Removed the rest of the background in gimp.
+. Cropped the frame without the text.
+. Added the text onto the frame.
