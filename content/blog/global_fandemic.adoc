@@ -10,7 +10,7 @@ tags = ["machine girl","music","a2b2","night of fire"]
 
 The Machine Girl A2B2 Night Of Fire Set, split by me (in opus).
 
-link:/global_fandemic.zip[Global Fandemic Download]
+http://www.mediafire.com/file/xfu758hs58zpaxf/global_fandemic.zip[Global Fandemic Download]
 
 == Details
 Splitted by using ffmpeg and python (thanks https://unix.stackexchange.com/questions/280767/how-do-i-split-an-audio-file-into-multiple/400032#400032[some dude from stackexchange]).
