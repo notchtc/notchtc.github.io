@@ -44,10 +44,7 @@ toc::[]
 |https://gitlab.com/chtc/dotfiles/-/tree/master/config/awesome/[awesome]
 |Window manager
 
-|https://gitlab.com/chtc/dotfiles/-/tree/master/config/mpd/[mpd]
-|Music daemon
-
-|https://gitlab.com/chtc/dotfiles/-/tree/master/config/ncmpcpp[ncmpcpp]
+|lollypop
 |Music player
 
 |https://gitlab.com/chtc/dotfiles/-/tree/master/config/nvim/[nvim]
@@ -82,6 +79,18 @@ toc::[]
 
 |https://github.com/sainnhe/everforest[colorscheme]
 |Colorsfootnote:[Shocking fact, right?]
+
+|===
+
+== Things not used
+|===
+|Thing|What is it?
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/mpd/[mpd]
+|Music daemon
+
+|https://gitlab.com/chtc/dotfiles/-/tree/master/config/ncmpcpp[ncmpcpp]
+|Music player
 
 |===
 
