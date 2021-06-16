@@ -89,9 +89,6 @@ toc::[]
 |===
 |Game|Status
 
-|Elder Scrolls V: Skyrim, The
-|Playing
-
 |Minecraft
 |Infinitely Playingfootnote:infinitely[This doesn't necessarily mean that *I* am currently _playing_ them, just a list of games you could play for thousand hours, a thousand times (I mean you can do this with every game but you know what *I* _mean_).]
 
@@ -108,6 +105,9 @@ toc::[]
 |On Hold
 
 |Elder Scrolls III: Morrowind, The
+|On Hold
+
+|Elder Scrolls V: Skyrim, The
 |On Hold
 
 |Super Meat Boy
@@ -135,6 +135,9 @@ toc::[]
 |Plan To Play
 
 |Injustice: Gods Among Us Ultimate Edition
+|Plan To Play
+
+|Metal Gear Rising: Revengeance
 |Plan To Play
 
 |Metro: 2033 Redux
