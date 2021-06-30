@@ -186,6 +186,10 @@ ul.blog-posts li span {
     padding: 5px;
 }
 
+.content p {
+    margin: inherit;
+}
+
 .content h2 {
     margin: inherit;
 }
