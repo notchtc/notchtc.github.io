@@ -10,6 +10,7 @@ pages:
   - gem install asciidoctor-html5s
   script:
   - hugo --gc
+  - gzip -k -6 $(find public -type f)
   artifacts:
     paths:
     - public
