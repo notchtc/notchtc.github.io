@@ -22,7 +22,6 @@ ignoreErrors = ["error-disable-taxonomy"]
     description = "One site's worth of stupid af content too much (crappy description I guess)."
     title = "chtc's decaying mental state"
     hideMadeWithLine = true
-    favicon = "/imgs/chtc.svg"
 
 [markup]
     [markup.asciidocExt]

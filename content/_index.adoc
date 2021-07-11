@@ -7,6 +7,8 @@ chtc <notnotcha0t1c@protonmail.com>
 {docdate}
 :toc: macro
 :toc-title: Hello there!
+:imagesdir: imgs
+:data-uri:
 
 == Hi!
 I am *chtc* and I'm a _dumbass_ from Poland.
@@ -44,4 +46,4 @@ Hours are from the UTC+1/2 timezone depending on if daylight saving time is pres
 07.03.2021 15:42:: Begin site redesign
 ====
 
-image::/imgs/zach.gif[Spinning image of Zach Hill's face,align="center",width="114",height="114"]
+image::zach.gif[Spinning image of Zach Hill's face,align="center",width="114",height="114"]
