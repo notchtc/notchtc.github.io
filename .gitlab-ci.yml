@@ -1,14 +1,14 @@
-image: registry.gitlab.com/pages/hugo:latest
-
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
-  script:
-  - apt update
-  - apt install -y ruby
-  - gem install asciidoctor
+  image:
+    name: klakegg/hugo:asciidoctor-ci
+    entrypoint: ['']
+  before_script:
+  - apk add ruby
   - gem install asciidoctor-html5s
+  script:
   - hugo
   artifacts:
     paths:
