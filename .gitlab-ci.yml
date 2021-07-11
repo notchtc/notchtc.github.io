@@ -4,7 +4,7 @@ pages:
   script:
   - gem install asciidoctor
   - gem install asciidoctor-html5s
-  - sudo apt install hugo
+  - apt install hugo
   - hugo -D
   artifacts:
     paths:
