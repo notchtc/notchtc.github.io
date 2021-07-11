@@ -6,10 +6,10 @@ pages:
     name: klakegg/hugo:asciidoctor-ci
     entrypoint: ['']
   before_script:
-  - apk add ruby
+  - apk add --no-cache git ruby
   - gem install asciidoctor-html5s
   script:
-  - hugo
+  - hugo --gc
   artifacts:
     paths:
     - public
