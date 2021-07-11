@@ -1,15 +1,18 @@
-image: ruby:slim-buster
+image: registry.gitlab.com/pages/hugo:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
   script:
+  - apt-get update
+  - apt-get install -y ruby
   - gem install asciidoctor
   - gem install asciidoctor-html5s
-  - apt-get update
-  - apt-get install -y hugo
-  - hugo -D
+  - hugo
   artifacts:
     paths:
     - public
-    expire_in: 12 hours
+    expire_in: 1 hour
   only:
   - master
