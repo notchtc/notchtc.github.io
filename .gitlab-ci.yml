@@ -1,14 +1,13 @@
-image: davidburet/asciidoctor-hugo
-
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
+image: ruby:slim-buster
 
 pages:
   script:
-  - hugo
+  - gem install asciidoctor
+  - gem install asciidoctor-html5s
+  - sudo apt install hugo
+  - hugo -D
   artifacts:
     paths:
-    - cd ${CI_PROJECT_DIR}
     - public
     expire_in: 12 hours
   only:
