@@ -1,10 +1,14 @@
 image: davidburet/asciidoctor-hugo
 
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
 pages:
   script:
   - hugo
   artifacts:
     paths:
+    - cd ${CI_PROJECT_DIR}
     - public
     expire_in: 12 hours
   only:
