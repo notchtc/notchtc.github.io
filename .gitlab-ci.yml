@@ -1,9 +1,8 @@
-image: alpine:latest
+image: davidburet/asciidoctor-hugo
 
 pages:
-  stage: deploy
   script:
-  - echo 'Nothing to do...'
+  - hugo
   artifacts:
     paths:
     - public
