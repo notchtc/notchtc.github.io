@@ -28,3 +28,9 @@ ignoreErrors = ["error-disable-taxonomy"]
     extensions = ["asciidoctor-html5s",]
     backend = "html5s"
     preserveTOC = true
+
+[menu]
+    [[menu.main]]
+    name = "Dotfiles"
+    URL = "https://gitlab.com/chtc/dotfiles"
+    weight = 2

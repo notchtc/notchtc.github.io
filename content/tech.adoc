@@ -40,10 +40,10 @@ It's a HP 250 G4 I think.
 |Alacritty
 
 |Editor
-|Neovim
+|Doom Emacs
 
 |Music Player
-|Ncmpcpp
+|Lollypop
 
 |Window Manager
 |Awesome
@@ -67,10 +67,7 @@ There are screenshots in my link:../dotfiles/[dotfiles].
 |Thing|What it does?
 
 |https://gitlab.com/[GitLab]
-|Hosting original and built files and pushing to neocities
-
-|https://neocities.org/[Neocities]
-|Hosting
+|Hosting the site
 
 |https://gohugo.io/[Hugo]
 |Building the site
