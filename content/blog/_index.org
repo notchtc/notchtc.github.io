@@ -1,0 +1,2 @@
+#+TITLE: Blog
+#+DESCRIPTION: My blog where I write some stupid ass stuff.

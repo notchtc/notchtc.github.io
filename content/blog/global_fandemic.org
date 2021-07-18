@@ -1,0 +1,19 @@
+#+TITLE: GLOBAL FANDEMIC (Split Set)
+#+DATE: 2021-06-11T16:11:14+02:00
+#+DESCRIPTION: The Machine Girl A2B2 Night Of Fire Set, split by me (in opus).
+#+TAGS[]: machine_girl, music, a2b2, night_of_fire
+
+The Machine Girl A2B2 Night Of Fire Set, split by me (in opus).
+
+[[/global_fandemic.zip][Global Fandemic Download]]
+
+* Details
+Splitted by using ffmpeg and python (thanks [[https://unix.stackexchange.com/questions/280767/how-do-i-split-an-audio-file-into-multiple/400032#400032][some dude from stackexchange]]).
+
+Cover art made by using youtube-dl, ffmpeg, [[https://www.remove.bg][remove.bg]] and gimp.
+
+1. Downloaded 2 frames (the one with the global fandemic text and one before that) by doing [[https://askubuntu.com/questions/1155446/is-it-possible-to-only-download-a-single-frame-from-a-youtube-video/1155468#1155468][this]].
+2. Removed most of the background from the frame with the text by using [[https://www.remove.bg][remove.bg]].
+3. Removed the rest of the background in gimp.
+4. Cropped the frame without the text.
+5. Added the text onto the frame.

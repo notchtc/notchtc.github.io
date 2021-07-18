@@ -1,0 +1,40 @@
+#+TITLE: Technology
+#+AUTHOR: chtc
+#+DATE: 1970-01-01T00:00:00+00:00
+#+DESCRIPTION: A list of technology related stuff used by me
+#+TAGS[]: technology, linux, dotfiles
+#+MENU: main
+
+A list of technology related stuff used by me.
+
+* Table Of Contents
+#+TOC: headlines 3
+
+* Stuff I Use
+** The Computer
+Actually it's a /laptop/ not a /cumputer/.
+
+It's a HP 250 G4 I think.
+
+** Programs And Stuff
+| Thing          | What it does? |
+|----------------+---------------|
+| OS             | Void Linux    |
+| Browser        | Firefox       |
+| Terminal       | Alacritty     |
+| Editor         | Doom Emacs    |
+| Music Player   | Lollypop      |
+| Window Manager | Awesome       |
+| Shell          | Zsh           |
+| Image Viewer   | Sxiv          |
+| PDF Viewer     | Zathura       |
+
+** How It Looks
+There are screenshots in my [[https://gitlab.com/chtc/dotfiles][dotfiles]].
+
+* Stuff That This Site Uses
+| Thing                            | What it does?                                   |
+| [[https://gitlab.com/][GitLab]]                           | Hosting the site                                |
+| [[https://gohugo.io/][Hugo]]                             | Building the site                               |
+| [[https://github.com/janraasch/hugo-bearblog/][Hugo Bearblog]] ([[https://github.com/notchtc/hugo-bearblog][modified version]]) | Theme                                           |
+| [[https://orgmode.org/][Org mode]]                         | Pages are written in this and converted to HTML |

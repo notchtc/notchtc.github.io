@@ -1,0 +1,35 @@
+#+TITLE: Dumbass Main Page
+#+AUTHOR: chtc
+#+DATE: 1970-01-01T00:00:00+00:00
+
+* Hi!
+I am *chtc* and I'm a /dumbass/ from Poland.
+
+I like to listen to /"normal" stuff/ and /music that will make your mother think that metal is actual music/.
+
+This is the main page, go to other ones for more stuff.
+
+* Table Of Contents
+#+TOC: headlines 3
+
+* The World Wide Dank Web
+- [[https://www.youtube.com/channel/UC-5mLU2LQZQAjWQTCloslBw][YouTube]]
+- [[https://chtc.bandcamp.com][Bandcamp]]
+- [[https://twitter.com/notchtc][Twitter]]
+- [[https://gitlab.com/chtc][GitLab]] / [[https://github.com/notchtc][GitHub]]
+- [[mailto:notnotcha0t1c@protonmail.com][email]]
+- [[https://discord.com/users/703166258748588073][chtc#9441]] (discord)
+
+[[https://hotlinewebring.club/chtc/previous][<-]] [[https://hotlinewebring.club][Webring's Site]] [[https://hotlinewebring.club/chtc/next][->]]
+
+* Site News
+- 06.06.2021 11:53 UTC+02 :: Redesign site again and add some new pages
+- 18.05.2021 14:59 UTC+02 :: [[https://john-doe.neoocities.org][Redesign site]]
+- 02.04.2021 17:03 UTC+02 :: Minor site redesign
+- 07.03.2021 16:22 UTC+02 :: Site redesign done
+- 07.03.2021 15:42 UTC+02 :: Begin site redesign
+
+#+BEGIN_CENTER
+#+ATTR_HTML: :alt Spinning image of Zach Hill's face :title Spinning image of Zach Hill's face :width 114 :height 114
+[[./zach.gif]]
+#+END_CENTER
