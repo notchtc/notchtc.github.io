@@ -2,7 +2,7 @@
 #+AUTHOR: chtc
 #+DATE: 1970-01-01T00:00:00+00:00
 #+DESCRIPTION: List of media that I am currently consuming/planning to consume/consumed.
-#+TAGS[]: movies, games, shows, media
+#+TAGS[]: movies games shows media
 #+MENU: main
 
 List of media that I am currently consuming/planning to consume/consumed.

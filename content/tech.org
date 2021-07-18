@@ -2,7 +2,7 @@
 #+AUTHOR: chtc
 #+DATE: 1970-01-01T00:00:00+00:00
 #+DESCRIPTION: A list of technology related stuff used by me
-#+TAGS[]: technology, linux, dotfiles
+#+TAGS[]: technology linux dotfiles
 #+MENU: main
 
 A list of technology related stuff used by me.

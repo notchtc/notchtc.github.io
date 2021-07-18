@@ -1,7 +1,7 @@
 #+TITLE: GLOBAL FANDEMIC (Split Set)
 #+DATE: 2021-06-11T16:11:14+02:00
 #+DESCRIPTION: The Machine Girl A2B2 Night Of Fire Set, split by me (in opus).
-#+TAGS[]: machine_girl, music, a2b2, night_of_fire
+#+TAGS[]: machine_girl music a2b2 night_of_fire
 
 The Machine Girl A2B2 Night Of Fire Set, split by me (in opus).
 
