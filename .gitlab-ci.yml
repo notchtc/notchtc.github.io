@@ -1,15 +1,8 @@
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
+image: alpine:latest
 
 pages:
-  image:
-    name: klakegg/hugo:asciidoctor-ci
-    entrypoint: ['']
-  before_script:
-  - apk add --no-cache git ruby
-  - gem install asciidoctor-html5s
+  stage: deploy
   script:
-  - hugo --gc
   - gzip -k -6 $(find public -type f)
   artifacts:
     paths:

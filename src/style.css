@@ -1,0 +1,120 @@
+/* COLORS */
+* {
+  --bg: #fff;
+  --fg: #000;
+  --link: #0c56b0;
+  --linkv: #639;
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    --bg: #000;
+    --fg: #fff;
+    --link: #0ac;
+    --linkv: #b57fec;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  max-width: 75%;
+  margin: 1em auto;
+  padding: 0 0.625em;
+  font: 1.15em/1.8 sans-serif;
+}
+
+/* Bless people printing */
+@media print {
+  body {
+    max-width: none;
+  }
+}
+
+/* Bless users with smaller screens */
+@media (max-width: 500px) {
+  body {
+    max-width: none;
+    padding: 0 0.475em;
+  }
+}
+
+/* Make headers tighter */
+h1,
+h2,
+h3 {
+  line-height: 1.4;
+}
+
+/* LINKS */
+
+a:link {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--linkv);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* OTHER */
+
+footer {
+  text-align: center;
+  margin: 0;
+  padding: 2em 0;
+  font-size: 0.95em;
+}
+
+/* CLASSES */
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.social {
+  text-align: center;
+}
+
+/* NAVBAR AND SOCIAL */
+nav > ul,
+.social > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li,
+.social > ul > li {
+  font-size: 1.157em;
+  padding-right: 5px;
+  display: inline;
+}
+
+/* BLOG */
+
+ul.articles {
+  list-style: none;
+  padding: 0;
+}
+
+ul.articles li {
+  padding-bottom: 6px;
+}
+
+article > h1 {
+  margin-bottom: 0;
+}
+
+p.date {
+  font-size: 1em;
+  margin-top: 0;
+}
