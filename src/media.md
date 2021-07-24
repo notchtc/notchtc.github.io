@@ -81,5 +81,5 @@ Not everything may be listed here, because I'm too lazy to add it, don't remembe
 | Walking Dead, The                         | Completed              |
 | Watch Dogs                                | Completed              |
 
-[^3]: This doesn't necessarily mean that _I_ am currently /playing/ them, just a list of games you could play for thousand hours, a thousand times (I mean you can do this with every game but you know what _I_ /mean/).
+[^3]: This doesn't necessarily mean that I am currently _playing_ them, just a list of games you could play for thousand hours, a thousand times (I mean you can do this with every game but you know what I _mean_).
 [^4]: Except new update.
