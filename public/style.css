@@ -23,13 +23,7 @@ body {
   font: 1.15em/1.8 sans-serif;
 }
 
-@media print {
-  body {
-    max-width: none;
-  }
-}
-
-@media (max-width: 500px) {
+@media print, (max-width: 525px) {
   body {
     max-width: none;
     padding: 0 0.475em;
