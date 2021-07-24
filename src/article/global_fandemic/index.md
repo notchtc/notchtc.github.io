@@ -1,6 +1,5 @@
-# GLOBAL FANDEMIC (Split Set)
-
-<p class="date">June 11, 2021</p>
+<small>June 11, 2021</small>
+<h1>GLOBAL FANDEMIC (Split Set)</h1>
 
 The Machine Girl A2B2 Night Of Fire set, split by me (in opus).
 
