@@ -84,3 +84,15 @@ ul.articles {
 ul.articles li {
   padding-bottom: 6px;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--fg);
+  padding: 3px;
+}
