@@ -83,3 +83,4 @@ Not everything may be listed here, because I'm too lazy to add it, don't remembe
 
 [^3]: This doesn't necessarily mean that I am currently _playing_ them, just a list of games you could play for thousand hours, a thousand times (I mean you can do this with every game but you know what I _mean_).
 [^4]: Except new update.
+</article>
