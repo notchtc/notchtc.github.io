@@ -18,5 +18,5 @@ It's a HP 250 G4 I think.
 - PDF Viewer - Zathura
 
 ## How It Looks
-There are screenshots in my [dotfiles](https://gitlab.com/chtc/dotfiles).
+There are screenshots in my [dotfiles](https://github.com/notchtc/dotfiles).
 </article>
