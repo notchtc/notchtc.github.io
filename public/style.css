@@ -2,15 +2,13 @@
   --bg: #fefefe;
   --fg: #000;
   --link: #0c56b0;
-  --linkv: #639;
 }
 
 @media (prefers-color-scheme: dark) {
   * {
     --bg: #090909;
     --fg: #fff;
-    --link: #0ac;
-    --linkv: #b57fec;
+    --link: #1eabff;
   }
 }
 
@@ -35,17 +33,13 @@ h2,
 h3 {
   line-height: 1.4;
 }
-
-a:link {
+a {
   color: var(--link);
-}
-
-a:visited {
-  color: var(--linkv);
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 footer {
