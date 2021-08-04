@@ -23,63 +23,50 @@ body {
 
 @media print, (max-width: 525px) {
   body {
-    max-width: none;
-    padding: 0 0.475em;
-  }
+        max-width: none;
+        padding: 0 0.475em;
+    }
 }
 
-h1,
-h2,
-h3 {
-  line-height: 1.4;
+h1, h2, h3 {
+    line-height: 1.4;
 }
+
 a {
-  color: var(--link);
-  text-decoration: none;
+    color: var(--link); text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 footer {
-  text-align: center;
-  margin: 0;
-  padding: 2em 0;
-  font-size: 0.95em;
+    text-align: center;
+    font-size: 0.95em;
 }
 
-nav > ul,
-.social > ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+ul {
+    padding: 0;
+    list-style-position: inside;
 }
 
-nav > ul > li,
-.social > ul > li {
-  font-size: 1.155em;
-  padding-right: 5px;
-  display: inline;
+nav ul, .social ul {
+    font-size: 1.16em;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
 }
 
-ul.articles {
-  list-style: none;
-  padding: 0;
+nav ul li, .social ul li {
+    display: inline-block;
 }
 
-ul.articles li {
-  padding-bottom: 6px;
-}
-
-table {
+table, th, td {
   border-collapse: collapse;
-  width: 100%;
+  border: 1px solid var(--fg);
+  padding: 5px;
 }
 
-table,
-th,
-td {
-  border: 1px solid var(--fg);
-  padding: 3px;
+.social p {
+    margin: auto;
 }
