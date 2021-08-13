@@ -50,10 +50,6 @@ ul {
     list-style-position: inside;
 }
 
-nav {
-    border-bottom: 2px solid var(--fg);
-}
-
 nav ul, .social ul {
     font-size: 1.16em;
     margin: 0;
