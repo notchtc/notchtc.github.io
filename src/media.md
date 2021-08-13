@@ -12,10 +12,12 @@ Not everything may be listed here, because I'm too lazy to add it, don't remembe
 | Ginger Snaps              | Plan To Watch |
 | Ginger Snaps 2: Unleashed | Plan To Watch |
 | Black Widow               | Completed     |
+| Devil's Candy, The        | Completed     |
 | Exte                      | Completed     |
 | Idle Hands                | Completed     |
 | Incredibles, The          | Completed     |
 | Incredibles 2, The        | Completed     |
+| Loved Ones, The           | Completed     |
 | Scooby-Doo 2              | Completed     |
 | Sharknado 2[^1]           | Completed     |
 
