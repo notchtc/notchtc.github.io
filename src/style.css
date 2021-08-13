@@ -42,12 +42,16 @@ a:hover {
 
 footer {
     text-align: center;
-    font-size: 0.95em;
+    font-size: 0.9em;
 }
 
 ul {
     padding: 0;
     list-style-position: inside;
+}
+
+nav {
+    border-bottom: 2px solid var(--fg);
 }
 
 nav ul, .social ul {
@@ -69,4 +73,9 @@ table, th, td {
 
 .social p {
     margin: auto;
+}
+
+p.date {
+    margin-top: 0;
+    font-size: 0.9em;
 }

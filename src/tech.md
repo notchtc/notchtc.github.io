@@ -7,15 +7,15 @@ Actually it's a laptop not a cumputer.
 It's a HP 250 G4 I think.
 
 ## Programs And Stuff
-- OS - Void Linux
-- Browser - Firefox
-- Terminal - Alacritty
-- Editor - Doom Emacs
-- Music Player - Ncmpcpp
-- Window Manager - Awesome
-- Shell - Zsh
-- Image Viewer - Sxiv
-- PDF Viewer - Zathura
+- OS - void linux
+- Browser - firefox
+- Terminal - alacritty
+- Editor - nvim
+- Music Player - ncmpcpp
+- Window Manager - awesome
+- Shell - zsh
+- Image Viewer - sxiv
+- PDF Viewer - zathura
 
 ## How It Looks
 There are screenshots in my [dotfiles](https://github.com/notchtc/dotfiles).
