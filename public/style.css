@@ -28,21 +28,21 @@ body {
     }
 }
 
+hr {
+    color: var(--fg);
+}
+
 h1, h2, h3 {
     line-height: 1.4;
 }
 
 a {
-    color: var(--link); text-decoration: none;
+    color: var(--link);
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    font-size: 0.9em;
 }
 
 ul {
@@ -51,13 +51,13 @@ ul {
 }
 
 nav ul, .social ul {
-    font-size: 1.16em;
     margin: 0;
     overflow: hidden;
     list-style-type: none;
 }
 
 nav ul li, .social ul li {
+    padding-right: 5px;
     display: inline-block;
 }
 
@@ -65,10 +65,6 @@ table, th, td {
   border-collapse: collapse;
   border: 1px solid var(--fg);
   padding: 5px;
-}
-
-.social p {
-    margin: auto;
 }
 
 p.date {
