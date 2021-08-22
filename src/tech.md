@@ -12,7 +12,9 @@ It's a HP 250 G4 I think.
 - Terminal - alacritty
 - Editor - nvim
 - Music Player - ncmpcpp
-- Window Manager - awesome
+- Bar - polybar
+- Notification Daemon - dunst
+- Window Manager - berry
 - Shell - zsh
 - Image Viewer - sxiv
 - PDF Viewer - zathura
