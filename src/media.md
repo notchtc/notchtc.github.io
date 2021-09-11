@@ -1,10 +1,10 @@
-# Media
+# media
 
 List of media that I am currently consuming/planning to consume/consumed.
 
 Not everything may be listed here, because I'm too lazy to add it, don't remember it or don't want to add it for some reason.
 
-# Movies
+# movies
 
 | Movie                     | Status        |
 | ------------------------- | ------------- |
@@ -23,7 +23,7 @@ Not everything may be listed here, because I'm too lazy to add it, don't remembe
 
 [^1]: There was nothing interesting playing on TV.
 
-# Shows
+# shows
 
 | Show                  | Episode     | Season | Status        |
 | --------------------- | ----------- | ------ | ------------- |
@@ -35,7 +35,7 @@ Not everything may be listed here, because I'm too lazy to add it, don't remembe
 
 [^2]: I accidentally played the last episode.
 
-# Games
+# games
 
 | Game                                      | Status                 |
 | ----------------------------------------- | ---------------------- |

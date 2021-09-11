@@ -41,11 +41,11 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:focus {
     text-decoration: underline;
 }
 
-ul {
+ul,ol {
     padding: 0;
     list-style-position: inside;
 }
@@ -70,4 +70,17 @@ table, th, td {
 p.date {
     margin-top: 0;
     font-size: 0.9em;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  color: var(--fg);
+  padding: 6px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
 }
