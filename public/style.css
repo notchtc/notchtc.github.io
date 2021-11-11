@@ -1,14 +1,14 @@
 * {
-  --bg: #fefefe;
-  --fg: #000;
-  --link: #0c56b0;
+  --bg: #d2dae2;
+  --fg: #1e272e;
+  --link: #3c40c6;
 }
 
 @media (prefers-color-scheme: dark) {
   * {
-    --bg: #090909;
-    --fg: #fff;
-    --link: #1eabff;
+    --bg: #1e272e;
+    --fg: #d2dae2;
+    --link: #4bcffa;
   }
 }
 
