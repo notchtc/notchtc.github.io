@@ -1,24 +1,24 @@
-# tech
+# Tech
 A list of technology stuff used by me.
 
-# stuff i use
-## the computer
+# Stuff I use
+## The computer
 Actually it's a laptop not a cumputer.
 It's a HP 250 G4 I think.
 
-## programs and stuff
+## Programs and stuff
 - OS - void linux
 - Browser - firefox
-- Terminal - alacritty
+- Terminal - urxvt
 - Editor - nvim
-- Music Player - ncmpcpp
+- Music Player - rhythmbox
 - Bar - polybar
 - Notification Daemon - dunst
-- Window Manager - berry
+- Window Manager - cwm
 - Shell - zsh
 - Image Viewer - sxiv
 - PDF Viewer - zathura
 
-## how it looks
+## How it looks
 There are screenshots in my [dotfiles](https://github.com/notchtc/dotfiles).
 </article>

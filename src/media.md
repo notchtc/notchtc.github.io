@@ -1,10 +1,12 @@
-# media
+# Media
 
 List of media that I am currently consuming/planning to consume/consumed.
 
 Not everything may be listed here, because I'm too lazy to add it, don't remember it or don't want to add it for some reason.
 
-# movies
+Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/).
+
+# Movies
 
 | Movie                     | Status        |
 | ------------------------- | ------------- |
@@ -23,23 +25,19 @@ Not everything may be listed here, because I'm too lazy to add it, don't remembe
 
 [^1]: There was nothing interesting playing on TV.
 
-# shows
+# Shows
 
 | Show                  | Episode     | Season | Status        |
 | --------------------- | ----------- | ------ | ------------- |
-| Aggretsuko            | 5/10,10[^2] | 3      | Watching      |
 | Mr. Robot             |             |        | Plan To Watch |
-| Aggretsuko            |             | 2/3    | Completed     |
 | Invincible            |             | 1/1    | Completed     |
 | Love Death and Robots |             | 2/2    | Completed     |
 
-[^2]: I accidentally played the last episode.
-
-# games
+# Games
 
 | Game                                      | Status                 |
 | ----------------------------------------- | ---------------------- |
-| Minecraft                                 | Infinitely Playing[^3] |
+| Minecraft                                 | Infinitely Playing[^2] |
 | OpenTTD                                   | Infinitely Playing     |
 | Borderlands: The Pre-Sequel               | On Hold                |
 | Celeste                                   | On Hold                |
@@ -71,7 +69,7 @@ Not everything may be listed here, because I'm too lazy to add it, don't remembe
 | Beyond Good And Evil                      | Completed              |
 | Borderlands 2                             | Completed              |
 | Hacknet                                   | Completed              |
-| Helltaker[^4]                             | Completed              |
+| Helltaker[^3]                             | Completed              |
 | James Bond 007: Blood Stone               | Completed              |
 | LEGO® Movie - Videogame, The              | Completed              |
 | Metro: Last Light Redux                   | Completed              |
@@ -83,6 +81,6 @@ Not everything may be listed here, because I'm too lazy to add it, don't remembe
 | Walking Dead, The                         | Completed              |
 | Watch Dogs                                | Completed              |
 
-[^3]: This doesn't necessarily mean that I am currently _playing_ them, just a list of games you could play for thousand hours, a thousand times (I mean you can do this with every game but you know what I _mean_).
-[^4]: Except new update.
+[^2]: This doesn't necessarily mean that I am currently _playing_ them, just a list of games you could play for thousand hours, a thousand times (I mean you can do this with every game but you know what I _mean_).
+[^3]: Except new update.
 </article>

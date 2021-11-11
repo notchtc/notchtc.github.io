@@ -15,10 +15,10 @@
 body {
   background-color: var(--bg);
   color: var(--fg);
-  max-width: 69%;
+  max-width: 70%;
   margin: 1em auto;
   padding: 0 0.625em;
-  font: 1.15em/1.8 sans-serif;
+  font: 1.25em/1.8 sans-serif;
 }
 
 @media print, (max-width: 525px) {
