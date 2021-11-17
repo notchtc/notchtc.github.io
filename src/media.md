@@ -76,7 +76,9 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/).
 | Mortal Kombat (2009)                      | Completed              |
 | Ninja Gaiden Black                        | Completed              |
 | Outlast                                   | Completed              |
+| Postal                                    | Completed              |
 | Shadow Warrior 2                          | Completed              |
+| SteamWorld Dig 2                          | Completed              |
 | Tomb Raider (2013)                        | Completed              |
 | Walking Dead, The                         | Completed              |
 | Watch Dogs                                | Completed              |
