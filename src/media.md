@@ -64,6 +64,8 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/).
 | Portal                                    | Plan To Play           |
 | Portal 2                                  | Plan To Play           |
 | Postal 2                                  | Plan To Play           |
+| Shin Megami Tensei III: Nocturne          | Plan To Play           |
+| Shin Megami Tensei V                      | Plan To Play           |
 | ULTRAKILL                                 | Plan To Play           |
 | White Day: A Labyrinth Named School       | Plan To Play           |
 | Beyond Good And Evil                      | Completed              |
