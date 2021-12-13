@@ -1,16 +1,16 @@
+* {
+    --fg: #1e272e;
+    --bg: #d2dae2;
+    --gray: #808e9b;
+    --link: #f53b57;
+}
+
 @media (prefers-color-scheme: dark){
  * {
     --fg: #d2dae2;
     --bg: #1e272e;
     --gray: #485460;
     --link: #ef5777;
-}
-
-* {
-    --fg: #1e272e;
-    --bg: #d2dae2;
-    --gray: #808e9b;
-    --link: #f53b57;
 }
 
 @media print{
