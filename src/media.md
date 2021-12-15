@@ -3,7 +3,7 @@ List of media that I am currently consuming/planning to consume/consumed.
 
 Not everything may be listed here, because I'm too lazy to add it, don't remember it or don't want to add it for some reason.
 
-Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/).
+Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) & music will be on [my Last.fm account](https://anilist.co/user/chujtas).
 
 # Movies
 | Movie                     | Status        |
