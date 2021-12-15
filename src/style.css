@@ -6,11 +6,12 @@
 }
 
 @media (prefers-color-scheme: dark){
- * {
-    --fg: #d2dae2;
-    --bg: #1e272e;
-    --gray: #485460;
-    --link: #ef5777;
+    * {
+        --fg: #d2dae2;
+        --bg: #1e272e;
+        --gray: #485460;
+        --link: #ef5777;
+    }
 }
 
 @media print{

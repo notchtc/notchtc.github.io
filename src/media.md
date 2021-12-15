@@ -1,5 +1,4 @@
 # Media
-
 List of media that I am currently consuming/planning to consume/consumed.
 
 Not everything may be listed here, because I'm too lazy to add it, don't remember it or don't want to add it for some reason.
@@ -7,7 +6,6 @@ Not everything may be listed here, because I'm too lazy to add it, don't remembe
 Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/).
 
 # Movies
-
 | Movie                     | Status        |
 | ------------------------- | ------------- |
 | Machine Girl              | Plan To Watch |
@@ -26,7 +24,6 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/).
 [^1]: There was nothing interesting playing on TV.
 
 # Shows
-
 | Show                  | Episode     | Season | Status        |
 | --------------------- | ----------- | ------ | ------------- |
 | Mr. Robot             |             |        | Plan To Watch |
@@ -34,7 +31,6 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/).
 | Love Death and Robots |             | 2/2    | Completed     |
 
 # Games
-
 | Game                                      | Status                 |
 | ----------------------------------------- | ---------------------- |
 | Minecraft                                 | Infinitely Playing[^2] |
