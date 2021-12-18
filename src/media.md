@@ -12,6 +12,8 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) 
 | Ginger Snaps              | Plan To Watch |
 | Ginger Snaps 2: Unleashed | Plan To Watch |
 | Black Widow               | Completed     |
+| Crank                     | Completed     |
+| Crank High Voltage        | Completed     |
 | Devil's Candy, The        | Completed     |
 | Exte                      | Completed     |
 | Idle Hands                | Completed     |
