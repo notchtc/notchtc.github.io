@@ -1,12 +1,12 @@
 # Tech
 A list of technology stuff used by me.
 
-# Stuff I use
-## The computer
+## Stuff I use
+### The computer
 Actually it's a laptop not a cumputer.
 It's a HP 250 G4 I think.
 
-## Programs and stuff
+### Programs and stuff
 - OS - Fedora Workstation
 - DE - Gnome
 - Browser - Firefox
@@ -17,4 +17,3 @@ It's a HP 250 G4 I think.
 - Shell - Zsh
 - Image Viewer - Sxiv
 - PDF Viewer - Zathura
-</article>

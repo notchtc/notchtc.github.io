@@ -5,7 +5,7 @@ The Machine Girl A2B2 Night Of Fire set, split by me (in [opus](https://opus-cod
 
 [GLOBAL FANDEMIC DOWNLOAD](files/global_fandemic.zip)
 
-# Details
+## Details
 Split with [FFmpeg](https://ffmpeg.org/), [Python](https://www.python.org/) and [stolen code from Stack Exchange](https://unix.stackexchange.com/questions/280767/how-do-i-split-an-audio-file-into-multiple/400032#400032).
 
 ## Making of the cover art
@@ -14,4 +14,3 @@ Split with [FFmpeg](https://ffmpeg.org/), [Python](https://www.python.org/) and 
 3. Removed the rest of the background in [GIMP](https://www.gimp.org/).
 4. Cropped the frame without the text.
 5. Added the text onto the frames.
-</article>
