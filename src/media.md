@@ -8,7 +8,7 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) 
 # Movies
 | Movie                     | Status        |
 | ------------------------- | ------------- |
-| Machine Girl              | Plan To Watch |
+
 | Ginger Snaps              | Plan To Watch |
 | Ginger Snaps 2: Unleashed | Plan To Watch |
 | Black Widow               | Completed     |
@@ -20,6 +20,7 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) 
 | Incredibles, The          | Completed     |
 | Incredibles 2, The        | Completed     |
 | Loved Ones, The           | Completed     |
+| Machine Girl              | Completed     |
 | Scooby-Doo 2              | Completed     |
 | Sharknado 2[^1]           | Completed     |
 
