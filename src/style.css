@@ -5,7 +5,7 @@
     --link: #2b22c3;
 }
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
     * {
         --fg: #d2dae2;
         --bg: #1e272e;
@@ -14,7 +14,7 @@
     }
 }
 
-@media print{
+@media print {
     body{
         max-width: none;
     }
@@ -64,7 +64,7 @@
     }
 }
 
-body{
+body {
     color: var(--fg);
     background-color: var(--bg);
     margin: 1em auto;
@@ -80,6 +80,7 @@ h1,h2,h3 {
 a {
     color: var(--link);
     text-decoration: none;
+    font-size: 1.252em;
 }
 
 a:hover {
