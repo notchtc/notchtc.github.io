@@ -2,6 +2,7 @@
 title = "Home"
 description = "This is my site where I write something."
 date = 2021-12-21T08:21:31+01:00
+tags = ["chtc","notchtc","cha0t1c","bawialnia","sexiarz","poland"]
 +++
 
 I am chtc and I'm a dumbass from Poland.
@@ -21,5 +22,6 @@ Go to other pages for more interesting stuff.
 - [Bandcamp](https://ligmamalegrindset.bandcamp.com)
 - [Last.fm](https://last.fm/user/chujtas)
 - [AniList](https://anilist.co/user/chtc)
+- [Sexiarz](https://sexiarz.pl)
 
 [<--](https://hotlinewebring.club/chtc/previous) [Webring's site](https://hotlinewebring.club) [-->](https://hotlinewebring.club/chtc/next)
