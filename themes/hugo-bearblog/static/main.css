@@ -20,7 +20,7 @@ body {
     margin: 1em auto;
     max-width: 45.5em;
     padding: 0 .65em;
-    font: 1.252em/1.4 sans-serif;
+    font: 1.255em/1.4 sans-serif;
 }
 
 h1,h2,h3 {
@@ -76,10 +76,6 @@ ol {
 
 textarea {
     width: 100%;
-}
-
-input {
-    font-size: 16px;
 }
 
 img {
