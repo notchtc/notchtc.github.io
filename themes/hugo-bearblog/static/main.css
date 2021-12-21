@@ -178,3 +178,10 @@ ul.blog-posts li span {
         page-break-after: avoid;
     }
 }
+
+@media mobile {
+    a {
+        padding: 6px;
+        margin: 8px;
+    }
+}
