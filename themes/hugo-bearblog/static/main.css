@@ -1,0 +1,184 @@
+* {
+    --fg: #1e272e;
+    --bg: #d2dae2;
+    --gray: #808e9b;
+    --link: #2b22c3;
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        --fg: #d2dae2;
+        --bg: #1e272e;
+        --gray: #485460;
+        --link: #ef5777;
+    }
+}
+
+body {
+    color: var(--fg);
+    background-color: var(--bg);
+    margin: 1em auto;
+    max-width: 45.5em;
+    padding: 0 .65em;
+    font: 1.251em/1.4 sans-serif;
+}
+
+h1,h2,h3 {
+    line-height: 1.2;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-radius: 6px;
+    border: none;
+    border-top: 3px solid var(--gray);
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid var(--fg);
+    padding: 5px;
+}
+
+p.date {
+    margin-top: 0;
+    font-size: 0.9em;
+}
+
+ul,
+ol {
+    padding: 0;
+    list-style-position: inside;
+}
+
+.title {
+    text-decoration: none;
+    border: 0;
+}
+
+.title span {
+    font-weight: 400;
+}
+
+textarea {
+    width: 100%;
+}
+
+input {
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+    padding: 2px 5px;
+    background-color: var(--gray);
+    border-radius: 5px;
+}
+
+pre code {
+    color: var(--fg);
+    display: block;
+    padding: 0.6em;
+    white-space: pre-wrap;
+}
+
+div.highlight code {
+    background-color: unset;
+    color: initial;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+}
+
+/* blog posts */
+ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+}
+
+ul.blog-posts li {
+    display: flex;
+}
+
+ul.blog-posts li span {
+    flex: 0 0 130px;
+}
+
+.content p,
+.content a,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    margin: inherit;
+}
+
+@media print {
+    body{
+        max-width: none;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    hr {
+        height: 1px;
+        border: 0;
+        border-bottom: 1px solid black;
+    }
+
+    a[href]:after {
+        content: " ("attr(href) ")";
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page :left {
+        margin: 15mm 20mm 15mm 10mm;
+    }
+
+    @page :right {
+        margin: 15mm 10mm 15mm 20mm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

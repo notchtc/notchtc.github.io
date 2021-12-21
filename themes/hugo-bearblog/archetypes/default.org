@@ -1,0 +1,17 @@
+#+TITLE: {{ replace .Name "-" " " | title }}
+#+DATE: {{ .Date }}
+
+# description is optional
+#+DESCRIPTION: An optional description for SEO. If not provided, an automatically created summary will be used.
+
+# tags are optional
+# #+TAGS[]: {{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s" $term }} {{ end }}{{ end }}
+
+# Set menu to "main" to add this page to
+# the main menu on top of the page
+#+MENU = "main"
+
+Preamble
+
+* Table Of Contents
+#+TOC: headlines 3

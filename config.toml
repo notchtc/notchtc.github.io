@@ -1,0 +1,19 @@
+baseURL = "https://chtc.gitlab.io/"
+
+theme = "hugo-bearblog"
+
+title = "chtc"
+author = "chtc"
+copyright = "© 2021, chtc"
+languageCode = "en-us"
+
+enableRobotsTXT = true
+
+[params]
+    title = "chtc"
+    hideMadeWithLine = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
