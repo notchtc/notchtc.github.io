@@ -19,6 +19,7 @@ Go to other pages for more interesting stuff.
 - [YouTube](https://www.youtube.com/channel/UC-5mLU2LQZQAjWQTCloslBw)
 - [Twitter](https://twitter.com/notchtc)
 - [Discord](https://discord.com/users/703166258748588073)
+- [Telegram](https://t.me/seksiarz)
 - [Bandcamp](https://ligmamalegrindset.bandcamp.com)
 - [Last.fm](https://last.fm/user/chujtas)
 - [AniList](https://anilist.co/user/chtc)
