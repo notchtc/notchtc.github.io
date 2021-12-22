@@ -6,7 +6,7 @@ variables:
 pages:
   script:
   - hugo
-  - gzip -k -9 -r public
+  - gzip -k -9 $(find public -type f)
   artifacts:
     paths:
     - public
