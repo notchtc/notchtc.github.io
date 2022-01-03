@@ -17,7 +17,7 @@ It's a HP 250 G4 I think.
 - OS - Fedora Workstation
 - DE - Gnome
 - Browser - Firefox
-- Terminal - Gnome Terminal
+- Terminal - Foot
 - Editor - Neovim
 - Music Player - Rhythmbox
 - Media Player - Mpv
