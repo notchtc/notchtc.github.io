@@ -23,7 +23,7 @@ Go to other pages for more interesting stuff.
 - [Bandcamp](https://ligmamalegrindset.bandcamp.com)
 - [Last.fm](https://last.fm/user/chujtas)
 - [AniList](https://anilist.co/user/chtc)
-- [Sexiarz](https://sexiarz.pl)
+- [Kalkulator Stanisław Jelnicki](https://jelnislaw.ml/kalkulator)
 - [PGP Key](/chtc.asc) (AB80 87BF 8782 B459 ECF8  A1E4 D65C E53E 8710 1757)
 
 [<--](https://hotlinewebring.club/chtc/previous) [Webring's site](https://hotlinewebring.club) [-->](https://hotlinewebring.club/chtc/next)
