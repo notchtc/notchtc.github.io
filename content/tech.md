@@ -22,5 +22,5 @@ It's a HP 250 G4 I think.
 - Music Player - Rhythmbox
 - Media Player - Mpv
 - Shell - Zsh
-- Image Viewer - Sxiv
+- Image Viewer - Imv
 - PDF Viewer - Zathura
