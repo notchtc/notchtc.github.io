@@ -22,6 +22,15 @@ Go to other pages for more interesting stuff.
 </div>
 </div>
 
+<div style="overflow: auto;">
+<span id="prev_cover" style="float: left; margin-right: 1rem;"></span>
+<div style="float: left;">
+<p id="played"></p>
+<p id="prev_artist"></p>
+<p id="prev_song"></p>
+</div>
+</div>
+
 ## World Wide Web
 - [Email](mailto:notnotcha0t1c@protonmail.com)
 - [GitHub](https://github.com/notchtc)
@@ -39,23 +48,30 @@ Go to other pages for more interesting stuff.
 
 <script type="text/javascript">
     async function get_lastfm() {
-        const requestURL = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&limit=1&user=chujtas&api_key=c51be531f29d46cd52c65c82aa9eca31&format=json';
+        const requestURL = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&limit=2&user=chujtas&api_key=c51be531f29d46cd52c65c82aa9eca31&format=json';
         const request = new Request(requestURL);
 
         const response = await fetch(request);
         const info = await response.json();
         const track = info.recenttracks.track[0];
+        const track2 = info.recenttracks.track[1];
 
         var text = '';
-        if (track['@attr'].nowplaying === "true") {
+        if (track['@attr'].nowplaying === 'true') {
             text = 'Now playing';
         } else {
             text = 'Last played (' + track.date['#text'] + ')';
-        }
+        };
+
         document.querySelector('#cover').innerHTML = '<img width="174" src="' + track.image[2]['#text'] + '">';
         document.querySelector('#nowplaying').innerHTML = text;
         document.querySelector('#artist').innerHTML = track.artist['#text'];
-        document.querySelector('#song').innerHTML = '<a href=' + track.url + '" target="_blank">' + track.name + '</a>';
+        document.querySelector('#song').innerHTML = '<a href="' + track.url + '" target="_blank">' + track.name + '</a>';
+
+        document.querySelector('#prev_cover').innerHTML = '<img width="174" src="' + track2.image[2]['#text'] + '">';
+        document.querySelector('#played').innerHTML = 'Previously played (' + track2.date['#text'] + ')';
+        document.querySelector('#prev_artist').innerHTML = track2.artist['#text'];
+        document.querySelector('#prev_song').innerHTML = '<a href="' + track2.url + '" target="_blank">' + track2.name + '</a>';
     }
 
     get_lastfm();
