@@ -16,7 +16,7 @@ Go to other pages for more interesting stuff.
 <div style="overflow: auto;">
 <span id="cover" style="float: left; margin-right: 1rem;"></span>
 <div style="float: left;">
-<p id="nowplaying">Connecting to last.fm</p>
+<p id="nowplaying"></p>
 <p id="artist"></p>
 <p id="song"></p>
 </div>
@@ -47,7 +47,7 @@ Go to other pages for more interesting stuff.
         const track = info.recenttracks.track[0];
 
         var text = '';
-        if (Object.values(info).includes('nowplaying')) {
+        if (track['@attr'].nowplaying === "true") {
             text = 'Now playing';
         } else {
             text = 'Last played (' + track.date['#text'] + ')';
