@@ -44,20 +44,18 @@ tags = ["chtc","notchtc","cha0t1c","bawialnia","sexiarz","poland"]
 
 <p><a href="https://hotlinewebring.club/chtc/previous">&lt;--</a> <a href="https://hotlinewebring.club">Webring's site</a> <a href="https://hotlinewebring.club/chtc/next">--&gt;</a></p>
 
-<div style="overflow: auto;">
-    <span id="cover" style="float: left; margin-right: 1rem;"></span>
-    <div style="float: left;">
+<div class="lastfm" id="last1">
+    <span id="cover"></span>
+    <div>
         <p id="nowplaying"></p>
-        <p id="artist"></p>
         <p id="song"></p>
     </div>
 </div>
 
-<div style="overflow: auto;">
-    <span id="prev_cover" style="float: left; margin-right: 1rem;"></span>
-    <div style="float: left;">
+<div class="lastfm" id="last2">
+    <span id="prev_cover"></span>
+    <div>
         <p id="played"></p>
-        <p id="prev_artist"></p>
         <p id="prev_song"></p>
     </div>
 </div>
@@ -74,20 +72,22 @@ tags = ["chtc","notchtc","cha0t1c","bawialnia","sexiarz","poland"]
 
             var nowplaying = '';
             if (track['@attr']) {
-                    nowplaying = 'Now playing';
-                } else if (track.date) {
-                        nowplaying = 'Last played (' + track.date['#text'] + ')';
-                    }
+                nowplaying = 'Now playing';
+            } else if (track.date) {
+                nowplaying = 'Last played';
+            }
 
-            document.querySelector('#cover').innerHTML = '<img width="174" src="' + track.image[2]['#text'] + '">';
-            document.querySelector('#nowplaying').innerHTML = nowplaying;
-            document.querySelector('#artist').innerHTML = track.artist['#text'];
-            document.querySelector('#song').innerHTML = '<a href="' + track.url + '" target="_blank">' + track.name + '</a>';
+            document.getElementById('last1').style.border = '1px solid currentcolor';
+            document.getElementById('last2').style.border = '1px solid currentcolor';
 
-            document.querySelector('#prev_cover').innerHTML = '<img width="174" src="' + track2.image[2]['#text'] + '">';
-            document.querySelector('#played').innerHTML = 'Previously played (' + track2.date['#text'] + ')';
-            document.querySelector('#prev_artist').innerHTML = track2.artist['#text'];
-            document.querySelector('#prev_song').innerHTML = '<a href="' + track2.url + '" target="_blank">' + track2.name + '</a>';
+            document.getElementById('cover').innerHTML = '<img alt="album cover" src="' + track.image[2]['#text'] + '">';
+            document.getElementById('nowplaying').innerHTML = nowplaying;
+            document.getElementById('song').innerHTML = track.artist['#text'] + ' - ' + '<a href="' + track.url + '" target="_blank">' + track.name + '</a>';
+
+            document.getElementById('prev_cover').innerHTML = '<img alt="previous album cover" src="' + track2.image[2]['#text'] + '">';
+            document.getElementById('played').innerHTML = 'Previously played';
+            document.getElementById('prev_song').innerHTML = track2.artist['#text'] + ' - ' + '<a href="' + track2.url + '" target="_blank">' + track2.name + '</a>';
+
         }
 
     get_lastfm();

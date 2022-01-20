@@ -15,7 +15,6 @@ It's a HP 250 G4 I think.
 
 ### programs and stuff
 - OS: Fedora Workstation
-    - h
 - DE: Gnome
 - Browser: Firefox
 - Terminal: Foot
