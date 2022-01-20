@@ -1,5 +1,5 @@
 +++
-title = "Media"
+title = "media"
 description = "List of media that I am currently consuming/planning to consume/consumed."
 date = 2021-12-21T09:21:05+01:00
 menu = "main"
@@ -12,7 +12,7 @@ Not everything may be listed here, because I'm too lazy to add it, don't remembe
 
 Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) & music will be on [my Last.fm account](https://anilist.co/user/chujtas).
 
-## Movies
+## movies
 | Movie                     | Status        |
 | ------------------------- | ------------- |
 | Ginger Snaps              | Plan To Watch |
@@ -32,14 +32,14 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) 
 
 [^1]: There was nothing interesting playing on TV.
 
-## Shows
+## shows
 | Show                  | Episode     | Season | Status        |
 | --------------------- | ----------- | ------ | ------------- |
 | Mr. Robot             |             |        | Plan To Watch |
 | Invincible            |             | 1/1    | Completed     |
 | Love Death and Robots |             | 2/2    | Completed     |
 
-## Games
+## games
 | Game                                      | Status                 |
 | ----------------------------------------- | ---------------------- |
 | Minecraft                                 | Infinitely Playing[^2] |

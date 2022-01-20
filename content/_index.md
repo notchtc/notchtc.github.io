@@ -1,5 +1,5 @@
 +++
-title = "Home"
+title = "home"
 description = "This is my site where I write something."
 date = 2021-12-21T08:21:31+01:00
 tags = ["chtc","notchtc","cha0t1c","bawialnia","sexiarz","poland"]
@@ -31,7 +31,7 @@ Go to other pages for more interesting stuff.
 </div>
 </div>
 
-## World Wide Web
+## world wide web
 - [Email](mailto:notnotcha0t1c@protonmail.com)
 - [GitHub](https://github.com/notchtc)
 - [YouTube](https://www.youtube.com/channel/UC-5mLU2LQZQAjWQTCloslBw)
@@ -42,7 +42,7 @@ Go to other pages for more interesting stuff.
 - [Last.fm](https://last.fm/user/chujtas)
 - [AniList](https://anilist.co/user/chtc)
 - [Kalkulator Stanisław Jelnicki](https://jelnislaw.ml/kalkulator)
-- [PGP Key](/chtc.asc) (AB80 87BF 8782 B459 ECF8  A1E4 D65C E53E 8710 1757)
+- [PGP Key](/files/chtc.asc) (AB80 87BF 8782 B459 ECF8  A1E4 D65C E53E 8710 1757)
 
 [<--](https://hotlinewebring.club/chtc/previous) [Webring's site](https://hotlinewebring.club) [-->](https://hotlinewebring.club/chtc/next)
 
