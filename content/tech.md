@@ -14,13 +14,14 @@ Actually it's a laptop not a cumputer.
 It's a HP 250 G4 I think.
 
 ### programs and stuff
-- OS - Fedora Workstation
-- DE - Gnome
-- Browser - Firefox
-- Terminal - Foot
-- Editor - Neovim
-- Music Player - Rhythmbox
-- Media Player - Mpv
-- Shell - Zsh
-- Image Viewer - Imv
-- PDF Viewer - Zathura
+- OS: Fedora Workstation
+    - h
+- DE: Gnome
+- Browser: Firefox
+- Terminal: Foot
+- Editor: Neovim
+- Music Player: Rhythmbox
+- Media Player: Mpv
+- Shell: Zsh
+- Image Viewer: Imv
+- PDF Viewer: Zathura

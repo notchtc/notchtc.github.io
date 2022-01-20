@@ -44,6 +44,7 @@ h1,h2,h3 {
 
 h1 {
     margin-bottom: 0;
+    border-bottom: 1px solid var(--fg);
 }
 
 a {
@@ -57,15 +58,21 @@ a:hover {
 
 hr {
     border: none;
-    border-top: 2px solid var(--fg);
+    border-bottom: 1px solid var(--fg);
 }
 
 table,
 th,
 td {
     border-collapse: collapse;
-    border: 1px solid var(--fg);
+    border-left: 1px solid var(--fg);
+    border-right: 1px solid var(--fg);
     padding: 5px;
+}
+
+th {
+    background-color: var(--fg);
+    color: var(--bg);
 }
 
 p.date {
@@ -77,23 +84,6 @@ ul,
 ol {
     padding: 0;
     list-style-position: inside;
-}
-
-.title {
-    text-decoration: none;
-    border: 0;
-}
-
-.title span {
-    font-weight: 400;
-}
-
-textarea {
-    width: 100%;
-}
-
-img {
-    max-width: 100%;
 }
 
 code {
@@ -154,16 +144,12 @@ ul.blog-posts li span {
 }
 
 @media print {
-    header {
+    header, nav {
         display: none;
     }
 
     main {
         margin: 1em auto;
-    }
-
-    body{
-        max-width: none;
     }
 
     a,
@@ -222,10 +208,6 @@ ul.blog-posts li span {
         display: inline;
         font-size: 1.5em;
         padding-left: 0;
-    }
-
-    nav {
-        float: right;
     }
 
     main {
