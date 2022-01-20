@@ -1,6 +1,7 @@
 pages:
   image:
     name: klakegg/hugo:alpine
+    entrypoint: [""]
   script:
     - hugo
     - gzip -k -9 $(find public -type f)
