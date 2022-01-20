@@ -56,15 +56,15 @@ Go to other pages for more interesting stuff.
         const track = info.recenttracks.track[0];
         const track2 = info.recenttracks.track[1];
 
-        var text = '';
-        if (track['@attr'].nowplaying === 'true') {
-            text = 'Now playing';
-        } else {
-            text = 'Last played (' + track.date['#text'] + ')';
-        };
+        var nowplaying = '';
+        if (track['@attr']) {
+            nowplaying = 'Now playing';
+        } else if (track.date) {
+            nowplaying = 'Last played (' + track.date['#text'] + ')';
+        }
 
         document.querySelector('#cover').innerHTML = '<img width="174" src="' + track.image[2]['#text'] + '">';
-        document.querySelector('#nowplaying').innerHTML = text;
+        document.querySelector('#nowplaying').innerHTML = nowplaying;
         document.querySelector('#artist').innerHTML = track.artist['#text'];
         document.querySelector('#song').innerHTML = '<a href="' + track.url + '" target="_blank">' + track.name + '</a>';
 
