@@ -1,12 +1,12 @@
 pages:
   image:
-    name: klakegg/hugo:latest
-    entrypoint: ['']
+    name: klakegg/hugo:alpine
   script:
-    - hugo --gc --minify
+    - hugo
     - gzip -k -9 $(find public -type f)
   artifacts:
     paths:
       - public
   only:
-    - master
+    refs:
+      - master
