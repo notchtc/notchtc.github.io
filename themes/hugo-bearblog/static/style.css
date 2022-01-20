@@ -119,6 +119,16 @@ footer {
     text-align: center;
 }
 
+.socials svg {
+    width: 30px;
+    height: 30px;
+}
+
+.socials svg path,
+.socials svg polygon{
+    fill: var(--link);
+}
+
 /* blog posts */
 ul.blog-posts {
     list-style-type: none;
