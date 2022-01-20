@@ -17,10 +17,25 @@
 body {
     color: var(--fg);
     background-color: var(--bg);
-    margin: 1em auto;
-    max-width: 45.5em;
     padding: 0 .65em;
     font: 1.255em/1.4 sans-serif;
+}
+
+header {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    left: 0;
+}
+
+header a {
+    padding-left: .5em;
+    display: block;
+    font-size: 1.5em;
+}
+
+main {
+    margin-left: 100px;
 }
 
 h1,h2,h3 {
@@ -34,7 +49,6 @@ h1 {
 a {
     color: var(--link);
     text-decoration: none;
-    font-size: 1.256em;
 }
 
 a:hover {
@@ -42,9 +56,8 @@ a:hover {
 }
 
 hr {
-    border-radius: 6px;
     border: none;
-    border-top: 3px solid var(--gray);
+    border-top: 2px solid var(--fg);
 }
 
 table,
@@ -131,6 +144,14 @@ ul.blog-posts li span {
 }
 
 @media print {
+    header {
+        display: none;
+    }
+
+    main {
+        margin: 1em auto;
+    }
+
     body{
         max-width: none;
     }
@@ -177,5 +198,27 @@ ul.blog-posts li span {
     h2,
     h3 {
         page-break-after: avoid;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        position: static;
+        display: inline;
+        margin: 1em auto;
+    }
+
+    header a {
+        display: inline;
+        font-size: 1.5em;
+        padding-left: 0;
+    }
+
+    nav {
+        float: right;
+    }
+
+    main {
+        margin: 1em auto;
     }
 }
