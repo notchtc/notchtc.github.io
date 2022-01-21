@@ -58,11 +58,12 @@
 <svg enable-background="new 0 0 245.667 245.667" viewBox="0 0 245.67 245.67" xmlns="http://www.w3.org/2000/svg"><path d="m122.83.0C84.674.0 53.632 31.042 53.632 69.198c0 27.932 16.695 52.866 42.067 63.658v97.949c0 3.126 1.939 5.925 4.867 7.022l19.631 7.362c.849.318 1.741.478 2.633.478s1.785-.159 2.633-.478l19.631-7.362c2.927-1.098 4.867-3.896 4.867-7.022v-10.867c0-1.989-.79-3.897-2.197-5.303l-10.122-10.121 10.122-10.122c1.407-1.406 2.197-3.314 2.197-5.303v-8.413c0-1.989-.79-3.897-2.197-5.303l-10.122-10.122 10.122-10.121c1.407-1.406 2.197-3.314 2.197-5.303v-16.97c25.372-10.792 42.067-35.726 42.067-63.658.0-38.157-31.041-69.199-69.198-69.199zm0 60.997c-9.782.0-17.74-7.958-17.74-17.74s7.958-17.74 17.74-17.74 17.74 7.958 17.74 17.74-7.958 17.74-17.74 17.74z"/></svg></a>
 </div>
 <p><a href=https://hotlinewebring.club/chtc/previous>&lt;--</a> <a href=https://hotlinewebring.club>Webring's site</a> <a href=https://hotlinewebring.club/chtc/next>--></a></p>
-<div class=lastfm id=lastfm1>
+<p><a id=fmbutton onclick=lastfm()>Show played songs</a></p>
+<div class=lastfm id=fm1>
 </div>
-<div class=lastfm id=lastfm2>
+<div class=lastfm id=fm2>
 </div>
-<script type=text/javascript>const url='https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&limit=2&user=chujtas&api_key=c51be531f29d46cd52c65c82aa9eca31&format=json';fetch(url).then(function(a){return a.json()}).then(function(a){const b=a.recenttracks.track[0],c=a.recenttracks.track[1];document.getElementById('lastfm1').innerHTML='<span>Last played</span><a href="'+b.url+'" target="_blank">'+'<img alt="album cover" src="'+b.image[2]['#text']+'"></a>',document.getElementById('lastfm2').innerHTML='<span>Previously played</span><a href="'+c.url+'" target="_blank">'+'<img alt="album cover" src="'+c.image[2]['#text']+'"></a>'})</script>
+<script type=text/javascript>function lastfm(){document.getElementById('fmbutton').style.display='none';const a='https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&limit=2&user=chujtas&api_key=c51be531f29d46cd52c65c82aa9eca31&format=json';fetch(a).then(function(a){return a.json()}).then(function(a){const b=a.recenttracks.track[0],c=a.recenttracks.track[1];document.getElementById('fm1').innerHTML='<span>Last played</span><a href="'+b.url+'" target="_blank">'+'<img alt="album cover" src="'+b.image[2]['#text']+'"></a>',document.getElementById('fm2').innerHTML='<span>Previously played</span><a href="'+c.url+'" target="_blank">'+'<img alt="album cover" src="'+c.image[2]['#text']+'"></a>'})}</script>
 </main>
 </body>
 </html>
