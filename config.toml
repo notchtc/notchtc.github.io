@@ -1,13 +1,15 @@
-baseURL = "https://chtc.gitlab.io/"
+baseURL = "https://chtc.github.io/"
 
 theme = "hugo-bearblog"
 
 title = "chtc"
 author = "chtc"
-copyright = "© 2021, chtc"
+copyright = "© 2021-2022, chtc"
 languageCode = "en-us"
 
 enableRobotsTXT = true
+
+publishDir = "docs"
 
 [params]
     title = "chtc"
