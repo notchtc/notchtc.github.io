@@ -59,14 +59,7 @@ tags = ["chtc","notchtc","cha0t1c","bawialnia","sexiarz","poland"]
         const track = json.recenttracks.track[0];
         const track2 = json.recenttracks.track[1];
 
-        var nowplaying = '';
-        if (track['@attr']) {
-            nowplaying = 'Now playing';
-        } else if (track.date) {
-            nowplaying = 'Last played';
-        }
-
-        document.getElementById('lastfm1').innerHTML = '<span>' + nowplaying + '</span>' + '<a href="' + track.url + '" target="_blank">' + '<img alt="album cover" src="' + track.image[2]['#text'] + '"></a>';
+        document.getElementById('lastfm1').innerHTML = '<span>Last played</span>' + '<a href="' + track.url + '" target="_blank">' + '<img alt="album cover" src="' + track.image[2]['#text'] + '"></a>';
 
         document.getElementById('lastfm2').innerHTML = '<span>Previously played</span>' + '<a href="' + track2.url + '" target="_blank">' + '<img alt="album cover" src="' + track2.image[2]['#text'] + '"></a>';
     })

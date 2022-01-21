@@ -7,13 +7,9 @@ author = "chtc"
 copyright = "© 2021-2022 chtc"
 languageCode = "en-us"
 
+enableGitInfo = true
+
 enableRobotsTXT = true
 
 [params]
     title = "chtc"
-    hideMadeWithLine = true
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true

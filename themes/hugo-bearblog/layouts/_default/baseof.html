@@ -16,11 +16,6 @@
         {{ end -}}
 
         <link rel="stylesheet" type="text/css" href="/style.css" media="all"/>
-
-        <!-- A partial to be overwritten by the user.
-            Simply place a custom_head.html into
-            your local /layouts/partials-directory -->
-            {{- partial "custom_head.html" . -}}
     </head>
     <body>
         <header>
@@ -30,13 +25,5 @@
             <h1>{{ .Title }}</h1>
             {{- block "main" . }}{{- end }}
         </main>
-        <footer>
-            {{- partial "footer.html" . -}}
-        </footer>
-
-        <!-- A partial to be overwritten by the user.
-            Simply place a custom_body.html into
-            your local /layouts/partials-directory -->
-            {{- partial "custom_body.html" . -}}
     </body>
 </html>
