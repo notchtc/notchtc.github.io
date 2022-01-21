@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on chtc</title>
+    <link>https://chtc.github.io/tags/linux/</link>
+    <description>Recent content in linux on chtc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2021-2022 chtc</copyright>
+    <lastBuildDate>Tue, 21 Dec 2021 09:22:17 +0100</lastBuildDate><atom:link href="https://chtc.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tech</title>
+      <link>https://chtc.github.io/tech/</link>
+      <pubDate>Tue, 21 Dec 2021 09:22:17 +0100</pubDate>
+      
+      <guid>https://chtc.github.io/tech/</guid>
+      <description>A list of technology stuff used by me.
+stuff I use computer Actually it&amp;rsquo;s a laptop not a cumputer. It&amp;rsquo;s a HP 250 G4 I think.
+programs and stuff  OS: Fedora Workstation DE: Gnome Browser: Firefox Terminal: Foot Editor: Neovim Music Player: Rhythmbox Media Player: Mpv Shell: Zsh Image Viewer: Imv PDF Viewer: Zathura  </description>
+    </item>
+    
+  </channel>
+</rss>
