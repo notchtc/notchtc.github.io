@@ -120,24 +120,20 @@ footer {
 }
 
 .lastfm {
-    display: flex;
-    overflow: clip;
+    width: 174px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    text-align: justify;
+    float: left;
+}
+
+.lastfm img {
+    display: block;
+    width: 174px;
+    height: 174px;
+    margin: 0 auto;
     border-radius: 6px;
-    height: 130px;
-    margin: 6px;
-    float: left;
-}
-
-.lastfm span img {
-    float: left;
-    width: 130px;
-    height: 130px;
-}
-
-.lastfm div {
-    float: left;
-    height: 130px;
-    margin: 6px;
+    border: 1px solid var(--gray);
 }
 
 /* blog posts */

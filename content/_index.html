@@ -44,50 +44,30 @@ tags = ["chtc","notchtc","cha0t1c","bawialnia","sexiarz","poland"]
 
 <p><a href="https://hotlinewebring.club/chtc/previous">&lt;--</a> <a href="https://hotlinewebring.club">Webring's site</a> <a href="https://hotlinewebring.club/chtc/next">--&gt;</a></p>
 
-<div class="lastfm" id="last1">
-    <span id="cover"></span>
-    <div>
-        <p id="nowplaying"></p>
-        <p id="song"></p>
-    </div>
+<div class="lastfm" id="lastfm1">
 </div>
 
-<div class="lastfm" id="last2">
-    <span id="prev_cover"></span>
-    <div>
-        <p id="played"></p>
-        <p id="prev_song"></p>
-    </div>
+<div class="lastfm" id="lastfm2">
 </div>
 
 <script type="text/javascript">
-    async function get_lastfm() {
-            const requestURL = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&limit=2&user=chujtas&api_key=c51be531f29d46cd52c65c82aa9eca31&format=json';
-            const request = new Request(requestURL);
+    const url = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&limit=2&user=chujtas&api_key=c51be531f29d46cd52c65c82aa9eca31&format=json';
 
-            const response = await fetch(request);
-            const info = await response.json();
-            const track = info.recenttracks.track[0];
-            const track2 = info.recenttracks.track[1];
+    fetch(url)
+    .then(function (response) {return response.json()})
+    .then(function (json) {
+        const track = json.recenttracks.track[0];
+        const track2 = json.recenttracks.track[1];
 
-            var nowplaying = '';
-            if (track['@attr']) {
-                nowplaying = 'Now playing';
-            } else if (track.date) {
-                nowplaying = 'Last played';
-            }
+        var nowplaying = '';
+        if (track['@attr']) {
+            nowplaying = 'Now playing';
+        } else if (track.date) {
+            nowplaying = 'Last played';
+        }
 
-            document.getElementById('last1').style.border = '1px solid currentcolor';
-            document.getElementById('last2').style.border = '1px solid currentcolor';
+        document.getElementById('lastfm1').innerHTML = '<span>' + nowplaying + '</span>' + '<a href="' + track.url + '" target="_blank">' + '<img alt="album cover" src="' + track.image[2]['#text'] + '"></a>';
 
-            document.getElementById('cover').innerHTML = '<img alt="album cover" src="' + track.image[2]['#text'] + '">';
-            document.getElementById('nowplaying').innerHTML = nowplaying;
-            document.getElementById('song').innerHTML = track.artist['#text'] + ' - ' + '<a href="' + track.url + '" target="_blank">' + track.name + '</a>';
-
-            document.getElementById('prev_cover').innerHTML = '<img alt="previous album cover" src="' + track2.image[2]['#text'] + '">';
-            document.getElementById('played').innerHTML = 'Previously played';
-            document.getElementById('prev_song').innerHTML = track2.artist['#text'] + ' - ' + '<a href="' + track2.url + '" target="_blank">' + track2.name + '</a>';
-    };
-
-    get_lastfm();
+        document.getElementById('lastfm2').innerHTML = '<span>Previously played</span>' + '<a href="' + track2.url + '" target="_blank">' + '<img alt="album cover" src="' + track2.image[2]['#text'] + '"></a>';
+    })
 </script>
