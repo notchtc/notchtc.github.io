@@ -9,8 +9,6 @@ languageCode = "en-us"
 
 enableRobotsTXT = true
 
-publishDir = "docs"
-
 [params]
     title = "chtc"
     hideMadeWithLine = true
