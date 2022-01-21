@@ -12,10 +12,16 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
       - name: Hugo
         uses: klakegg/actions-hugo@1.0.0
         with:
           command: '--gc --minify'
+          env: 'production'
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
