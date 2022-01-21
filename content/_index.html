@@ -44,23 +44,28 @@ tags = ["chtc","notchtc","cha0t1c","bawialnia","sexiarz","poland"]
 
 <p><a href="https://hotlinewebring.club/chtc/previous">&lt;--</a> <a href="https://hotlinewebring.club">Webring's site</a> <a href="https://hotlinewebring.club/chtc/next">--&gt;</a></p>
 
-<div class="lastfm" id="lastfm1">
+<p><a id="fmbutton" onclick="lastfm()">Show played songs</a></p>
+
+<div class="lastfm" id="fm1">
 </div>
 
-<div class="lastfm" id="lastfm2">
+<div class="lastfm" id="fm2">
 </div>
 
 <script type="text/javascript">
-    const url = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&limit=2&user=chujtas&api_key=c51be531f29d46cd52c65c82aa9eca31&format=json';
+    function lastfm() {
+        document.getElementById('fmbutton').style.display = 'none';
+        const url = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&limit=2&user=chujtas&api_key=c51be531f29d46cd52c65c82aa9eca31&format=json';
 
-    fetch(url)
-    .then(function (response) {return response.json()})
-    .then(function (json) {
-        const track = json.recenttracks.track[0];
-        const track2 = json.recenttracks.track[1];
+        fetch(url)
+        .then(function (response) {return response.json()})
+        .then(function (json) {
+            const track = json.recenttracks.track[0];
+            const track2 = json.recenttracks.track[1];
 
-        document.getElementById('lastfm1').innerHTML = '<span>Last played</span>' + '<a href="' + track.url + '" target="_blank">' + '<img alt="album cover" src="' + track.image[2]['#text'] + '"></a>';
+            document.getElementById('fm1').innerHTML = '<span>Last played</span>' + '<a href="' + track.url + '" target="_blank">' + '<img alt="album cover" src="' + track.image[2]['#text'] + '"></a>';
 
-        document.getElementById('lastfm2').innerHTML = '<span>Previously played</span>' + '<a href="' + track2.url + '" target="_blank">' + '<img alt="album cover" src="' + track2.image[2]['#text'] + '"></a>';
-    })
+            document.getElementById('fm2').innerHTML = '<span>Previously played</span>' + '<a href="' + track2.url + '" target="_blank">' + '<img alt="album cover" src="' + track2.image[2]['#text'] + '"></a>';
+        });
+    };
 </script>
