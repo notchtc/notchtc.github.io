@@ -4,7 +4,7 @@ theme = "hugo-bearblog"
 
 title = "chtc"
 author = "chtc"
-copyright = "© 2021-2022, chtc"
+copyright = "© 2021-2022 chtc"
 languageCode = "en-us"
 
 enableRobotsTXT = true
