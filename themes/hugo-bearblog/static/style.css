@@ -116,29 +116,10 @@ footer {
     fill: var(--link);
 }
 
-.lastfm {
+#cover img, #prev_cover img {
+    border: 1px solid var(--fg);
     border-radius: 6px;
-    display: flex;
-    float: left;
-    height: 137px;
-    margin: 6px;
-    overflow: clip;
-}
-
-.lastfm span img {
-    float: left;
-    height: 137px;
-    width: 137px;
-}
-
-.lastfm div {
-    float: left;
-    height: 137px;
-    padding: 9px;
-}
-
-.lastfm div span {
-    display: block;
+    height: 174px;
 }
 
 ul.blog-posts {
@@ -213,9 +194,6 @@ ul.blog-posts li span {
         display: inline;
         margin: 1em auto;
         position: static;
-    }
-    .lastfm div {
-        display: none;
     }
     header a {
         display: inline;
