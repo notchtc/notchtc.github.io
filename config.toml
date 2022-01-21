@@ -1,4 +1,4 @@
-baseURL = "https://chtc.github.io/"
+baseURL = "https://notchtc.github.io/"
 
 theme = "hugo-bearblog"
 
