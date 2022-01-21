@@ -3,24 +3,24 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      - master
   pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0
 
       - name: Hugo
         uses: klakegg/actions-hugo@1.0.0
         with:
-          command: '--gc --minify'
+          command: '--minify'
           env: 'production'
 
       - name: Deploy
