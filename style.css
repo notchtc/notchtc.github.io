@@ -75,38 +75,10 @@ th {
     color: var(--bg);
 }
 
-p.date {
-    margin-top: 0;
-    font-size: 0.9em;
-}
-
 ul,
 ol {
     padding: 0;
     list-style-position: inside;
-}
-
-code {
-    padding: 2px 5px;
-    background-color: var(--gray);
-    border-radius: 5px;
-}
-
-pre code {
-    color: var(--fg);
-    display: block;
-    padding: 0.6em;
-    white-space: pre-wrap;
-}
-
-div.highlight code {
-    background-color: unset;
-    color: initial;
-}
-
-footer {
-    padding: 25px;
-    text-align: center;
 }
 
 .socials svg {
@@ -147,7 +119,7 @@ ul.blog-posts li {
 }
 
 ul.blog-posts li span {
-    flex: 0 0 130px;
+    flex: 0 0 232px;
 }
 
 .content p,
