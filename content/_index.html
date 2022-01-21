@@ -47,16 +47,18 @@ tags = ["chtc","notchtc","cha0t1c","bawialnia","sexiarz","poland"]
 <div class="lastfm" id="last1">
     <span id="cover"></span>
     <div>
-        <p id="nowplaying"></p>
-        <p id="song"></p>
+        <span id="nowplaying"></span>
+        <span id="artist"></span>
+        <span id="song"></span>
     </div>
 </div>
 
 <div class="lastfm" id="last2">
     <span id="prev_cover"></span>
     <div>
-        <p id="played"></p>
-        <p id="prev_song"></p>
+        <span id="played"></span>
+        <span id="prev_artist"></span>
+        <span id="prev_song"></span>
     </div>
 </div>
 
@@ -80,13 +82,15 @@ tags = ["chtc","notchtc","cha0t1c","bawialnia","sexiarz","poland"]
             document.getElementById('last1').style.border = '1px solid currentcolor';
             document.getElementById('last2').style.border = '1px solid currentcolor';
 
-            document.getElementById('cover').innerHTML = '<img alt="album cover" src="' + track.image[2]['#text'] + '">';
+            document.getElementById('cover').innerHTML = '<a href="' + track.url + '" target="_blank">' + '<img alt="album cover" src="' + track.image[3]['#text'] + '"></a>';
             document.getElementById('nowplaying').innerHTML = nowplaying;
-            document.getElementById('song').innerHTML = track.artist['#text'] + ' - ' + '<a href="' + track.url + '" target="_blank">' + track.name + '</a>';
+            document.getElementById('song').innerHTML = '<a href="' + track.url + '" target="_blank">' + track.name + '</a>';
+            document.getElementById('artist').innerHTML = track.artist['#text']
 
-            document.getElementById('prev_cover').innerHTML = '<img alt="previous album cover" src="' + track2.image[2]['#text'] + '">';
+            document.getElementById('prev_cover').innerHTML = '<a href="' + track2.url + '" target="_blank">' + '<img alt="previous album cover" src="' + track2.image[3]['#text'] + '"></a>';
             document.getElementById('played').innerHTML = 'Previously played';
-            document.getElementById('prev_song').innerHTML = track2.artist['#text'] + ' - ' + '<a href="' + track2.url + '" target="_blank">' + track2.name + '</a>';
+            document.getElementById('prev_song').innerHTML = '<a href="' + track2.url + '" target="_blank">' + track2.name + '</a>';
+            document.getElementById('prev_artist').innerHTML = track2.artist['#text'];
 
         }
 
