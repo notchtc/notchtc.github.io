@@ -1,2 +1,0 @@
-User-Agent: *
-Sitemap: https://notchtc.github.io/sitemap.xml
