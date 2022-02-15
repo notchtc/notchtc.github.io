@@ -10,7 +10,7 @@ It's a HP 250 G4 I think.
 
 ### programs and stuff
 - OS: [void linux](https://voidlinux.org)
-- WM: [dwm](https://github.com/notchtc/dwm)
+- WM: [herbstluftwm](https://herbstluftwm.org)
 - Browser: [firefox](https://www.mozilla.org/en-US/firefox/new/)
 - Terminal: [st](https://github.com/notchtc/st) or [foot](https://codeberg.org/dnkl/foot) when on wayland
 - Editor: [neovim](https://neovim.io)
