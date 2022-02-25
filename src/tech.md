@@ -1,7 +1,9 @@
 # tech
 A list of technology stuff used by me.
 
-Here are [the dotfiles](https://github.com/notchtc/dotfiles).
+Here are [my dotfiles](https://github.com/notchtc/dotfiles).
+
+I also have my own [xbps-src templates](https://github.com/notchtc/custom-void-packages).
 
 ## stuff I use
 ### computer
@@ -12,12 +14,12 @@ It's a HP 250 G4 I think.
 - OS: [void linux](https://voidlinux.org)
 - WM: [herbstluftwm](https://herbstluftwm.org)
 - Browser: [firefox](https://www.mozilla.org/en-US/firefox/new/)
-- Terminal: [st](https://github.com/notchtc/st) or [foot](https://codeberg.org/dnkl/foot) when on wayland
+- Terminal: [st](https://github.com/notchtc/st)
 - Editor: [neovim](https://neovim.io)
 - Music Player: [cmus](https://cmus.github.io/)
 - Media Player: [mpv](https://mpv.io/)
 - Shell: [mksh](http://www.mirbsd.org/mksh.htm)
-- Image Viewer: [imv](https://sr.ht/~exec64/imv/)
+- Image Viewer: [nsxiv](https://github.com/nsxiv/nsxiv)
 - PDF Viewer: [zathura](https://pwmt.org/projects/zathura/)
 
 </main>
