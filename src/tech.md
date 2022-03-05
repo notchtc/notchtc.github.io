@@ -3,7 +3,7 @@ A list of technology stuff used by me.
 
 Here are [my dotfiles](https://github.com/notchtc/dotfiles).
 
-I also have my own [xbps-src templates](https://github.com/notchtc/custom-void-packages).
+I also have my own [xbps-src templates](https://github.com/notchtc/custom-void-packages) and a [custom iso](https://github.com/notchtc/voidlinux-iso-extra).
 
 ## stuff I use
 ### computer
