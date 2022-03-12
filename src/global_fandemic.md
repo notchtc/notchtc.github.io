@@ -1,5 +1,6 @@
 # GLOBAL FANDEMIC (Split Set)
-<p class="date"><time>June 11, 2021</time></p>
+<p class=date><time>June 11, 2021</time></p>
+
 The Machine Girl A2B2 Night Of Fire set, split by me (in [opus](https://opus-codec.org/)).
 
 [GLOBAL FANDEMIC DOWNLOAD](files/global_fandemic.zip)
