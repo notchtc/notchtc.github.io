@@ -1,4 +1,4 @@
-# media
+# Media
 This is a list of stuff that I will be/am consuming or that I consumed.
 
 Not everything may be listed here because I'm too lazy to add it or I don't want to add it for no reason.
