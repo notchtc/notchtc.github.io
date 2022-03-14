@@ -111,6 +111,8 @@ WARNING! Very creative names incoming.
 ## Copypasta
 I don't know where these came from, I don't know who wrote these and I don't know if they are serious.
 
+---
+
 Is Void Linux based? Yes. Void Linux is based.
 No, really. Super based. Omega based.
 
