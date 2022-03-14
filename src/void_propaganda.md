@@ -1,7 +1,7 @@
 # Void Linux propaganda
 
 # WARNING! This is a work in progress
-Check out what [other people said](#Other%20people&#8217;s%20opinions) about Void before/after reading this.
+Before/after reading this check out what [other people said](#Other%20people&#8217;s%20opinions) about Void.
 
 ## Table of Contents
 1. [Introduction](#Introduction)
