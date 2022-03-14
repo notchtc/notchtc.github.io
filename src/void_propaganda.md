@@ -1,6 +1,7 @@
 # Void Linux propaganda
 
 # WARNING! This is a work in progress
+Check out what [other people said](#Other%20people&#8217;s%20opinions) about Void before/after reading this.
 
 ## Table of Contents
 1. [Introduction](#Introduction)
@@ -23,6 +24,7 @@ I recommend using the [Void Handbook](https://docs.voidlinux.org/) for Void rela
 If you want to look at the source code of Void related things then take a look at their [GitHub](https://github.com/void-linux) account.
 
 They also have a [Twitter](https://twitter.com/voidlinux) account which you could follow for news <span style="display: none;">(and a BLM tweet once in a century) </span>or you could just use their [website](https://voidlinux.org/news/) ([rss feed](https://voidlinux.org/atom.xml)).
+
 
 ## The install process
 [Installing Void](https://docs.voidlinux.org/installation/live-images/guide.html) is pretty simple (there are some exceptions that I'm gonna talk about later).
