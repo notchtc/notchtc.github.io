@@ -7,6 +7,7 @@
 1. [The install process](#The%20install%20process)
 1. [xbps-src](#xbps-src)
 1. [xtools](#xtools)
+1. [Creating your own ISO](#Creating%20your%20own%20ISO)
 1. [Neat Void only software](#Neat%20Void%20only%20software)
 1. [Other people's opinions](#Other%20people&#8217;s%20opinions)
     1. [Websites](#Websites)
@@ -53,6 +54,8 @@ Want something in the repos? Well you could ask for someone to create a package 
 
 Or maybe some package is outdated, you can also update it and submit a pull request. Sometimes it will be as easy as just changing the version and checksum but sometimes you will maybe need to change some other stuff in the template. It's amazing that literally everyone can contribute to the Void repos that easily!
 
+You can check out my own [Void packages repo](https://github.com/notchtc/custom-void-packages). I doubt the templates are of the highest quality but I got some nice stuff in there. And also I'm a lazy asshole and don't bother with doing a PR to the repo.
+
 ## xtools
 Maybe you are tired of adding \-\-repository every time you are installing something from xbps-src. Now instead of just making an alias I recommend installing [xtools](https://git.vuxu.org/xtools/about/) and using the xi command.
 
@@ -70,6 +73,15 @@ The xi, xls, xq and xrs will use the hostdir/binpkgs repo if you run them from a
 - xls - Lists files contained in package
 - xq - Queries information about XBPS package
 - xrs - Will search for stuff in the Void repo
+
+## Creating your own ISO
+Now this isn't anything new or special, like archiso (for Arch, obviously) exists but I'm gonna mention it anyway.
+
+You can create custom Void Linux ISOs with [void-mklive](https://github.com/void-linux/void-mklive), you can add packages to it, add files to it, change some stuff like the keymap and locale, maybe you want to create a very minimal ISO and use base-minimal instead of base-system. Probably everything you need is in these scripts. And you can always edit them if you need something more to be done (sadly I don't know how much knowledge you need).
+
+I recommend using the build-x86-images.sh script so the live image works like it should, oh and you can also build Void ISOs for some other DE's like MATE, GNOME and KDE etc if you need that (as of writing Void only has the XFCE ISO). Or you could plop down those packages into your package list in mklive.sh, the choice is yours.
+
+I actually create [my own ISO](https://github.com/notchtc/voidlinux-iso-extra) with GitHub actions, it basically has the packages I use, my dotfiles and some system settings.
 
 ## Neat Void only software
 This is a list of some nice Void only software that could come in handy.
