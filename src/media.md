@@ -5,7 +5,7 @@ Not everything may be listed here because I'm too lazy to add it or I don't want
 
 Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) & music will be on [my Last.fm account](https://anilist.co/user/chujtas).
 
-## movies
+## Movies
 | Movie                     | Status        |
 | ------------------------- | ------------- |
 | Ginger Snaps              | Plan To Watch |
@@ -23,14 +23,14 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) 
 | Scooby-Doo 2              | Completed     |
 | Sharknado 2               | Completed     |
 
-## shows
+## Shows
 | Show                  | Episode     | Season | Status        |
 | --------------------- | ----------- | ------ | ------------- |
 | Mr. Robot             |             |        | Plan To Watch |
 | Invincible            |             | 1/1    | Completed     |
 | Love Death and Robots |             | 2/2    | Completed     |
 
-## games
+## Games
 | Game                                      | Status                            |
 | ----------------------------------------- | --------------------------------- |
 | Borderlands: The Pre-Sequel               | On Hold                           |
