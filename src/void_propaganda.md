@@ -65,9 +65,9 @@ Why? Because xtools has some cool stuff which can help you with xbps-src related
 
 For example:
 
-- xlocate - locates files in all XBPS packages
-- xnew - creates a xbps-src template.
-- xcheckmypkgs - checks if your xbps-src packages are up to date
+- xlocate - Locates files in all XBPS packages
+- xnew - Creates a xbps-src template
+- xcheckmypkgs - Checks if your xbps-src packages are up to date
 
 The xi, xls, xq and xrs will use the hostdir/binpkgs repo if you run them from a void-packages checkout.
 
