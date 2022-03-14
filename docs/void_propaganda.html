@@ -14,23 +14,23 @@
 
 <h1 id="WARNING!%20This%20is%20a%20work%20in%20progress">WARNING! This is a work in progress</h1>
 
-<h2 id="table%20of%20contents">table of contents</h2>
+<h2 id="Table%20of%20Contents">Table of Contents</h2>
 
 <ol>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#the%20install%20process">The install process</a></li>
+<li><a href="#Introduction">Introduction</a></li>
+<li><a href="#The%20install%20process">The install process</a></li>
 <li><a href="#xbps-src">xbps-src</a></li>
 <li><a href="#xtools">xtools</a></li>
-<li><a href="#neat%20void%20only%20software">Neat Void only software</a></li>
-<li><a href="#other%20people&amp;#8217;s%20opinions">Other people&#8217;s opinions</a>
+<li><a href="#Neat%20Void%20only%20software">Neat Void only software</a></li>
+<li><a href="#Other%20people&amp;#8217;s%20opinions">Other people&#8217;s opinions</a>
 
 <ol>
-<li><a href="#websites">Websites</a></li>
-<li><a href="#copypasta">Copypasta</a></li>
+<li><a href="#Websites">Websites</a></li>
+<li><a href="#Copypasta">Copypasta</a></li>
 </ol></li>
 </ol>
 
-<h2 id="introduction">introduction</h2>
+<h2 id="Introduction">Introduction</h2>
 
 <p><a href="https://voidlinux.org">Void Linux</a> is a rolling release Linux distribution focused on stability.</p>
 
@@ -42,7 +42,7 @@
 
 <p>They also have a <a href="https://twitter.com/voidlinux">Twitter</a> account which you could follow for news <span style="display: none;">(and a BLM tweet once in a century) </span>or you could just use their <a href="https://voidlinux.org/news/">website</a> (<a href="https://voidlinux.org/atom.xml">rss feed</a>).</p>
 
-<h2 id="the%20install%20process">the install process</h2>
+<h2 id="The%20install%20process">The install process</h2>
 
 <p><a href="https://docs.voidlinux.org/installation/live-images/guide.html">Installing Void</a> is pretty simple (there are some exceptions that I&#8217;m gonna talk about later).</p>
 
@@ -60,9 +60,7 @@
 
 <p>If something <strong>really</strong> isn&#8217;t in the repos, I suggest you first check if it&#8217;s in the <a href="https://github.com/void-linux/void-packages">Void packages git repository</a> (for example something like Discord).</p>
 
-<p>Or maybe you want to change a compile flag or maybe apply a patch, but program Y depends on program X and you don&#8217;t want to remove the files of the version from the repos everytime.</p>
-
-<p>Well, xbps-src and xbps-pkgdb will help you with that. You want to change a compile flag? Edit the template of the package in srcpkgs. Want to apply a patch? Slap that bad boy into a patches directory inside the package directory. And then you run something <code>xbps-pkgdb -m repolock &#60;package&#62;</code> on that and voila.</p>
+<p>Why? Because it has a thing called xbps-src and some packages that don&#8217;t have binaries in the repos.</p>
 
 <p>I&#8217;m not gonna write a xbps-src tutorial here, all the info you need is in the <a href="https://github.com/void-linux/void-packages">Void packages repo</a> but I&#8217;m gonna tell you one thing, when cloning the repository use:</p>
 
@@ -71,15 +69,36 @@
 
 <p>because when you don&#8217;t, you will be waiting longer and more of your precious space will be taken.</p>
 
+<p>You can also use xbps-src to change a compile flag or to apply a patch without having to remove the files of the version from the repo because some other package depends on the one you are changing. You just need to run <code>xbps-pkgdb -m repolock &#60;package name&#62;</code> so it doesn&#8217;t replace the package on update.</p>
+
+<p>Want something in the repos? Well you could ask for someone to create a package for it <em>or</em> you could create it yourself and submit a pull request to the Void packages repo. (You will also need to pray and hope that it gets accepted)</p>
+
+<p>Or maybe some package is outdated, you can also update it and submit a pull request. Sometimes it will be as easy as just changing the version and checksum but sometimes you will maybe need to change some other stuff in the template. It&#8217;s amazing that literally everyone can contribute to the Void repos that easily!</p>
+
 <h2 id="xtools">xtools</h2>
 
-<p>Maybe you are tired of adding &#8211;repository every time you are installing something from xbps-src. Now instead of just making an alias I recommend installing <a href="https://git.vuxu.org/xtools/about/">xtools</a> and using the xi command.</p>
+<p>Maybe you are tired of adding --repository every time you are installing something from xbps-src. Now instead of just making an alias I recommend installing <a href="https://git.vuxu.org/xtools/about/">xtools</a> and using the xi command.</p>
 
 <p>Why? Because xtools has some cool stuff which can help you with xbps-src related stuff but also other commands that will help you with everyday life.</p>
 
-<p>For example xlocate will locate files in all XBPS packages, xnew will create a xbps-src template for you and the list goes on.</p>
+<p>For example:</p>
 
-<h2 id="neat%20void%20only%20software">neat void only software</h2>
+<ul>
+<li>xlocate - locates files in all XBPS packages</li>
+<li>xnew - creates a xbps-src template.</li>
+<li>xcheckmypkgs - checks if your xbps-src packages are up to date</li>
+</ul>
+
+<p>The xi, xls, xq and xrs will use the hostdir&#47;binpkgs repo if you run them from a void-packages checkout.</p>
+
+<ul>
+<li>xi - Installs packages</li>
+<li>xls - Lists files contained in package</li>
+<li>xq - Queries information about XBPS package</li>
+<li>xrs - Will search for stuff in the Void repo</li>
+</ul>
+
+<h2 id="Neat%20Void%20only%20software">Neat Void only software</h2>
 
 <p>This is a list of some nice Void only software that could come in handy.</p>
 
@@ -96,11 +115,11 @@
 
 <hr/>
 
-<h1 id="other%20people&amp;#8217;s%20opinions">other people&#8217;s opinions</h1>
+<h1 id="Other%20people&amp;#8217;s%20opinions">Other people&#8217;s opinions</h1>
 
 <p>Here are some things in text form that I found about Void Linux.</p>
 
-<h2 id="websites">websites</h2>
+<h2 id="Websites">Websites</h2>
 
 <p>WARNING! Very creative names incoming.</p>
 
@@ -109,7 +128,7 @@
 <li><a href="https://sm-idk.me/why_void/">Why Void?</a> (smn)</li>
 </ul>
 
-<h2 id="copypasta">copypasta</h2>
+<h2 id="Copypasta">Copypasta</h2>
 
 <p>I don&#8217;t know where these came from, I don&#8217;t know who wrote these and I don&#8217;t know if they are serious.</p>
 
