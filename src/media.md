@@ -80,5 +80,3 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) 
 | Watch Dogs                                | Completed                         |
 | Minecraft                                 | You can't really finish this game |
 | OpenTTD                                   | You can't really finish this game |
-
-</main>

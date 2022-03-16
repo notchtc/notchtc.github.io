@@ -14,5 +14,3 @@ Split with [FFmpeg](https://ffmpeg.org/), [Python](https://www.python.org/) and 
 3. Removed the rest of the background in [GIMP](https://www.gimp.org/).
 4. Cropped the frame without the text.
 5. Added the text onto the frames.
-
-</main>

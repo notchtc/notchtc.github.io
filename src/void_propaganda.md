@@ -153,5 +153,3 @@ XBPS is a lot better than Pacman (what I used to use before) and runit is fast a
 Moreover, I can get 99% of the packages I need from xbepis, and also compile them from source if I want to.
 
 I love Void, I hope it lives a long and prosperous life; I'll be there with it throughout.
-
-</main>
