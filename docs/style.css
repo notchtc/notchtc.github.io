@@ -1,7 +1,7 @@
 html { margin: 1em auto; max-width: 50em; }
 body { color: #fff; background-color: #000; font: 1.3rem/1.6em Iosevka Aile, sans-serif; }
 h1 { margin-bottom: 0; }
-p.date { margin-top: 0.5em; font-size: 0.85em; }
+p.date { margin-top: 0.5em; font-size: 0.8em; }
 a { color: #f32; text-decoration: none; }
 a:hover { text-decoration: underline; }
 table, th, td { border-collapse: collapse; border: 1px solid #fff; padding: 0.3em; }
@@ -12,3 +12,4 @@ li ul, li ol { margin-left: 1em; }
 pre { font-family: Iosevka, monospace; overflow-x: auto; padding: 0.3em; }
 code, pre { background-color: #aaa; color: #000; text-transform: none; }
 code { padding: 0.25em; }
+footer { font-size: 0.8em; }
