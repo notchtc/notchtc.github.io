@@ -1,15 +1,14 @@
-html { margin: 1em auto; max-width: 50em; }
-body { color: #fff; background-color: #000; font: 1.3rem/1.6em Iosevka Aile, sans-serif; }
+html { margin: 1em auto; max-width: 51em; }
+body { color: #fff; background-color: #000; font: 1.23rem/1.6em Iosevka Aile, sans-serif; margin: 10px; }
 h1 { margin-bottom: 0; }
 p.date { margin-top: 0.5em; font-size: 0.8em; }
-a { color: #f32; text-decoration: none; }
+a { color: #e21; text-decoration: none; }
 a:hover { text-decoration: underline; }
 table, th, td { border-collapse: collapse; border: 1px solid #fff; padding: 0.3em; }
 ul, ol { padding: 0; list-style-position: inside; }
 ul.articles { list-style: none; }
 li p:last-child { margin: 0; }
 li ul, li ol { margin-left: 1em; }
-pre { font-family: Iosevka, monospace; overflow-x: auto; padding: 0.3em; }
-code, pre { background-color: #aaa; color: #000; text-transform: none; }
-code { padding: 0.25em; }
+pre { font-family: Iosevka, monospace; overflow-x: auto; }
+code, pre { background-color: #ddd; color: #000; border-radius: 3px; padding: 0.27em; }
 footer { font-size: 0.8em; }
