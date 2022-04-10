@@ -17,4 +17,4 @@ Check out also [my friend's website](https://sm-idk.me)!
     </ul>
 </div>
 
-[<--](https://hotlinewebring.club/chtc/previous) [Webring's site](https://hotlinewebring.club) [-->]("https://hotlinewebring.club/chtc/next)
+[<--](https://hotlinewebring.club/chtc/previous) [Webring's site](https://hotlinewebring.club) [-->](https://hotlinewebring.club/chtc/next)
