@@ -8,8 +8,10 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) 
 ## Movies
 | Movie                     | Status        |
 | ------------------------- | ------------- |
+| Equilibrium               | Plan To Watch |
 | Ginger Snaps              | Plan To Watch |
 | Ginger Snaps 2: Unleashed | Plan To Watch |
+| American Psycho           | Completed     |
 | Black Widow               | Completed     |
 | Crank                     | Completed     |
 | Crank High Voltage        | Completed     |
