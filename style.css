@@ -5,15 +5,15 @@ html {
 }
 
 body {
-    color: #cabcb1;
-    background-color: #231e18;
+    color: #fff;
+    background-color: #020202;
     font: 1.2rem/1.6em Iosevka Aile, sans-serif;
     margin: 10px;
 }
 
 /* LINKS */
 a {
-    color: #88a4d3;
+    color: #268bd2;
     text-decoration: none;
 }
 
@@ -26,8 +26,8 @@ pre {
 }
 
 code, pre {
-    background-color: #cabcb1;
-    color: #231e18;
+    background-color: #ddd;
+    color: #000;
     border-radius: 3px;
     padding: 0.27em;
 }
@@ -45,7 +45,7 @@ ul, ol {
 }
 
 hr {
-    color: #b4a490;
+    color: #ddd;
     border: 1px solid;
     border-radius: 3px;
 }
