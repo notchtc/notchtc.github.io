@@ -22,16 +22,7 @@ a {
     text-decoration: none;
 }
 
-/*a:hover,a:focus {
-    color: #000;
-    background-color: #268bd2;
-    border-radius: 3px;
-}*/
-
-a:hover {
-    color: #25d1c2;
-    text-decoration: underline;
-}
+a:hover { text-decoration: underline; }
 
 /* CODE */
 pre {
