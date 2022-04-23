@@ -1,15 +1,20 @@
 /* MAIN */
 html {
-    margin: 1em auto;
+    margin: 0.5em auto;
     max-width: 52em;
 }
 
 body {
     color: #fff;
-    background-color: #020202;
+    background-color: #000;
     font: 1.2rem/1.6em Iosevka Aile, sans-serif;
-    margin: 10px;
+    margin: 0.5em;
 }
+
+/* HEADERS */
+h1,h2,h3 { text-transform: lowercase; }
+
+h1 { margin: 0.5em 0 0 0; }
 
 /* LINKS */
 a {
@@ -53,10 +58,9 @@ hr {
 footer { font-size: 0.8em; }
 
 /* ARTICLES */
-h1 { margin-bottom: 0; }
 
 p.date {
-    margin-top: 0.5em;
+    margin-top: 0.1em;
     font-size: 0.8em;
 }
 
@@ -83,6 +87,7 @@ header {
 
 header p {
     margin: 0;
+    padding-right: 1vw;
     flex: 1; /* pushes nav to the right */
     white-space: nowrap;
 }
