@@ -1,14 +1,11 @@
 /* MAIN */
-html {
-    margin: 0.5em auto;
-    max-width: 52em;
-}
-
 body {
     color: #fff;
     background-color: #000;
     font: 1.2rem/1.6em Iosevka Aile, sans-serif;
-    margin: 0.5em;
+    padding: 0.5em;
+    margin: 0.5em auto;
+    max-width: 45em;
 }
 
 /* HEADERS */
@@ -30,18 +27,20 @@ pre {
     overflow-x: auto;
 }
 
+
 code, pre {
     background-color: #ddd;
     color: #000;
-    border-radius: 3px;
-    padding: 0.27em;
+    border-radius: 0.25em;
+    padding: 0.25em;
 }
 
 /* OTHER */
 table, th, td {
     border-collapse: collapse;
-    border: 1px solid #fff;
+    border: 0.1em solid #fff;
     padding: 0.3em;
+    overflow-wrap: break-word;
 }
 
 ul, ol {
@@ -51,8 +50,8 @@ ul, ol {
 
 hr {
     color: #ddd;
-    border: 1px solid;
-    border-radius: 3px;
+    border: 0.1em solid;
+    border-radius: 0.25em;
 }
 
 footer { font-size: 0.8em; }

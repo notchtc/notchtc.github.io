@@ -26,11 +26,10 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) 
 | Sharknado 2               | Completed     |
 
 ## Shows
-| Show                  | Episode     | Season | Status        |
-| --------------------- | ----------- | ------ | ------------- |
-| Mr. Robot             |             |        | Plan To Watch |
-| Invincible            |             | 1/1    | Completed     |
-| Love Death and Robots |             | 2/2    | Completed     |
+| Show                  | S.  | Ep. | Status    |
+| --------------------- | --- | --- | --------- |
+| Invincible            | 1   |     | Completed |
+| Love Death and Robots | 1,2 |     | Completed |
 
 ## Games
 | Game                                      | Status                            |

@@ -64,7 +64,7 @@ Other people have their own git repositories with xbps-src template for various 
 You can also check out my own [Void packages repo](https://github.com/notchtc/custom-void-packages). I doubt the templates are of the highest quality but I got some nice stuff in there. And also I'm a lazy asshole and don't bother with doing a PR to the repo.
 
 ## xtools
-Maybe you are tired of adding \-\-repository every time you are installing something from xbps-src. Now instead of just making an alias I recommend installing [xtools](https://git.vuxu.org/xtools/about/) and using the xi command.
+Maybe you are tired of adding `--repository` every time you are installing something from xbps-src. Now instead of just making an alias I recommend installing [xtools](https://git.vuxu.org/xtools/about/) and using the xi command.
 
 Why? Because xtools has some cool stuff which can help you with xbps-src related stuff but also other commands that will help you with everyday life.
 
