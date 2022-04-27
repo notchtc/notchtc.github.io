@@ -112,10 +112,9 @@ I have already mentioned xtools and xbps-src.
 Here are some things in text form that I found about Void Linux.
 
 ## Websites
-WARNING! Very creative names incoming.
 
 - [Why Void Linux?](http://www.troubleshooters.com/linux/void/whyvoid.htm) (Steve Litt)
-- ~~[Why Void?](https://sm-idk.me/why_void/) (smn)~~ (link dead for now)
+- [Void Linux](https://sm-idk.me/s/void.html) (smn)
 
 ## Copypasta
 I don't know where these came from, I don't know who wrote these and I don't know if they are serious.
