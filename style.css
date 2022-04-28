@@ -49,8 +49,7 @@ ul, ol {
 }
 
 hr {
-    color: #ddd;
-    border: 0.1em solid;
+    border-top: 0.1em solid #ddd;
     border-radius: 0.25em;
 }
 
