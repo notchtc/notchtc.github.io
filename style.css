@@ -80,9 +80,8 @@ header {
     flex-wrap: wrap;
 }
 
-header p {
-    margin: 0;
-    padding-right: 1vw;
+header a#chtc {
+    margin-right: 1vw;
     flex: 1; /* pushes nav to the right */
     white-space: nowrap;
 }
