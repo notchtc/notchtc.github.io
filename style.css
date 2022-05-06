@@ -38,7 +38,7 @@ code, pre {
 /* OTHER */
 table, th, td {
     border-collapse: collapse;
-    border: 0.1em solid #fff;
+    border: 0.01em solid #fff;
     padding: 0.3em;
     overflow-wrap: break-word;
 }
