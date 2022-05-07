@@ -65,6 +65,7 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) 
 | White Day: A Labyrinth Named School       | Plan To Play                      |
 | Beyond Good And Evil                      | Completed                         |
 | Borderlands 2                             | Completed                         |
+| God Hand                                  | Completed                         |
 | Hacknet                                   | Completed                         |
 | Helltaker                                 | Completed                         |
 | James Bond 007: Blood Stone               | Completed                         |
