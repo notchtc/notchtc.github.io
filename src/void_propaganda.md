@@ -1,17 +1,16 @@
 # Void Linux propaganda
-
-Before/after reading this check out what [other people said](#Other%20people&#8217;s%20opinions) about Void.
+Before/after reading this check out what [other people said](#other-peoples-opinions) about Void.
 
 ## Table of Contents
-1. [Introduction](#Introduction)
-1. [The install process](#The%20install%20process)
+1. [Introduction](#introduction)
+1. [The install process](#the-install-process)
 1. [xbps-src](#xbps-src)
 1. [xtools](#xtools)
-1. [Creating your own ISO](#Creating%20your%20own%20ISO)
-1. [Neat Void only software](#Neat%20Void%20only%20software)
-1. [Other people's opinions](#Other%20people&#8217;s%20opinions)
-    1. [Websites](#Websites)
-    1. [Copypasta](#Copypasta)
+1. [Creating your own ISO](#creating-your-own-iso)
+1. [Neat Void only software](#neat-void-only-software)
+1. [Other people's opinions](#other-peoples-opinions)
+    1. [Websites](#websites)
+    1. [Copypasta](#copypasta)
 
 ## Introduction
 [Void Linux](https://voidlinux.org) is a rolling release Linux distribution focused on stability.
