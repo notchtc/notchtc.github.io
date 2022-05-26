@@ -12,7 +12,7 @@ Check out also [my friend's website](https://sm-idk.me)!
     <ul>
         <li><a href="https://github.com/notchtc">github</a></li>
         <li><a href="https://www.youtube.com/channel/UC-5mLU2LQZQAjWQTCloslBw">youtube</a></li>
-        <li><a href="https://t.me/sexiarz_ceo">telegram</a></li>
+        <li><a href="https://t.me/chtc0">telegram</a></li>
         <li><a href="mailto:notnotcha0t1c@protonmail.com">email</a></li>
     </ul>
 </div>

@@ -12,18 +12,13 @@ Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) 
 | Ginger Snaps              | Plan To Watch |
 | Ginger Snaps 2: Unleashed | Plan To Watch |
 | American Psycho           | Completed     |
-| Black Widow               | Completed     |
 | Crank                     | Completed     |
 | Crank High Voltage        | Completed     |
 | Devil's Candy, The        | Completed     |
 | Exte                      | Completed     |
 | Idle Hands                | Completed     |
-| Incredibles, The          | Completed     |
-| Incredibles 2, The        | Completed     |
 | Loved Ones, The           | Completed     |
 | Machine Girl              | Completed     |
-| Scooby-Doo 2              | Completed     |
-| Sharknado 2               | Completed     |
 
 ## Shows
 | Show                  | S.  | Ep. | Status    |
