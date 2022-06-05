@@ -1,11 +1,14 @@
 /* MAIN */
-body {
-    color: #fff;
-    background-color: #000;
+* {
+    box-sizing: border-box;
+}
+
+html {
+    color: #000;
+    background-color: #fff;
     font: 1.2rem/1.6em Iosevka Aile, sans-serif;
-    padding: 0.5em;
-    margin: 0.5em auto;
-    max-width: 45em;
+    margin: 0.5rem auto;
+    max-width: 45rem;
 }
 
 /* HEADERS */
@@ -15,7 +18,7 @@ h1 { margin: 0.5em 0 0 0; }
 
 /* LINKS */
 a {
-    color: #268bd2;
+    color: #0e2bff;
     text-decoration: none;
 }
 
@@ -27,8 +30,7 @@ pre {
     overflow-x: auto;
 }
 
-
-code, pre {
+pre, code {
     background-color: #ddd;
     color: #000;
     border-radius: 0.25em;
@@ -36,32 +38,37 @@ code, pre {
 }
 
 /* OTHER */
-table, th, td {
-    border-collapse: collapse;
-    border: 0.01em solid #fff;
-    padding: 0.3em;
-    overflow-wrap: break-word;
+table {
+    text-align: left;
+    width: 100%;
 }
+td, th {
+    vertical-align: top;
+    padding: 0.5rem 1rem 0.5rem 0;
+    border-bottom: 0.05rem solid #000;
+}
+td:first-child { white-space: nowrap; }
+td:last-child, th:last-child { padding-right: 0; }
+tr:last-child td { border-bottom: 0; }
 
 ul, ol {
     padding: 0;
     list-style-position: inside;
 }
 
-hr { color: #ddd; }
+hr { border: 0.01rem solid #999; }
 
-footer { font-size: 0.8em; }
+footer { font-size: 0.8rem; }
 
 /* ARTICLES */
-
 p.date {
-    margin-top: 0.1em;
-    font-size: 0.8em;
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
 }
 
 ul.articles { list-style: none; }
 li p:last-child { margin: 0; }
-li ul, li ol { margin-left: 1em; }
+li ul, li ol { margin-left: 1rem; }
 
 .social ul {
     margin: 0;
@@ -88,4 +95,19 @@ header a#chtc {
 
 nav a:not(:last-of-type) {
     margin-right: 1vw;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color: #fff;
+        background-color: #000;
+    }
+    a { color: #268bd2; }
+    pre, code {
+        background-color: #222;
+        color: #fff;
+    }
+    td, th {
+        border-bottom-color: #fff;
+    }
 }
