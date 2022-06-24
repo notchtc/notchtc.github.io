@@ -31,6 +31,7 @@ I also sometimes contribute on [MusicBrainz](https://musicbrainz.org/user/chtc).
 ## Games
 | Game                                      | Status                            |
 | ----------------------------------------- | --------------------------------- |
+| Deus Ex                                   | Playing                           |
 | Borderlands: The Pre-Sequel               | On Hold                           |
 | Celeste                                   | On Hold                           |
 | Cry Of Fear                               | On Hold                           |
