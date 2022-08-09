@@ -3,9 +3,7 @@ This is a list of stuff that I will be/am consuming or that I consumed.
 
 Not everything may be listed here because I'm too lazy to add it or I don't want to add it for no reason.
 
-Stuff like anime will be on [my AniList account](https://anilist.co/user/chtc/) & music will be on my [Last.fm](https://anilist.co/user/chujtas) and [ListenBrainz](https://listenbrainz.org/user/chtc/) accounts.
-
-I also sometimes contribute on [MusicBrainz](https://musicbrainz.org/user/chtc).
+Anime is on [my AniList account](https://anilist.co/user/chtc/) and music is on my [Last.fm](https://anilist.co/user/chujtas)/[ListenBrainz](https://listenbrainz.org/user/chtc/) account.
 
 ## Movies
 | Movie                     | Status        |
