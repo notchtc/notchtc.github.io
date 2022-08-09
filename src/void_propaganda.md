@@ -107,7 +107,6 @@ I have already mentioned xtools and xbps-src.
 - [vsv](https://github.com/bahamas10/vsv) - Manage and view runit services
 - [xdeb](https://github.com/toluschr/xdeb) - Convert Debian packages to Void Linux ones ([be careful with this one](https://www.reddit.com/r/voidlinux/comments/tbd7xp/please_stop_using_xdeb_use_flatpak_instead/))
 
----
 
 # Other people's opinions
 Here are some things in text form that I found about Void Linux.
