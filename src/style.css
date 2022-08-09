@@ -1,19 +1,15 @@
 /* MAIN */
-* {
-    box-sizing: border-box;
-}
-
 html {
+    max-width: 45rem;
     color: #000;
     background-color: #fff;
     font: 1.2rem/1.6em Iosevka Aile, sans-serif;
     margin: 0.5rem auto;
-    max-width: 45rem;
 }
 
 /* HEADERS */
 h1,h2,h3 { text-transform: lowercase; }
-h1 { margin: 0.5em 0 0 0; }
+h1 { margin: 0.5rem 0 0 0; }
 
 /* LINKS */
 a {
@@ -58,6 +54,9 @@ hr { border: 0.01rem solid #aaa; }
 footer { font-size: 0.8rem; }
 
 /* ARTICLES */
+article {
+    display: inline;
+}
 p.date {
     margin-top: 0.1rem;
     font-size: 0.8rem;
@@ -67,32 +66,42 @@ ul.articles { list-style: none; }
 li p:last-child { margin: 0; }
 li ul, li ol { margin-left: 1rem; }
 
+.text {
+    float: left;
+    max-width: 25em;
+}
+
 .social {
-    text-align: center;
+    float: right;
+    text-align: right;
 }
 .social ul {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0;
     list-style-type: none;
     overflow: hidden;
 }
-.social ul li {
-    display: inline-block;
-    list-style-type: none;
-}
 
-header {
-    display: flex;
-    flex-wrap: wrap;
-}
-header a#chtc {
-    margin-right: 1vw;
-    flex: 1; /* pushes nav to the right */
-    white-space: nowrap;
-}
+@media (max-width: 725px) {
+    .text {
+        float: none;
+        max-width: 100%;
+    }
 
-nav a:not(:last-of-type) {
-    margin-right: 1vw;
+    .social {
+        float: none;
+        text-align: center;
+    }
+
+    .social ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        overflow: hidden;
+    }
+    .social ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
