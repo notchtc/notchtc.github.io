@@ -1,8 +1,8 @@
 /* MAIN */
 html {
     max-width: 45rem;
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #000;
     font: 1.2rem/1.6em Iosevka Aile, sans-serif;
     margin: 0.5rem auto;
 }
@@ -13,7 +13,7 @@ h1 { margin: 0.5rem 0 0 0; }
 
 /* LINKS */
 a {
-    color: #0e2bff;
+    color: #268bd2;
     text-decoration: none;
 }
 a:hover { text-decoration: underline; }
@@ -25,8 +25,8 @@ pre {
 }
 
 pre, code {
-    background-color: #aaa;
-    color: #000;
+    background-color: #222;
+    color: #fff;
     border-radius: 0.25em;
     padding: 0.25em;
 }
@@ -39,7 +39,7 @@ table {
 td, th {
     vertical-align: top;
     padding: 0.5rem 1rem 0.5rem 0;
-    border-bottom: 0.05rem solid #000;
+    border-bottom: 0.05rem solid #fff;
 }
 td:last-child, th:last-child { padding-right: 0; }
 tr:last-child td { border-bottom: 0; }
@@ -104,17 +104,17 @@ li ul, li ol { margin-left: 1rem; }
     }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     html {
-        color: #fff;
-        background-color: #000;
+        color: #000;
+        background-color: #fff;
     }
-    a { color: #268bd2; }
+    a { color: #0e2bff; }
     pre, code {
-        background-color: #222;
-        color: #fff;
+        background-color: #aaa;
+        color: #000;
     }
     td, th {
-        border-bottom-color: #fff;
+        border-bottom-color: #000;
     }
 }
