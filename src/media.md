@@ -5,6 +5,8 @@ Not everything may be listed here because I'm too lazy to add it or I don't want
 
 Anime is on [my AniList account](https://anilist.co/user/chtc/) and music is on my [Last.fm](https://anilist.co/user/chujtas)/[ListenBrainz](https://listenbrainz.org/user/chtc/) account.
 
+Physical music is on [my Discogs account](https://www.discogs.com/user/chtc).
+
 ## Movies
 | Movie                     | Status        |
 | ------------------------- | ------------- |

@@ -81,6 +81,10 @@ li ul, li ol { margin-left: 1rem; }
     overflow: hidden;
 }
 
+#satapo-text {
+    display: none;
+}
+
 @media (max-width: 725px) {
     .text {
         float: none;
@@ -101,6 +105,14 @@ li ul, li ol { margin-left: 1rem; }
     .social ul li {
         display: inline-block;
         list-style-type: none;
+    }
+
+    #satapo {
+        display: none;
+    }
+
+    #satapo-text {
+        display: block;
     }
 }
 
