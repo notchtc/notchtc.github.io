@@ -9,11 +9,11 @@
     </head>
     <body>
         <article>
-<h1 id="void-linux-propaganda">Void Linux Propaganda</h1>
+<h1>Void Linux Propaganda</h1>
 
-<p>Before&#47;after reading this check out what <a href="#other-peoples-opinions">other people said</a> about Void.</p>
+<p>Before/after reading this check out what <a href="#other-peoples-opinions">other people said</a> about Void.</p>
 
-<h2 id="table-of-contents">Table of Contents</h2>
+<h2>Table of Contents</h2>
 
 <ol>
 <li><a href="#introduction">Introduction</a></li>
@@ -22,28 +22,28 @@
 <li><a href="#xtools">xtools</a></li>
 <li><a href="#creating-your-own-iso">Creating your own ISO</a></li>
 <li><a href="#neat-void-only-software">Neat Void only software</a></li>
-<li><a href="#other-peoples-opinions">Other people&#8217;s opinions</a></li>
+<li><a href="#other-peoples-opinions">Other people's opinions</a></li>
 </ol>
 
-<h1 id="introduction">Introduction</h1>
+<h1>Introduction</h1>
 
 <p><a href="https://voidlinux.org">Void Linux</a> is a rolling release Linux distribution focused on stability.</p>
 
-<p>It isn&#8217;t based on another distro (like Arch for example), it uses it&#8217;s own package manager, <a href="https://github.com/void-linux/xbps">XBPS</a> (X Binary Package System), the <a href="http://smarden.org/runit/">runit</a> init system (which was <a href="https://github.com/void-linux/runit">modified a little bit</a>) and supports both <a href="https://www.gnu.org/software/libc/">glibc</a> and <a href="http://musl.libc.org/">musl</a>.</p>
+<p>It isn't based on another distro (like Arch for example), it uses it's own package manager, <a href="https://github.com/void-linux/xbps">XBPS</a> (X Binary Package System), the <a href="http://smarden.org/runit/">runit</a> init system (which was <a href="https://github.com/void-linux/runit">modified a little bit</a>) and supports both <a href="https://www.gnu.org/software/libc/">glibc</a> and <a href="http://musl.libc.org/">musl</a>.</p>
 
-<p>I recommend using the <a href="https://docs.voidlinux.org/">Void Handbook</a> for Void related stuff, it will probably help you and if it doesn&#8217;t well then you could ask for help on the <a href="ircs://irc.libera.chat/#voidlinux">#voidlinux IRC channel</a> on <a href="https://libera.chat">libera.chat</a> or on the <a href="https://www.reddit.com/r/voidlinux/">subreddit</a>.</p>
+<p>I recommend using the <a href="https://docs.voidlinux.org/">Void Handbook</a> for Void related stuff, it will probably help you and if it doesn't well then you could ask for help on the <a href="ircs://irc.libera.chat/#voidlinux">#voidlinux IRC channel</a> on <a href="https://libera.chat">libera.chat</a> or on the <a href="https://www.reddit.com/r/voidlinux/">subreddit</a>.</p>
 
 <p>If you want to look at the source code of Void related things then take a look at their <a href="https://github.com/void-linux">GitHub</a> account.</p>
 
 <p>They also have a <a href="https://twitter.com/voidlinux">Twitter</a> account which you could follow for news <span style="display: none;">(and a BLM tweet once in a century) </span>or you could just use their <a href="https://voidlinux.org/news/">website</a> (<a href="https://voidlinux.org/atom.xml">rss feed</a>).</p>
 
-<h1 id="the-install-process">The install process</h1>
+<h1>The install process</h1>
 
-<p><a href="https://docs.voidlinux.org/installation/live-images/guide.html">Installing Void</a> isn&#8217;t complicated (there are some exceptions that I&#8217;m gonna talk about later).</p>
+<p><a href="https://docs.voidlinux.org/installation/live-images/guide.html">Installing Void</a> isn't complicated (there are some exceptions that I'm gonna talk about later).</p>
 
 <p>You download a live image, create a bootable media of your choice, then once you are inside the live image, you login and just go through the installer.</p>
 
-<p>The scariest thing in the install process is probably partitioning your disks but even that isn&#8217;t crazy.</p>
+<p>The scariest thing in the install process is probably partitioning your disks but even that isn't crazy.</p>
 
 <p>And the post-install process (for the base image) is as complicated as you want it to be.</p>
 
@@ -55,36 +55,37 @@
 <li><a href="https://docs.voidlinux.org/installation/guides/arm-devices/index.html">ARM Devices</a></li>
 </ul>
 
-<h1 id="xbps-src">xbps-src</h1>
+<h1>xbps-src</h1>
 
-<p>If something <strong>really</strong> isn&#8217;t in the repos, I suggest you first check if it&#8217;s in the <a href="https://github.com/void-linux/void-packages">Void packages git repository</a> (for example something like Discord).</p>
+<p>If something <strong>really</strong> isn't in the repos, I suggest you first check if it's in the <a href="https://github.com/void-linux/void-packages">Void packages git repository</a> (for example something like Discord).</p>
 
-<p>Why? Because it has a thing called xbps-src and some packages that don&#8217;t have binaries in the repos.</p>
+<p>Why? Because it has a thing called xbps-src and some packages that don't have binaries in the repos.</p>
 
-<p>I&#8217;m not gonna write a xbps-src tutorial here, all the info you need is in the <a href="https://github.com/void-linux/void-packages">Void packages repo</a> but I&#8217;m gonna tell you one thing, when cloning the repository use:</p>
+<p>I'm not gonna write a xbps-src tutorial here, all the info you need is in the <a href="https://github.com/void-linux/void-packages">Void packages repo</a> but I'm gonna tell you one thing, when cloning the repository use:</p>
 
-<pre><code>git clone --depth 1 https:&#47;&#47;github.com&#47;void-linux&#47;void-packages
-</code></pre>
+<p><code>
+git clone --depth 1 https://github.com/void-linux/void-packages
+</code></p>
 
-<p>because when you don&#8217;t, you will be waiting longer and more of your precious space will be taken.</p>
+<p>because when you don't, you will be waiting longer and more of your precious space will be taken.</p>
 
-<p>You can also use xbps-src to change a compile flag or to apply a patch without having to remove the files of the version from the repo because some other package depends on the one you are changing. You just need to run <code>xbps-pkgdb -m repolock &#60;package name&#62;</code> so it doesn&#8217;t replace the package on update.</p>
+<p>You can also use xbps-src to change a compile flag or to apply a patch without having to remove the files of the version from the repo because some other package depends on the one you are changing. You just need to run <code>xbps-pkgdb -m repolock &lt;package name&gt;</code> so it doesn't replace the package on update.</p>
 
 <p>Want something in the repos? Well you could ask for someone to create a package for it <em>or</em> you could create it yourself and submit a pull request to the Void packages repo. (You will also need to pray and hope that it gets accepted)</p>
 
-<p>Or maybe some package is outdated, you can also update it and submit a pull request. Sometimes it will be as straightforward as just changing the version and checksum but sometimes you will maybe need to change some other stuff in the template. It&#8217;s amazing that literally everyone can contribute to the Void repos that effortlessly!</p>
+<p>Or maybe some package is outdated, you can also update it and submit a pull request. Sometimes it will be as straightforward as just changing the version and checksum but sometimes you will maybe need to change some other stuff in the template. It's amazing that literally everyone can contribute to the Void repos that effortlessly!</p>
 
 <p>Other people have their own git repositories with xbps-src template for various package, here are a few that I found on the internet:</p>
 
 <ul>
-<li><a href="https://github.com/sug0/voided-packages">sug0&#47;voided-packages</a></li>
-<li><a href="https://github.com/aisamanra/void-extra-packages">aisamanra&#47;void-extra-packages</a></li>
-<li><a href="https://github.com/faenrir/void-extras">faenrir&#47;void-extras</a></li>
+<li><a href="https://github.com/sug0/voided-packages">sug0/voided-packages</a></li>
+<li><a href="https://github.com/aisamanra/void-extra-packages">aisamanra/void-extra-packages</a></li>
+<li><a href="https://github.com/faenrir/void-extras">faenrir/void-extras</a></li>
 </ul>
 
-<p>You can also check out my own <a href="https://github.com/notchtc/custom-void-packages">Void packages repo</a>. I doubt the templates are of the highest quality but I got some nice stuff in there. And also I&#8217;m lazy and don&#8217;t bother with doing a PR to the repo.</p>
+<p>You can also check out my own <a href="https://github.com/notchtc/custom-void-packages">Void packages repo</a>. I doubt the templates are of the highest quality but I got some nice stuff in there. And also I'm lazy and don't bother with doing a PR to the repo.</p>
 
-<h1 id="xtools">xtools</h1>
+<h1>xtools</h1>
 
 <p>Maybe you are tired of adding <code>--repository</code> every time you are installing something from xbps-src. Now instead of just making an alias I recommend installing <a href="https://git.vuxu.org/xtools/about/">xtools</a> and using the xi command.</p>
 
@@ -98,7 +99,7 @@
 <li>xcheckmypkgs - Checks if your xbps-src packages are up to date</li>
 </ul>
 
-<p>The xi, xls, xq and xrs will use the hostdir&#47;binpkgs repo if you run them from a void-packages checkout.</p>
+<p>The xi, xls, xq and xrs will use the hostdir/binpkgs repo if you run them from a void-packages checkout.</p>
 
 <ul>
 <li>xi - Installs packages</li>
@@ -107,25 +108,25 @@
 <li>xrs - Will search for stuff in the Void repo</li>
 </ul>
 
-<h1 id="creating-your-own-iso">Creating your own ISO</h1>
+<h1>Creating your own ISO</h1>
 
-<p>Now this isn&#8217;t anything new, like archiso (for Arch) exists but I&#8217;m gonna mention it anyway.</p>
+<p>Now this isn't anything new, like archiso (for Arch) exists but I'm gonna mention it anyway.</p>
 
 <p>You can create custom Void Linux ISOs with <a href="https://github.com/void-linux/void-mklive">void-mklive</a>, you can add packages to it, add files to it, change some stuff like the keymap and locale, maybe you want to create a minimal ISO and use base-minimal instead of base-system.</p>
 
-<p>Probably everything you need is in these scripts. And you can always edit them if you need something more to be done (sadly I don&#8217;t know how much knowledge you need).</p>
+<p>Probably everything you need is in these scripts. And you can always edit them if you need something more to be done (sadly I don't know how much knowledge you need).</p>
 
-<p>I recommend using the build-x86-images.sh script so the live image works like it should, oh and you can also build Void ISOs for some other DE&#8217;s like MATE, GNOME and KDE etc if you need that (as of writing Void only has the XFCE ISO). Or you could plop down those packages into your package list in mklive.sh, the choice is yours.</p>
+<p>I recommend using the build-x86-images.sh script so the live image works like it should, oh and you can also build Void ISOs for some other DE's like MATE, GNOME and KDE etc if you need that (as of writing Void only has the XFCE ISO). Or you could plop down those packages into your package list in mklive.sh, the choice is yours.</p>
 
 <p>There is a site that provides <a href="https://voidbuilds.xyz">custom Void ISOs</a> with these DEs and more (there is even an i3 ISO) with also some additional packages.</p>
 
 <p>I actually create <a href="https://github.com/notchtc/voidlinux-iso-extra">my own ISO</a> (based on <a href="https://github.com/kotoko/voidlinux-iso-extra">this repository</a>) with GitHub actions, it basically has the packages I use, my dotfiles and some system settings.</p>
 
-<h1 id="neat-void-only-software">Neat Void only software</h1>
+<h1>Neat Void only software</h1>
 
 <p>This is a list of some nice Void only software that could come in handy.</p>
 
-<p>I personally don&#8217;t use any of them except for xdeb (which I don&#8217;t even use often).</p>
+<p>I personally don't use any of them except for xdeb (which I don't even use often).</p>
 
 <p>I have already mentioned xtools and xbps-src.</p>
 
@@ -136,7 +137,7 @@
 <li><a href="https://github.com/toluschr/xdeb">xdeb</a> - Convert Debian packages to Void Linux ones (<a href="https://www.reddit.com/r/voidlinux/comments/tbd7xp/please_stop_using_xdeb_use_flatpak_instead/">be careful with this one</a>)</li>
 </ul>
 
-<h1 id="other-peoples-opinions">Other people&#8217;s opinions</h1>
+<h1>Other people's opinions</h1>
 
 <p>Here are some things in text form that I found about Void Linux.</p>
 
