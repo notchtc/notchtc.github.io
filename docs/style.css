@@ -27,8 +27,8 @@ pre {
 pre, code {
     background-color: #222;
     color: #fff;
-    border-radius: 0.25em;
-    padding: 0.25em;
+    border-radius: 0.15em;
+    padding: 0.15em;
 }
 
 /* OTHER */
@@ -66,54 +66,13 @@ ul.articles { list-style: none; }
 li p:last-child { margin: 0; }
 li ul, li ol { margin-left: 1rem; }
 
-.text {
-    float: left;
-    max-width: 25em;
-}
-
-.social {
-    float: right;
-    text-align: right;
-}
 .social ul {
-    margin-bottom: 0;
     list-style-type: none;
     overflow: hidden;
 }
 
-#satapo-text {
-    display: none;
-}
-
-@media (max-width: 725px) {
-    .text {
-        float: none;
-        max-width: 100%;
-    }
-
-    .social {
-        float: none;
-        text-align: center;
-    }
-
-    .social ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        overflow: hidden;
-    }
-    .social ul li {
-        display: inline-block;
-        list-style-type: none;
-    }
-
-    #satapo {
-        display: none;
-    }
-
-    #satapo-text {
-        display: block;
-    }
+.social ul > li {
+    display: inline-block;
 }
 
 @media (prefers-color-scheme: light) {
