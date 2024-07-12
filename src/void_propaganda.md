@@ -1,5 +1,9 @@
 # Void Linux Propaganda
+<p class=date><time>March 12, 2022</time></p>
+
 Before/after reading this check out what [other people said](#other-peoples-opinions) about Void.
+
+# WARNING! This wasn't really updated since the time it was written. I'm also currently using NixOS, not Void Linux.
 
 ## Table of Contents
 1. [Introduction](#introduction)
