@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+    <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
+
+    <title>{% block title %}| {{ config.title }} |{% endblock title %}</title>
+  </head>
+  <body>  
+    <header>
+      <p>| World Wide Web | {{ config.title }} {% block header %}| just a person{% endblock header%} |</p>
+    </header>
+    {% block content %}
+    <img src="images/Sumio.png">
+          
+    <div class="box social choose">
+      <ul>
+        <li><a href="https://www.youtube.com/@notchtc">youtube</a></li>
+        <li><a href="https://github.com/notchtc">github</a></li>
+        <li><a href="https://last.fm/user/chujtas">last.fm</a></li>
+        <li><a href="https://albumoftheyear.org/user/chtc">aoty</a></li>
+      	<li><a href="https://anilist.co/user/chtc">anilist</a></li>
+      	<li><a href="https://letterboxd.com/chtc">letterboxd</a></li>
+        <li><a href="https://discogs.com/user/chtc">discogs</a></li>
+      </ul>
+    </div>
+    {% endblock content%}
+    <div class="navigator choose">
+      <h3 id="ask">Where will you go?</h1>
+      <nav>
+        <p><a href="{{ config.base_url }}">HOME</a></p>
+        <p><a href="/blog/">BLOG</a></p>
+      </nav>
+      <p><a href="https://hotlinewebring.club/chtc/previous">PREVIOUS WEBSITE</a></p>
+      <p><a href="https://hotlinewebring.club/chtc/next">NEXT WEBSITE</a></p>
+      <p><a href="https://hotlinewebring.club">WEBRING</a></p>
+    </div>
+    {% block image %}
+    {% endblock image %}
+    <span class="scroller">インデックス ペダル</span>
+  </body>
+</html>
