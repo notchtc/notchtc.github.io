@@ -129,11 +129,10 @@ img {
 }
 
 .scroller {
-  display: flex;
   position: absolute;
   top: 0;
   left: 0.5rem;
-  height: 100%;
+  height: auto;
   overflow: hidden;
   z-index: -1;
   white-space: nowrap;
