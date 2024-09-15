@@ -10,13 +10,20 @@
     <title>{% block title %}| {{ config.title }} |{% endblock title %}</title>
   </head>
   <body>  
+    <div class="navigator">
+      <h3 id="ask">Where will you go?</h3>
+      <nav>
+        <a href="{{ config.base_url }}">HOME</a><a href="/blog/">BLOG</a>
+      </nav>
+        <a href="/somewhere/">GET HORNY</a>
+    </div>
     <header>
-      <p>| World Wide Web | {{ config.title }} {% block header %}| just a person{% endblock header%} |</p>
+      <p>| {{ config.title }} {% block header %}| just a person{% endblock header%} |</p>
     </header>
     {% block content %}
     <img src="images/Sumio.png">
           
-    <div class="box social choose">
+    <div class="box social">
       <ul>
         <li><a href="https://www.youtube.com/@notchtc">youtube</a></li>
         <li><a href="https://github.com/notchtc">github</a></li>
@@ -28,14 +35,6 @@
       </ul>
     </div>
     {% endblock content%}
-    <div class="navigator choose">
-      <h3 id="ask">Where will you go?</h1>
-      <nav>
-        <p><a href="{{ config.base_url }}">HOME</a></p>
-        <p><a href="/blog/">BLOG</a></p>
-      </nav>
-        <p><a href="/somewhere/">GET HORNY</a></p>
-    </div>
     {% block image %}
     {% endblock image %}
     <span class="scroller">インデックス ペダル</span>
