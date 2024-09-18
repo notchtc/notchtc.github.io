@@ -5,193 +5,239 @@ $gradient-1: #00a5ed;
 $gradient-2: #f9f871;
 $nav-ask: #e17aaf;
 $outline: #ad2175;
+$link: #c2004d;
 
 $default-spacing: 0.27rem;
+$double-spacing: ($default-spacing*2);
 $mobile-spacing: 0.25rem;
-$smaller: 0.11rem;
-$default-outline: $smaller solid $outline;
+$smaller-spacing: 0.11rem;
+
+$default-outline: $smaller-spacing solid $outline;
 
 html {
-  max-width: 45rem;
-  margin: auto;
-  background: linear-gradient($gradient-1, $gradient-2);
-  background-attachment: fixed;
-  font: 1.2rem/1.6em Inter, MS Gothic, Arial, Helvetica, sans-serif;
-  color: $foreground;
+	max-width: 45rem;
+	margin: auto;
+	background: linear-gradient($gradient-1, $gradient-2);
+	background-attachment: fixed;
+	font: 1.2rem/1.48em Inter, MS Gothic, Arial, Helvetica, sans-serif;
+	color: $foreground;
 }
 
 header {
-  font-weight: normal;
-  text-align: center;
+	font-size: 90%;
+	text-align: center;
 }
 
-h1,h2,h3 { margin: $default-spacing 0;}
+h1, h2, h3 {
+	margin: $default-spacing 0;
+}
 
-p { margin: $default-spacing 0; }
+p {
+	margin: $default-spacing 0;
+}
 
 .box {
-  display: flex;
-  flex-direction: column;
-  max-width: fit-content;
-  background-color: $background;
-  outline: $default-outline;
-  margin: 0.5rem auto;
-  padding: $default-spacing;
+	display: flex;
+	flex-direction: column;
+	max-width: fit-content;
+	background-color: $background;
+	outline: $default-outline;
+	margin: $double-spacing auto;
+	padding: $default-spacing;
+}
+
+#desc {
+	text-align: center;
 }
 
 a {
-  color: $foreground;
-  text-decoration: underline;
-}
+	color: $link;
+	text-decoration: none;
 
-a:hover {
-  text-decoration: none;
-  outline: $smaller dashed;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 ul, ol {
-  padding-left: 0;
-  margin: $smaller 0; 
+	padding-left: 0;
+	margin: $smaller-spacing 0;
 }
 
-ol { list-style-type: upper-roman; }
+ol {
+	list-style-type: upper-roman;
+}
 
 li::marker {
-  color: $outline;
-}
-  
-.social ul {
-    margin: auto;
-    list-style-type: none;
-    overflow: hidden;
-    text-align: center;
+	color: $outline;
 }
 
-.social ul > li {
-  display: inline-block;
+.social ul {
+	margin: auto;
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+
+	> li {
+		display: inline-block;
+	}
 }
 
 pre {
-  overflow-x: auto;
+	overflow-x: auto;
 }
 
 pre, code {
-    font-family: Iosevka, monospace;
-    background-color: $background-alt;
-    padding: 0.1rem;
-    margin: 0.1rem;
+	font-family: Iosevka, monospace;
+	background-color: $background-alt;
+	padding: $smaller-spacing;
+	margin: $smaller-spacing;
 }
 
 .zola-anchor {
-  text-decoration: none;
-  animation: blink-animation 1s step-start 0s infinite;
-}
-
-@keyframes blink-animation {
-  50% {
-    opacity: 0%;
-  }
+	color: $foreground;
+	text-decoration: none;
 }
 
 .navigator {
-  display: flex;
-  position: fixed;
-  flex-direction: column;
-  top: 0.5rem;
-  right: 0.5rem;
-  width: fit-content;
-  background-color: $background;
-  outline: $default-outline;
-  padding: $default-spacing;
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	top: $double-spacing;
+	right: $double-spacing;
+	width: fit-content;
+	background-color: $background;
+	outline: $default-outline;
+	padding: $default-spacing;
+	
+	#ask {
+		color: $nav-ask;
+		margin: 0;
+	}
 
-  #ask {
-    color: $nav-ask;
-    margin: 0;
-  }
+	p {
+		margin: 0;
+	}
 
-  a {
-    display: block;
-    margin: 0;
-  }
+	a {
+		color: $foreground;
+	}
 }
 
 img {
-  display: block;
-  outline: $default-outline;
-  margin: auto;
-  max-width: 16rem;
-  height: auto;
+	display: block;
+	outline: $default-outline;
+	margin: auto;
+	max-width: 16rem;
+	height: auto;
 }
 
 .image {
-  position: fixed;
-  background-color: $foreground;
-  bottom: 0.5rem;
-  left: 0.5rem;
-  height: 7rem;
-  z-index: -1;
+	position: fixed;
+	background-color: $foreground;
+	bottom: $double-spacing;
+	left: $double-spacing;
+	height: 7rem;
+	z-index: -1;
 }
 
 .scroller {
-  position: absolute;
-  top: 0;
-  left: 0.5rem;
-  height: auto;
-  overflow: hidden;
-  z-index: -1;
-  white-space: nowrap;
-  opacity: 0;
-  color: black;  
-
-  animation: move 69s linear infinite;
-  text-orientation: upright;
-  writing-mode: vertical-rl;
+	position: absolute;
+	top: 0;
+	left: $double-spacing;
+	height: auto;
+	overflow: hidden;
+	z-index: -1;
+	white-space: nowrap;
+	opacity: 0;
+	color: black;
+	animation: move 69s linear infinite;
+	text-orientation: upright;
+	writing-mode: vertical-rl;
 }
 
 @keyframes move {
-  0% {
-    opacity: 0;
-    transform: translate(0, 0);
-  }
-  1% {
-    opacity: 0;
-  }
-  35% {
-    opacity: 1;
-  }
-  100% {
-    transform: translate(0, 100%);
-    opacity: 0;
-  }
+	0% {
+		opacity: 0;
+		transform: translate(0, 0);
+	}
+
+	1% {
+		opacity: 0;
+	}
+
+	35% {
+		opacity: 1;
+	}
+
+	100% {
+		transform: translate(0, 100%);
+		opacity: 0;
+	}
 }
 
 @media only screen and (max-width: 900px) {
-  html { background: $gradient-1; }
-  header { display: none; }
+	header {
+		display: none;
+	}
 
-  .navigator {
-    position: static;
-    flex-flow: row nowrap;
-    background: none;
-    outline: none;
-    padding: $mobile-spacing;
-    margin: $mobile-spacing auto;
+	.navigator {
+		position: static;
+		flex-flow: row nowrap;
+		background: none;
+		outline: none;
+		padding: $mobile-spacing;
+		margin: $mobile-spacing auto;
+		font-size: 95%;
+		
+			#ask {
+				display: none;
+			}
 
-    #ask {
-      display: none;
-    }
-  
-    a {
-      display: inline;
-      margin-left: ($mobile-spacing * 2);
-    }
+		p {
+			display: inline;
+			margin: 0;
+		}
 
-  }
+		a {
+			display: inline;
+			text-transform: lowercase;
+		}
 
-  h1,h2,h3 { margin: $mobile-spacing 0;}
-  p { margin: $mobile-spacing 0; }
-  .box { padding: $mobile-spacing; }
-  ul, ol { list-style-position: inside; }
-  .image { display: none; }
-  .scroller { display: none; }
+		p::before {
+			content: "| ";
+		}
+
+		#last {
+			margin-left: 0.25rem;
+
+			&::after {
+				content: " |";
+			}
+		}
+	}
+
+	h1, h2, h3 {
+		margin: $mobile-spacing 0;
+	}
+
+	p {
+		margin: $mobile-spacing 0;
+	}
+
+	.box {
+		padding: $mobile-spacing;
+	}
+
+	ul, ol {
+		list-style-position: inside;
+	}
+
+	.image {
+		display: none;
+	}
+
+	.scroller {
+		display: none;
+	}
 }
