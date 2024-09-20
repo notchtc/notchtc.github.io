@@ -7,6 +7,6 @@ build_search_index = false
 
 [markdown]
 highlight_code = false
-smart_punctuation = true
+smart_punctuation = false
 
 [extra]
