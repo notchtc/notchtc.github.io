@@ -28,11 +28,13 @@
 $background: #000000;
 $background-alt: #303030;
 $foreground: #f9f8ff;
-$gradient-1: #190f6b;
-$gradient-2: #c74846;
-$nav-ask: #ff6ca7;
-$outline: #ff8e8f;
-$link: #d04a51;
+$gradient-1: #8d4fcf;
+$gradient-2: #ff5f88;
+$gradient-3: #ff9165;
+$gradient-4: #f9f871;
+$nav-ask: #ff5f88;
+$outline: #fee9ff;
+$link: #ff5f88;
 
 $default-spacing: 0.27rem;
 $double-spacing: ($default-spacing*2);
@@ -44,7 +46,7 @@ $default-outline: $smaller-spacing solid $outline;
 html {
 	max-width: 45rem;
 	margin: auto;
-	background: linear-gradient($gradient-1, $gradient-2);
+	background: linear-gradient(45deg, $gradient-1, $gradient-2, $gradient-3, $gradient-4);
 	background-attachment: fixed;
 	font: 1.15rem/1.6em "Ume Gothic", "MS Gothic", sans-serif;
 	color: $foreground;
@@ -179,7 +181,7 @@ img {
 	white-space: nowrap;
 	overflow: clip;
 	z-index: -10;
-	opacity: 0.5;
+	opacity: 0.9;
 	animation: move 69s linear infinite;
 	text-orientation: upright;
 	writing-mode: vertical-lr;
