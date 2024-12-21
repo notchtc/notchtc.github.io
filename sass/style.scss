@@ -48,8 +48,22 @@ html {
 	margin: auto;
 	background: linear-gradient(45deg, $gradient-1, $gradient-2, $gradient-3, $gradient-4);
 	background-attachment: fixed;
+  background-size: 400% 400%;
+	animation: gradient 31s ease infinite;
 	font: 1.15rem/1.6em "Ume Gothic", "MS Gothic", sans-serif;
 	color: $foreground;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 80%;
+	}
+	50% {
+		background-position: 100% 20%;
+	}
+	100% {
+		background-position: 0% 80%;
+	}
 }
 
 header {
@@ -172,31 +186,6 @@ img {
 	z-index: -1;
 }
 
-/* インデックス ペダル */
-.scroller {
-	position: fixed;
-	top: 0;
-	left: $double-spacing;
-	height: auto;
-	white-space: nowrap;
-	overflow: clip;
-	z-index: -10;
-	opacity: 0.9;
-	animation: move 69s linear infinite;
-	text-orientation: upright;
-	writing-mode: vertical-lr;
-}
-
-@keyframes move {
-	from {
-		transform: translateY(100vh);
-	}
-
-	to {
-		transform: translateY(-110%);
-	}
-}
-
 @media only screen and (max-width: 900px) {
 	header {
 		display: none;
@@ -256,10 +245,6 @@ img {
 	}
 
 	.image {
-		display: none;
-	}
-
-	.scroller {
 		display: none;
 	}
 }

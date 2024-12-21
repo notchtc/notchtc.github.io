@@ -3,7 +3,7 @@
 {% block title %}| {{ config.title }} | {{ page.title }} |{% endblock title %}
 
 {% block header %}
-| {% if page.extra.outdated %}OUTDATED | {% endif %}{% if page.date %}{{ page.date | date(format="%Y-%m-%d" )}} | {% endif %}{{ page.title }}
+{% if page.extra.outdated %}OUTDATED | {% endif %}{% if page.date %}{{ page.date | date(format="%Y-%m-%d" )}} | {% endif %}{{ page.title }}
 {% endblock header %}
 
 {% block content %}

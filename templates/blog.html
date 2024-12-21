@@ -1,6 +1,6 @@
 {% extends "index.html" %}
 
-{% block header %}| blog{% endblock header %}
+{% block header %}blog{% endblock header %}
 
 {% block content %}
 <div class="box">
@@ -15,7 +15,7 @@
         <h2>{{ year }}</h2>
         <ul>
         {% for post in posts %}
-            <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
+            <li>{% if post.extra.outdated %}/OUTDATED/ {%endif%}<a href="{{ post.permalink }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
 {% endfor %}
