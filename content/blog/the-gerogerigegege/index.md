@@ -103,13 +103,13 @@ The next year saw two more releases: "Saturdaynight Big Cock Salaryman", a noise
 The last track to be released by The Gerogerigegege was the dark ambient track "環８の音が聞こえる (甲州街道Mix)" on the "Back Ground Music For Midnight Driving" compilation from 2002.
 And then, total silence.
 
-# _燃えない灰 / Unburnt Ash_
+# _燃えない灰 / Unburnable Ash_
 
 After 14 years of nothing (besides someone stating they talked with Juntaro in 2013), Juntaro made a powerful return in 2016 with "Moenai Hai" (recorded in 2014-2015).
 Continuing where he left off with 1999's "Hell Driver", the album is a dark ambient/field recordings affair, a depressing journey with a bit of catharsis along the way.
 
 After its release, Juntaro began reissuing and remixing old albums, making bootlegs of bootlegs, and returning to his old yet new ways.
-Juntaro's scouring of archives would bring us: "Senzuri Champion Revised" (2018), a collection of unreleased material from 1985-1988; the "Blackout Archive" (2019) series, which would contain re-releases of "Piano/River" and "Public Environment Performance"; "Piss Shower Girlfriend" (2020), a harsh noise tape more on the humorous side from the late 80s/early 90s; "Tokyo Anal Dynamite Singles" (2020), a compilation of released and unreleased noisecore material. That's not even all of these, there also are splits and some rare releases.
+His scouring of archives would bring us: "Senzuri Champion Revised" (2018), a collection of unreleased material from 1985-1988; the "Blackout Archive" (2019) series, which would contain re-releases of "Piano/River" and "Public Environment"; "Piss Shower Girlfriend" (2020), a harsh noise tape more on the humorous side from the late 80s/early 90s; "Tokyo Anal Dynamite Singles" (2020), a compilation of released and unreleased noisecore material. That's not even all of these, there also are splits and some rare releases.
 
 Besides scouring the archives, Juntaro started putting out new material: "Moenai Hara" (2017), another stolen Hiroshi Itsuki song; "Uguisudani Apocalypse" (2019), a soundtrack for the Uguisudani line, mostly stolen lounge music; the ">(decrescendo)" series (2019, 2020, 2022), recordings of Juntaro playing a hapi drum in a park, though the later entries change things up a bit—pretty peaceful overall, maybe it's healing after "Moenai Hai"; and what I would call the "ero tape trilogy".
 
