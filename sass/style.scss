@@ -36,21 +36,21 @@ $nav-ask: #ff5f88;
 $outline: #fee9ff;
 $link: #ff5f88;
 
-$default-spacing: 0.3rem;
+$default-spacing: 0.35rem;
 $double-spacing: ($default-spacing*2);
-$mobile-spacing: 0.25rem;
-$smaller-spacing: 0.1rem;
+$mobile-spacing: 0.3rem;
+$smaller-spacing: 0.15rem;
 
 $default-outline: $smaller-spacing solid $outline;
 
 html {
-	max-width: 46rem;
+	max-width: 45rem;
 	margin: auto;
 	background: linear-gradient(45deg, $gradient-1, $gradient-2, $gradient-3, $gradient-4);
 	background-attachment: fixed;
   background-size: 400% 400%;
-	animation: gradient 31s ease infinite;
-	font: 1.15rem/1.7em "Ume Gothic", "MS Gothic", sans-serif;
+	animation: gradient 30s ease infinite;
+	font: 1.16rem/1.7em "Ume Gothic", "MS Gothic", sans-serif;
 	color: $foreground;
 }
 
@@ -64,6 +64,20 @@ html {
 	100% {
 		background-position: 0% 80%;
 	}
+}
+
+@keyframes blink {
+  0% {
+		color: $background;
+    text-shadow: -1px -1px 0 $foreground, 1px -1px 0 $foreground, -1px 1px 0 $foreground, 1px 1px 0 $foreground;
+  }
+	50% {
+		color: $foreground;
+	}
+  100% {
+		color: $background;
+    text-shadow: -1px -1px 0 $foreground, 1px -1px 0 $foreground, -1px 1px 0 $foreground, 1px 1px 0 $foreground;
+  }
 }
 
 header {
@@ -89,8 +103,10 @@ p {
 	padding: $default-spacing;
 }
 
-#desc {
-	text-align: center;
+#desc p::after {
+  content: '█';
+	margin-left: $default-spacing;
+  animation: blink 2.25s linear infinite;
 }
 
 a {
@@ -173,7 +189,7 @@ img {
 	display: block;
 	outline: $default-outline;
 	margin: auto;
-	max-height: 21rem;
+	max-height: 20rem;
 	height: auto;
 }
 
@@ -182,7 +198,7 @@ img {
 	background-color: $foreground;
 	bottom: $double-spacing;
 	left: $double-spacing;
-	max-width: 10.5rem;
+	max-width: 10rem;
 	z-index: -1;
 }
 
