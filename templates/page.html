@@ -1,39 +1,25 @@
-{% extends "index.html" %}
-
-{% block title %}| {{ config.title }} | {{ page.title }} |{% endblock title %}
-
-{% block header %}
-{% if page.extra.outdated %}OUTDATED | {% endif %}{% if page.date %}{{ page.date | date(format="%Y-%m-%d" )}} | {% endif %}{{ page.title }}
-{% endblock header %}
-
-{% block content %}
+{% extends "index.html" %} {% block title %}/ {{ config.title }} / {{ page.title}} /{% endblock title %} {% block header %} {% if page.date %}{{ page.date | date(format="%Y-%m-%d" )}} / {%endif %}{% if page.extra.outdated %}[OUTDATED] {% endif %}{{ page.title }} {% endblock header %}{% block content %}
 <div class="box">
-    {% if page.toc %}
-    <h2>Table Of Contents</h2>
-    <ol>
+  {% if page.toc %}
+  <h2>Table Of Contents</h2>
+  <ol>
     {% for h1 in page.toc %}
+    <li>
+      <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+      {% if h1.children %}
+      <ul>
+        {% for h2 in h1.children %}
         <li>
-            <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
-            {% if h1.children %}
-            <ul>
-                {% for h2 in h1.children %}
-                <li>
-                    <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-            {% endif %}
+          <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
         </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
     {% endfor %}
-    </ol>
-    {% endif %}
-    
-    <article>
-        {{ page.content | safe }}
-    </article>
-</div>
-{% endblock content %}
+  </ol>
+  {% endif %}
 
-{% block image %}
-{% if page.extra.image %}<img class="image" src="{{ page.extra.image }}">{% endif %} 
-{% endblock image %}
+  <article>{{ page.content | safe }}</article>
+</div>
+{% endblock content %} {% block image %} {% if page.extra.image %}<img class="image" src="{{ page.extra.image }}" />{% endif %} {% endblock image %}

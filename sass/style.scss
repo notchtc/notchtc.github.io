@@ -9,61 +9,57 @@
 	src: local("Ume Gothic O5"), url("ume-tgo5-subset.woff2"), url("ume-tgo-5-subset.ttf");
 }
 
-@font-face {
-	font-family: "Big Dots";
-	src: local("BigDots"), url("bigdots.woff2"), url("bigdots.ttf");
-}
-
-@font-face {
-	font-family: "Big Dots";
-	unicode-range: U+A,U+20-2F,U+3A-7E,U+2013,U+2014,U+2018,U+2019,U+201C,U+201D,U+2026;
-	src: local("BigDots"), url("bigdots-subset.woff2"), url("bigdots-subset.ttf");
-}
-
-@font-face {
-	font-family: "Poxel";
-	src: local("Poxel Font"), url("poxel.woff2"), url("poxel.ttf");
-}
-
 $background: #000000;
 $background-alt: #303030;
 $foreground: #f9f8ff;
-$gradient-1: #8d4fcf;
-$gradient-2: #ff5f88;
-$gradient-3: #ff9165;
-$gradient-4: #f9f871;
-$nav-ask: #ff5f88;
-$outline: #fee9ff;
-$link: #ff5f88;
+$gradient-1: #7b56ec;
+$gradient-2: #6da458;
+$accent: #dec82b;
 
-$default-spacing: 0.35rem;
+$default-spacing: 0.36rem;
 $double-spacing: ($default-spacing*2);
 $mobile-spacing: 0.3rem;
-$smaller-spacing: 0.15rem;
+$smaller-spacing: 0.2rem;
 
-$default-outline: $smaller-spacing solid $outline;
+$default-outline: 0.15rem solid $accent;
 
 html {
-	max-width: 45rem;
+	max-width: 46rem;
 	margin: auto;
-	background: linear-gradient(45deg, $gradient-1, $gradient-2, $gradient-3, $gradient-4);
+	background: $background;
+	background: linear-gradient(0deg, $gradient-1, $gradient-2);
 	background-attachment: fixed;
-  background-size: 400% 400%;
-	animation: gradient 30s ease infinite;
-	font: 1.16rem/1.7em "Ume Gothic", "MS Gothic", sans-serif;
+	font: 1.16rem/1.7em "MS Gothic", "Ume Gothic", sans-serif;
 	color: $foreground;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 80%;
-	}
-	50% {
-		background-position: 100% 20%;
-	}
-	100% {
-		background-position: 0% 80%;
-	}
+.circle {
+  position: fixed;
+  width: 50%;
+	top: 0;
+	left: 0;
+	margin: -25% -25%;
+  border-radius: 50%;
+	z-index: -500;
+	opacity: 25%;
+}
+
+.circle:before {
+  position: absolute;
+  content: '';
+	width: 100%;
+	height: 100%;
+  border: $smaller-spacing dashed $foreground;
+  border-radius: inherit;
+  animation: spin 450s linear infinite;
+	margin: auto;
+	padding-top: 100%;
+}
+
+@keyframes spin { 
+  100% { 
+    transform: rotateZ(-360deg); 
+  }
 }
 
 @keyframes blink {
@@ -110,7 +106,7 @@ p {
 }
 
 a {
-	color: $link;
+	color: $accent;
 	text-decoration: none;
 
 	&:hover {
@@ -128,7 +124,7 @@ ol {
 }
 
 li::marker {
-	color: $outline;
+	color: $accent;
 }
 
 .social ul {
@@ -158,26 +154,25 @@ pre, code {
 	text-decoration: none;
 }
 
-.navigator {
+nav {
 	display: flex;
 	position: fixed;
 	flex-direction: column;
-	top: $double-spacing;
-	right: $double-spacing;
+	top: $default-spacing;
+	right: $default-spacing;
 	width: fit-content;
-	background-color: $background;
-	outline: $default-outline;
 	padding: $default-spacing;
+	outline: $default-outline;
+	text-align: right;
+	background-color: $background;
 	
-	#ask {
-		font-family: "Big Dots";
-		color: $nav-ask;
+	#ask, p {
 		margin: 0;
 	}
 
-	p {
-		font-family: "Poxel";
-		margin: 0;
+	#ask {
+		color: $accent;
+		margin: $smaller-spacing 0;
 	}
 
 	a {
@@ -189,8 +184,8 @@ img {
 	display: block;
 	outline: $default-outline;
 	margin: auto;
-	max-height: 20rem;
-	height: auto;
+	max-width: 75%;
+	max-height: fit-content;
 }
 
 .image {
@@ -207,23 +202,21 @@ img {
 		display: none;
 	}
 
-	.navigator {
+	nav {
 		position: static;
 		flex-flow: row nowrap;
-		background: none;
-		outline: none;
 		padding: $mobile-spacing;
 		margin: $mobile-spacing auto;
-		font-size: 95%;
+		background: none;
+		outline: none;
 		
 		#ask {
 			display: none;
 		}
 
 		p {
-			font-family: unset;
 			display: inline;
-			margin: 0;
+			margin-left: $default-spacing;
 		}
 
 		a {
@@ -232,16 +225,12 @@ img {
 		}
 
 		p::before {
-			content: "| ";
+			content: "/ ";
 		}
 
-		#last {
-			margin-left: 0.25rem;
-
-			&::after {
-				content: " |";
+		#last::after {
+				content: " /";
 			}
-		}
 	}
 
 	h1, h2, h3 {
@@ -263,4 +252,15 @@ img {
 	.image {
 		display: none;
 	}
+}
+
+@media print {
+	.box { all: unset; }
+	a { color: blue; }
+	li::marker { color: black; }
+	
+	#desc p::after { display: none; }
+	nav { display: none; }
+	.image { display: none; }
+	.circle { display: none; }
 }

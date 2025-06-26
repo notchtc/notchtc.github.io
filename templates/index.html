@@ -7,24 +7,22 @@
 
     <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
 
-    <title>{% block title %}| {{ config.title }} |{% endblock title %}</title>
+    <title>{% block title %}/ {{ config.title }} /{% endblock title %}</title>
   </head>
   <body>  
-    <div class="navigator">
-      <h3 id="ask">Where'll  you go?</h3>
+      <div class="circle"></div>
       <nav>
+        <h3 id="ask">Navigation</h3>
         <p><a href="{{ config.base_url }}">Home</a></p>
-        <p><a href="/blog/">Blog</a></p>
+        <p id="last"><a href="/blog/">Blog</a></p>
       </nav>
-      <p id="last"><a href="/somewhere/">Nowhere</a></p>
-    </div>
     <header>
-      <p>| {{ config.title }} | {% block header %}just a person{% endblock header%} |</p>
+      <p>/ {{ config.title }} / {% block header %}just a person{% endblock header%} /</p>
     </header>
     {% block content %}
     <picture>
-      <source type="image/webp" srcset="images/Sumio.webp">
-      <img src="images/Sumio.png">
+      <source type="image/webp" srcset="images/BattingCenter24.webp">
+      <img src="images/BattingCenter24.png">
     </picture>
     <div id="desc" class="box">
       <p>Hi, I'm chtc! Just somebody on the internet.

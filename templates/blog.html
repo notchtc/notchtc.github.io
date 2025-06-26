@@ -1,23 +1,22 @@
-{% extends "index.html" %}
-
-{% block header %}blog{% endblock header %}
-
-{% block content %}
+{% extends "index.html" %} {% block header %}blog{% endblock header %} {% block
+content %}
 <div class="box">
-<h1>Archive</h1>
-{% set posts_by_year = section.pages | group_by(attribute="year") %}
-{% set_global years = [] %}
-{% for year, ignored in posts_by_year %}
-    {% set_global years = years | concat(with=year) %}
-{% endfor %}
-{% for year in years | reverse %}
-    {% set posts = posts_by_year[year] %}
-        <h2>{{ year }}</h2>
-        <ul>
-        {% for post in posts %}
-            <li>{% if post.extra.outdated %}/OUTDATED/ {%endif%}<a href="{{ post.permalink }}">{{ post.title }}</a></li>
-        {% endfor %}
-        </ul>
-{% endfor %}
+  <h1>Archive</h1>
+  {% set posts_by_year = section.pages | group_by(attribute="year") %} {%
+  set_global years = [] %} {% for year, ignored in posts_by_year %} {%
+  set_global years = years | concat(with=year) %} {% endfor %} {% for year in
+  years | reverse %} {% set posts = posts_by_year[year] %}
+  <h2>{{ year }}</h2>
+  <ul>
+    {% for post in posts %}
+    <li>
+      {% if post.extra.outdated %}/OUTDATED/ {%endif%}<a
+        href="{{ post.permalink }}"
+        >{{ post.title }}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
 </div>
 {% endblock content %}
