@@ -1,47 +1,78 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
-
-    <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
-
-    <title>{% block title %}/ {{ config.title }} /{% endblock title %}</title>
-  </head>
-  <body>  
-      <div class="circle"></div>
-      <nav>
-        <h3 id="ask">Navigation</h3>
-        <p><a href="{{ config.base_url }}">Home</a></p>
-        <p id="last"><a href="/blog/">Blog</a></p>
-      </nav>
-    <header>
-      <p>/ {{ config.title }} / {% block header %}just a person{% endblock header%} /</p>
-    </header>
-    {% block content %}
-    <picture>
-      <source type="image/webp" srcset="images/BattingCenter24.webp">
-      <img src="images/BattingCenter24.png">
-    </picture>
-    <div id="desc" class="box">
-      <p>Hi, I'm chtc! Just somebody on the internet.
-      I like computers, use Linux (NixOS to be specific), listen to a lot of weird music, and sometimes watch a movie or play a game.
-      You can find out more about me from the links below.</p>
-    </div>
-    <div class="box social">
-      <ul>
-      	<li><a href="https://anilist.co/user/chtc">anilist</a></li>
-        <li><a href="https://albumoftheyear.org/user/chtc">aoty</a></li>
-        <li><a href="https://discogs.com/user/chtc">discogs</a></li>
-        <li><a href="https://github.com/notchtc">github</a></li>
-        <li><a href="https://last.fm/user/chujtas">last.fm</a></li>
-      	<li><a href="https://letterboxd.com/chtc">letterboxd</a></li>
-        <li><a href="https://www.youtube.com/@notchtc">youtube</a></li>
-      </ul>
-    </div>
-    {% endblock content%}
-    {% block image %}
-    {% endblock image %}
-  </body>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0, maximum-scale=5, viewport-fit=cover">
+        <link rel="stylesheet"
+              href="{{ get_url(path='style.css', trailing_slash=false) }}">
+        <title>
+            {% block title %}
+                / {{ config.title }} /
+            {% endblock title %}
+        </title>
+    </head>
+    <body>
+        <div class="circle"></div>
+        <nav>
+            <h3 id="ask">Navigation</h3>
+            <p>
+                <a href="{{ config.base_url }}">Home</a>
+            </p>
+            <p id="last">
+                <a href="/blog/">Blog</a>
+            </p>
+        </nav>
+        <header>
+            <p>
+                / {{ config.title }} /
+                {% block header %}
+                    just a person
+                {% endblock header %}
+                /
+            </p>
+        </header>
+        {% block content %}
+            <picture style="aspect-ratio: 1156 / 361;" alt="">
+                <source type="image/webp" srcset="images/BattingCenter24.webp">
+                <img src="images/BattingCenter24.png">
+            </picture>
+            <div id="desc" class="box">
+                <p>
+                    Hi, I'm chtc! Just somebody on the internet.
+                    I like computers, use Linux (NixOS to be specific), listen to a lot of weird music, and sometimes watch a movie or
+                    play a game.
+                    You can find out more about me from the links below.
+                </p>
+            </div>
+            <div class="box social">
+                <ul>
+                    <li>
+                        <a href="https://anilist.co/user/chtc">anilist</a>
+                    </li>
+                    <li>
+                        <a href="https://albumoftheyear.org/user/chtc">aoty</a>
+                    </li>
+                    <li>
+                        <a href="https://discogs.com/user/chtc">discogs</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/notchtc">github</a>
+                    </li>
+                    <li>
+                        <a href="https://last.fm/user/chujtas">last.fm</a>
+                    </li>
+                    <li>
+                        <a href="https://letterboxd.com/chtc">letterboxd</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@notchtc">youtube</a>
+                    </li>
+                </ul>
+            </div>
+        {% endblock content %}
+        {% block image %}
+        {% endblock image %}
+    </body>
 </html>

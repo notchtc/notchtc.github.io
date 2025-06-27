@@ -3,6 +3,7 @@ author = "chtc"
 title = "chtc"
 
 compile_sass = true
+minify_html = true
 build_search_index = false
 
 [markdown]
@@ -10,5 +11,5 @@ highlight_code = false
 smart_punctuation = false
 lazy_async_image = true
 bottom_footnotes = true
-
-[extra]
+render_emoji = true
+external_links_target_blank = true

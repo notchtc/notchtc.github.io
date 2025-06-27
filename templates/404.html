@@ -1,11 +1,14 @@
-{% extends "index.html" %} {% block header %}nowhere{% endblock header %} {%
+{% extends "index.html" %}
+{% block header %}
+    nowhere
+{% endblock header %}
+{%
 block content %}
 <picture>
-  <source type="image/webp" srcset="{{ config.base_url }}/images/uehara.webp" />
-  <img src="{{ config.base_url }}/images/uehara.png" />
+    <source type="image/webp" srcset="{{ config.base_url }}/images/uehara.webp" />
+    <img src="{{ config.base_url }}/images/uehara.png" />
 </picture>
-
 <div class="box">
-  <h1>404 NOT FOUND</h1>
+    <h1>404 NOT FOUND</h1>
 </div>
-{% endblock content%}
+{% endblock content %}

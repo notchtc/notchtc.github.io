@@ -1,0 +1,29 @@
+@media print {
+  .box {
+    all: unset;
+  }
+
+  a {
+    color: blue;
+  }
+
+  li::marker {
+    color: black;
+  }
+
+  #desc p::after {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .circle {
+    display: none;
+  }
+}

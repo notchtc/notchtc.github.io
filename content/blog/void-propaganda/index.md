@@ -4,6 +4,8 @@ date = 2022-03-12
 
 [extra]
 image = "void-logo.svg"
+image_alt = "Void Linux logo"
+
 outdated = true
 +++
 
@@ -17,7 +19,7 @@ I recommend using the [Void Handbook](https://docs.voidlinux.org/) for Void rela
 
 If you want to look at the source code of Void related things then take a look at their [GitHub](https://github.com/void-linux) account.
 
-They also have a [Twitter](https://twitter.com/voidlinux) account which you could follow for news <span style="display: none;">(and a BLM tweet once in a century) </span>or you could just use their [website](https://voidlinux.org/news/) ([rss feed](https://voidlinux.org/atom.xml)).
+They also have a [Twitter](https://twitter.com/voidlinux) account which you could follow for news or you could just use their [website](https://voidlinux.org/news/) ([rss feed](https://voidlinux.org/atom.xml)).
 
 # The install process
 

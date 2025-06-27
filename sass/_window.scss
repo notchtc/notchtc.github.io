@@ -1,0 +1,186 @@
+@use 'theme' as *;
+
+@keyframes spin {
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes blink {
+  0% {
+    color: $background;
+    text-shadow: -1px -1px 0 $foreground, 1px -1px 0 $foreground, -1px 1px 0 $foreground, 1px 1px 0 $foreground;
+  }
+
+  50% {
+    color: $foreground;
+  }
+
+  100% {
+    color: $background;
+    text-shadow: -1px -1px 0 $foreground, 1px -1px 0 $foreground, -1px 1px 0 $foreground, 1px 1px 0 $foreground;
+  }
+}
+
+
+html {
+  max-width: 46rem;
+  margin: auto;
+  background: $background;
+  background: linear-gradient(0deg, $gradient-1, $gradient-2);
+  background-attachment: fixed;
+  font: 1.16rem/1.7em "MS Gothic", "Ume Gothic", sans-serif;
+  color: $foreground;
+}
+
+header {
+  text-align: center;
+  margin: $double-spacing;
+}
+
+h1,
+h2,
+h3 {
+  margin: $default-spacing 0;
+}
+
+p {
+  margin: auto;
+}
+
+
+a {
+  color: $accent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin: $smaller-spacing 0;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+img {
+  display: block;
+  outline: $default-outline;
+  margin: auto;
+  max-width: 75%;
+  max-height: 25em;
+}
+
+.circle {
+  position: fixed;
+  width: 50%;
+  top: 0;
+  left: 0;
+  margin: -25% -25%;
+  border-radius: 50%;
+  z-index: -500;
+  opacity: 25%;
+}
+
+.circle:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border: $smaller-spacing dashed $foreground;
+  border-radius: inherit;
+  animation: spin 450s linear infinite;
+  margin: auto;
+  padding-top: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  background-color: $background;
+  outline: $default-outline;
+  margin: $double-spacing auto;
+  padding: $default-spacing;
+}
+
+#desc p::after {
+  content: '█';
+  margin-left: $default-spacing;
+  animation: blink 2.25s linear infinite;
+}
+
+li::marker {
+  color: $accent;
+}
+
+.social ul {
+  margin: auto;
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+
+  >li {
+    display: inline-block;
+    padding: $default-spacing;
+  }
+}
+
+pre {
+  overflow-x: auto;
+}
+
+pre,
+code {
+  font-family: Iosevka, monospace;
+  background-color: $background-alt;
+  padding: $smaller-spacing;
+  margin: $smaller-spacing;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: $default-spacing;
+  right: $default-spacing;
+  width: fit-content;
+  padding: $default-spacing;
+  margin: $default-spacing;
+  outline: $default-outline;
+  text-align: right;
+  background-color: $background;
+
+  #ask,
+  p {
+    margin: 0;
+  }
+
+  #ask {
+    color: $accent;
+    margin: $smaller-spacing 0;
+  }
+
+  a {
+    color: $foreground;
+  }
+}
+
+.image {
+  position: fixed;
+  background-color: $foreground;
+  bottom: $double-spacing;
+  left: $double-spacing;
+  max-width: 10rem;
+  z-index: -1;
+}
+
+.zola-anchor {
+  color: $foreground;
+  text-decoration: none;
+}
