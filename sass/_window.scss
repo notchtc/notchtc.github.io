@@ -51,10 +51,9 @@ p {
 
 a {
   color: $accent;
-  text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
+    color: $foreground;
   }
 }
 
@@ -129,6 +128,10 @@ li::marker {
     display: inline-block;
     padding: $default-spacing;
   }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 pre {
@@ -168,6 +171,7 @@ nav {
 
   a {
     color: $foreground;
+    text-decoration: none;
   }
 }
 
