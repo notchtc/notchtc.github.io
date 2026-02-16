@@ -1,16 +1,17 @@
 {% extends "index.html" %}
 {% block title %}
-    / {{ config.title }} / {{ page.title }} /
+    {{ config.title }} ☞ {{ page.title }}
 {% endblock title %}
 {% block header %}
-    {% if page.date %}
-        {{ page.date | date(format="%Y-%m-%d") }} /
-    {% endif %}
-    {% if page.extra.outdated %}[OUTDATED]{% endif %}
+    blog
+    ☞
     {{ page.title }}
+    {% if page.date %}
+        ☜ {{ page.date | date(format="%Y-%m-%d") }}
+    {% endif %}
+    {% if page.extra.outdated %}☜ OUTDATED{% endif %}
 {% endblock header %}
 {% block content %}
-    <div class="box">
         {% if page.toc %}
             <h2>Table Of Contents</h2>
             <ol>
@@ -33,10 +34,3 @@
         <article>{{ page.content | safe }}</article>
     </div>
 {% endblock content %}
-{% block image %}
-    {% if page.extra.image %}
-        <img class="image"
-             src="{{ page.extra.image }}"
-             alt="{{ page.extra.image_alt }}" />
-    {% endif %}
-{% endblock image %}

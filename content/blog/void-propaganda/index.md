@@ -2,10 +2,6 @@
 title = "void linux propaganda"
 date = 2022-03-12
 
-[extra]
-image = "void-logo.svg"
-image_alt = "Void Linux logo"
-
 outdated = true
 +++
 

@@ -9,12 +9,10 @@
   src: local("Ume Gothic O5"), url("ume-tgo5-subset.woff2"), url("ume-tgo-5-subset.ttf");
 }
 
-$background: #000000;
+$background: #100407;
 $background-alt: #303030;
 $foreground: #ffffff;
-$gradient-1: #7b56ec;
-$gradient-2: #6da458;
-$accent: #dec82b;
+$accent: #CD5334;
 
 $default-spacing: 0.4rem;
 $double-spacing: (
@@ -22,4 +20,4 @@ $double-spacing: (
 );
 $smaller-spacing: 0.2rem;
 
-$default-outline: 0.15rem solid $accent;
+$default-outline: 0.2rem solid $accent;

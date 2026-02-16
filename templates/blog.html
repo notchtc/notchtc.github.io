@@ -2,9 +2,8 @@
 {% block header %}
     blog
 {% endblock header %}
-{% block
-    content %}
-    <div class="box">
+{% block content %}
+        <div class="blog">
         <h1>Archive</h1>
         {% set posts_by_year = section.pages | group_by(attribute="year") %} {%
         set_global years = [] %}
@@ -25,5 +24,5 @@
                 {% endfor %}
             </ul>
         {% endfor %}
-    </div>
+        </div>
 {% endblock content %}

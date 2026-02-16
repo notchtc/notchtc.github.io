@@ -1,46 +1,8 @@
 @use 'theme' as *;
 
 @media only screen and (max-width: 900px) {
-  header {
-    display: none;
-  }
-
-  nav {
-    position: static;
-    flex-flow: row nowrap;
-    margin: $default-spacing auto;
-    background: none;
-    outline: none;
-
-    #ask {
-      display: none;
-    }
-
-    p {
-      display: inline;
-      margin-left: $default-spacing;
-    }
-
-    a {
-      display: inline;
-      text-transform: lowercase;
-    }
-
-    p::before {
-      content: "/ ";
-    }
-
-    #last::after {
-      content: " /";
-    }
-  }
-
   ul,
   ol {
     list-style-position: inside;
-  }
-
-  .image {
-    display: none;
   }
 }

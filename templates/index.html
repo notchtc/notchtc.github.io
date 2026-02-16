@@ -9,45 +9,32 @@
               href="{{ get_url(path='style.css', trailing_slash=false) }}">
         <title>
             {% block title %}
-                / {{ config.title }} /
+                {{ config.title }}
             {% endblock title %}
         </title>
     </head>
     <body>
-        <div class="circle"></div>
-        <nav>
-            <h3 id="ask">Navigation</h3>
-            <p>
-                <a href="{{ config.base_url }}">Home</a>
-            </p>
-            <p id="last">
-                <a href="/blog/">Blog</a>
-            </p>
-        </nav>
         <header>
             <p>
-                / {{ config.title }} /
+                {{ config.title }} ☞
                 {% block header %}
-                    just a person
+                    home
                 {% endblock header %}
-                /
             </p>
         </header>
+        <nav>
+            go:
+            <a href="{{ config.base_url }}">home</a>,
+            <a href="/blog/">blog</a>
+        </nav>
         {% block content %}
-            <picture>
-                <source type="image/webp" srcset="images/BattingCenter24.webp">
-                <img src="images/BattingCenter24.png" alt="" style="aspect-ratio: 1156 / 361;">
-            </picture>
-            <div id="desc" class="box">
                 <p>
                     Hi, I'm chtc! Just somebody on the internet.
                     I like computers, use Linux (NixOS to be specific), listen to a lot of weird music, and sometimes watch a movie or
                     play a game.
                     You can find out more about me from the links below.
                 </p>
-            </div>
-            <div class="box social">
-                <ul>
+                <ul class="social">
                     <li>
                         <a href="https://anilist.co/user/chtc">anilist</a>
                     </li>
@@ -70,7 +57,6 @@
                         <a href="https://www.youtube.com/@notchtc">youtube</a>
                     </li>
                 </ul>
-            </div>
         {% endblock content %}
         {% block image %}
         {% endblock image %}
