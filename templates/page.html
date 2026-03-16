@@ -9,7 +9,9 @@
     {% if page.date %}
         ☜ {{ page.date | date(format="%Y-%m-%d") }}
     {% endif %}
-    {% if page.extra.outdated %}☜ OUTDATED{% endif %}
+    {% if page.extra.outdated %}
+        ☜ OUTDATED
+    {% endif %}
 {% endblock header %}
 {% block content %}
         {% if page.toc %}

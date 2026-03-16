@@ -14,6 +14,7 @@
         </title>
     </head>
     <body>
+        <div class="border">
         <header>
             <p>
                 {{ config.title }} ☞
@@ -22,11 +23,14 @@
                 {% endblock header %}
             </p>
         </header>
+        <hr />
         <nav>
-            go:
+            go ☞
             <a href="{{ config.base_url }}">home</a>,
             <a href="/blog/">blog</a>
         </nav>
+        </div>
+        <div class="border">
         {% block content %}
                 <p>
                     Hi, I'm chtc! Just somebody on the internet.
@@ -34,6 +38,8 @@
                     play a game.
                     You can find out more about me from the links below.
                 </p>
+        </div>
+        <div class="border">
                 <ul class="social">
                     <li>
                         <a href="https://anilist.co/user/chtc">anilist</a>
@@ -58,7 +64,6 @@
                     </li>
                 </ul>
         {% endblock content %}
-        {% block image %}
-        {% endblock image %}
+        </div>
     </body>
 </html>

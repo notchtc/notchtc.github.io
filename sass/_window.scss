@@ -1,7 +1,7 @@
 @use 'theme' as *;
 
 html {
-  max-width: 50rem;
+  max-width: 51rem;
   margin: auto;
   background: $background;
   background-attachment: fixed;
@@ -11,7 +11,12 @@ html {
 
 header {
   text-align: center;
-  margin: $default-spacing;
+}
+
+.border {
+  border: 1px solid $accent;
+  padding: 0.3rem;
+  margin: $default-spacing 0;
 }
 
 h1,
@@ -41,6 +46,10 @@ ol {
 
 ol {
   list-style-type: upper-roman;
+}
+
+hr {
+  color: $accent;
 }
 
 img {
@@ -84,7 +93,6 @@ code {
 }
 
 nav {
-  margin: 0 0 $double-spacing 0;
   text-align: center;
   a { text-decoration: none; }
 }

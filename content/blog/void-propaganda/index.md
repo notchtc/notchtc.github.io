@@ -2,6 +2,7 @@
 title = "void linux propaganda"
 date = 2022-03-12
 
+[extra]
 outdated = true
 +++
 
