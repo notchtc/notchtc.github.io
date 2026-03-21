@@ -1,12 +1,13 @@
 @use 'theme' as *;
 
 html {
-  max-width: 51rem;
+  max-width: 50rem;
   margin: auto;
   background: $background;
   background-attachment: fixed;
-  font: 1.16rem/1.7em "MS Gothic", "Ume Gothic", sans-serif;
+  font: 1.16rem/1.7em "MS Gothic", "Ume Gothic", "Verdana", sans-serif;
   color: $foreground;
+  text-align: justify;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
 
 .border {
   border: 1px solid $accent;
-  padding: 0.3rem;
+  padding: $smaller-spacing;
   margin: $default-spacing 0;
 }
 
@@ -48,6 +49,10 @@ ol {
   list-style-type: upper-roman;
 }
 
+li::marker {
+  color: $accent;
+}
+
 hr {
   color: $accent;
 }
@@ -58,10 +63,6 @@ img {
   margin: auto;
   max-width: 75%;
   max-height: 25em;
-}
-
-li::marker {
-  color: $accent;
 }
 
 .social {
